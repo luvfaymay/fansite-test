@@ -27,7 +27,7 @@ nav-menu: true
 						</thead>
 						<tbody>
 							<tr>
-								<td>English (Original Content)</td>
+								<td>English - Original Content</td>
 								<td><a href="https://x.com/4ever_Marvelous">Forever Marvelous</a></td>
 							</tr>
 							<tr>
@@ -67,7 +67,7 @@ nav-menu: true
 							</tr>
 							<tr>
 								<td>Português (Portuguese)</td>
-								<td><a href="https://x.com/taengeyez">han in dreamland</a></td>
+								<td><a href="https://x.com/taengeyez">han in dreamland</a><, <a href="https://x.com/princenicolax">𝙽𝙸𝙲𝙾𝙻𝙰𝚂 | 𝙵𝙰𝚈𝙼𝙰𝚈'𝚜 𝚂𝙾𝙽 🐱</a>/td>
 							</tr>
 							<tr>
 								<td>Español (Spanish)</td>
@@ -80,7 +80,7 @@ nav-menu: true
 						</tbody>
 					</table>
 				</div>
-				{{ site.data[site.lang].translationcredit.thank_you }}
+				<p style="font-weight: bold;">{{ site.data[site.lang].translationcredit.thank_you }}</p>
 			</p>
 		</div>
 	</section>
