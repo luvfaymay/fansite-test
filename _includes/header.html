@@ -1,0 +1,113 @@
+<!-- header.html -->
+
+<!-- Wrapper -->
+<div id="wrapper">
+    <!-- Header -->
+    <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+        <a href="{% if site.lang == site.jekyll-multiple-languages-plugin.default_language %}{{ '/' | absolute_url }}{% else %}/{{ site.lang }}/{% endif %}" class="logo" id="homeLink"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+            <div class="language-selector">
+                <select id="languageSelector" onchange="changeLanguage(this.value)">
+                    {% for lang in site.jekyll-multiple-languages-plugin.languages %}
+                        {% assign lang_name = site.jekyll-multiple-languages-plugin.languages_name[lang] %}
+                        <option value="{{ lang }}" {% if site.lang == lang %}selected{% endif %}>
+                            {{ lang_name }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </nav>        
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            {% for page in site.pages %}
+                {% if page.layout == "home" %}
+                    <li><a href="{% if site.lang == site.jekyll-multiple-languages-plugin.default_language %}{{ "" | absolute_url }}/{% else %}/{{ site.lang }}/{% endif %}" class="home-link">{{ page.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+            {% for page in site.html_pages %}
+                {% if page.layout != "home" and page.nav-menu == true %}
+                    {% if site.lang == site.jekyll-multiple-languages-plugin.default_language %}
+                        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+                    {% else %}
+                        <li><a href="/{{ site.lang }}{{ page.url }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+</div>
+
+<script>
+    function changeLanguage(selectedLang) {
+        var currentPath = window.location.pathname;
+        var languages = {{ site.jekyll-multiple-languages-plugin.languages | jsonify }};
+        var defaultLanguage = '{{ site.jekyll-multiple-languages-plugin.default_language }}';
+        
+        var currentLang = languages.find(lang => currentPath.startsWith('/' + lang + '/')) || defaultLanguage;
+        
+        if (selectedLang === currentLang) return;
+        
+        var pathWithoutLang = currentPath.replace(new RegExp('^/' + currentLang + '(/|$)'), '/');
+        var newUrl = selectedLang === defaultLanguage ? pathWithoutLang : '/' + selectedLang + pathWithoutLang;
+        newUrl = newUrl.replace(/\/+/g, '/');
+        
+        localStorage.setItem('selectedLanguage', selectedLang);
+        
+        window.location.href = newUrl;
+    }
+
+    function initializeLanguageSelector() {
+        const languageSelector = document.getElementById('languageSelector');
+        if (!languageSelector) {
+            console.error("Language selector not found.");
+            return;
+        }
+
+        const storedLanguage = localStorage.getItem('selectedLanguage');
+        
+        if (storedLanguage) {
+            languageSelector.value = storedLanguage;
+        } else {
+            const currentLang = '{{ site.lang }}';
+            languageSelector.value = currentLang;
+            localStorage.setItem('selectedLanguage', currentLang);
+        }
+    }
+
+    function getHomeUrl() {
+        const currentLang = '{{ site.lang }}';
+        const defaultLang = '{{ site.jekyll-multiple-languages-plugin.default_language }}';
+        return currentLang === defaultLang ? '/' : `/${currentLang}/`;
+    }
+
+    function navigateHome(e) {
+        if (e) e.preventDefault();
+        const homeUrl = getHomeUrl();
+        if (window.location.pathname !== homeUrl) {
+            window.location.href = homeUrl;
+        }
+    }
+
+    function initializeEventListeners() {
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeLanguageSelector();
+        });
+
+        // Update event listener for logo click
+        const homeLink = document.getElementById('homeLink');
+        if (homeLink) {
+            homeLink.addEventListener('click', navigateHome);
+        }
+
+        // Update event listeners for home menu clicks
+        document.querySelectorAll('.home-link').forEach(link => {
+            link.addEventListener('click', navigateHome);
+        });
+    }
+
+    initializeEventListeners();
+</script>

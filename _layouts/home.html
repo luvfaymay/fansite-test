@@ -1,0 +1,61 @@
+---
+layout: home
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major video-banner">>
+        <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/iqos3RiFPdU?si=Vfbw5Hg9stgWNPjy&autoplay=1&mute=1&loop=1&playlist=iqos3RiFPdU&controls=0&rel=0&vq=hd1080"
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Two -->
+        <section id="two">
+            <div class="inner"> 
+                <header class="major">
+                    <h2>{{ site.translations[site.lang].global.couple_name }}</h2>
+                </header>
+                {{ content }}
+            </div>
+        </section>
+
+        <!-- One (Tiles Section) -->
+        <div id="content">
+            {% include tiles.html %}
+        </div>
+    </div>
+
+    <!-- Image carousel -->
+    <div class="carousel-container">
+        <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
+        <div class="carousel">
+            {% for image in page.carousel_images %}
+                <div>
+                    <a href="{{ image.url }}" data-lightbox="image-carousel">
+                        <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}">
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+        <button type="button" class="carousel-arrow carousel-next">&gt;</button>
+    </div>
+
+    {% include footer.html %} 
+</body>
+</html>
