@@ -4,7 +4,7 @@ subtitle: by InterFans
 email: faymay4evermarvelous@gmail.com
 description: "FayMay Fansite - Dedicated to Thai GL actresses Fay and May"
 baseurl: "/fansite-test" # the subpath of your site, e.g. /blog
-url: "https://luvfaymay.github.io/fansite-test" # the base hostname & protocol for your site
+url: "https://luvfaymay.github.io/" # the base hostname & protocol for your site
 sass:
   sass_dir: _sass
   style: compressed
