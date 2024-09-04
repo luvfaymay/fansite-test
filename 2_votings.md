@@ -31,7 +31,7 @@ nav-menu: true
                     <header class="major">
                         <h3>{% t voting.starlight_award.title %}</h3>
                     </header>
-                    <p>{% t voting.starlight_award.description %} <a href="https://www.starlightawards.asia/vote">{% t common.vote_for_them %}</a></p>
+                    <p>{% t voting.starlight_award.description %} <a class="vote-link" href="https://www.starlightawards.asia/vote">{% t common.vote_for_them %}</a></p>
                 </div>
             </div>
         </section>
@@ -44,7 +44,7 @@ nav-menu: true
                     <header class="major">
                         <h3>{% t voting.thai_update_award.title %}</h3>
                     </header>
-                    <p>{% t voting.thai_update_award.description %} <a href="https://www.thaiupdate.info/favorite-couple-2024-group-3/">{% t common.vote_for_them %}</a></p>
+                    <p>{% t voting.thai_update_award.description %} <a class="vote-link" href="https://www.thaiupdate.info/favorite-couple-2024-group-3/">{% t common.vote_for_them %}</a></p>
                 </div>
             </div>
         </section>
