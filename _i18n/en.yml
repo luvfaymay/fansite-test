@@ -1,4 +1,4 @@
-lang: en
+lang: en  # DONE
 
 # Global section
 global:
@@ -25,8 +25,6 @@ nav:
 # Footer
 footer:
   copyright: "© 2024 FayMay Fansite. All rights reserved."
-  privacy_policy: "Privacy Policy"
-  terms_of_service: "Terms of Service"
 
 # Common elements
 common:

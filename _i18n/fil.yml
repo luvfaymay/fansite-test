@@ -1,4 +1,4 @@
-lang: fil
+lang: fil # DONE
 
 # Global section
 global:
@@ -15,9 +15,9 @@ global:
 # Navigation
 nav:
   home: "Home"
-  profiles: "Mga Profile"
+  profiles: "Mga Talambuhay"
   fan_pages: "Mga Fan Page"
-  fan_creations: "Mga Likha ng Fans"
+  fan_creations: "Mga Likha ng Tagahanga"
   dream_series: "Dream Series"
   ongoing_votings: "Kasalukuyang Mga Botohan"
   active_fan_pages: "Mga Aktibong Fan Page"
@@ -25,8 +25,6 @@ nav:
 # Footer
 footer:
   copyright: "© 2024 FayMay Fansite. Lahat ng karapatan ay nakalaan."
-  privacy_policy: "Patakaran sa Privacy"
-  terms_of_service: "Mga Tuntunin ng Serbisyo"
 
 # Common elements
 common:
@@ -74,20 +72,20 @@ languages:
 home:
   actress_description: 'Sina {fay_name} at {may_name} ay mga Thai GL actress sa ilalim ng {idol_factory}. Ang kanilang on-screen couple name ay {couple_name}.'
   series_description: 'Ang kanilang unang acting project bilang mga pangunahing aktres ay ang {series_name}, na kilala rin bilang {dreamgl} o {dream_the_series}.'
-  watch_teasers: "Mangyaring panoorin ang mga opisyal na teaser at trailer na {playlist_name} ng {idol_factory}."
+  watch_teasers: "Maaaring panoorin ang mga opisyal na pasilip na {playlist_name} ng {idol_factory}."
 
 # Profile page content
 profile:
-  title: "Mga Profile ng FayMay"
-  header: "Mga Profile ng FayMay"
+  title: "Mga Talambuhay ng FayMay"
+  header: "Mga Talambuhay ng FayMay"
   welcome_message: "Maligayang pagdating sa FayMay Fansite. Ang pahinang ito ay pinamamahalaan ng mga internasyonal na tagahanga. Kami ay natutuwa na ikaw ay nag-uusisa tungkol sa FayMay at nais na malaman pa ang tungkol sa kanila. Nais naming humiling ng limang bagay lamang mula sa iyo."
 
   fan_requests:
-    - "Ang FayMay ay iisa. Mangyaring matutong mahalin sila pareho."
-    - "Mangyaring mahalin at tanggapin sina Fay at May kung sino sila, hindi ang iyong ideya kung sino dapat sila."
-    - "Mangyaring igalang at suportahan ang kanilang mga desisyon, maging ito ay para sa trabaho o personal na buhay."
-    - "Mangyaring igalang ang kanilang privacy at alamin ang ating mga hangganan bilang mga tagahanga at mga artista. Gusto nilang ibahagi ang kanilang buhay sa atin, ngunit hindi ibig sabihin nito na maaari nating lampasan ang ating mga hangganan. Kasama rito ang kanilang relasyon sa ibang tao, maging ito ay ibang mga pampublikong pigura o pribadong mamamayan. Igalang ang relasyon nila sa iba at bigyan sila ng kanilang privacy."
-    - "Mangyaring subukang huwag palakasin ang mga boses ng mga haters, lunurin sila sa pag-ibig sa halip. Ang ating fandom ay nakatayo sa pag-ibig, ngunit kung may isang taong nais magdulot ng pinsala, poprotektahan natin ang FayMay."
+    - "Ang FayMay ay iisa. Matutong mahalin sila pareho."
+    - "Mahalin at tanggapin sina Fay at May kung sino sila, hindi ang iyong ideya kung sino dapat sila."
+    - "Pakiusap, igalang at suportahan ang kanilang mga desisyon, maging ito ay para sa trabaho o personal na buhay."
+    - "Pakiusap, igalang ang kanilang pagka pribado at alamin ang ating mga hangganan bilang mga tagahanga at artista. Gusto nilang ibahagi ang kanilang buhay sa atin, ngunit hindi ibig sabihin nito na maaari nating lampasan ang ating mga hangganan. Kasama rito ang kanilang relasyon sa ibang tao, maging ito ay ibang mga pampublikong pigura o pribadong mamamayan. Igalang ang relasyon nila sa iba at bigyan sila ng karapatan sa kanilang pagka pribado."
+    - "Pakiusap, huwag palakasin ng mga boses ng haters, palamigin ang mga ito ng pagmamahal sa halip. Ang ating fandom ay nakatayo sa pag-ibig, ngunit kung may isang taong nais magdulot ng pinsala, pinoprotektahan natin ang FayMay."
 
   fay:
     first_name: "Kunyaphat"
@@ -128,19 +126,19 @@ profile:
 # Voting page content
 voting:
   title: "Kasalukuyang Mga Botohan"
-  description: "Lahat ng kasalukuyang aktibidad sa pagboto ay ibabahagi sa pahinang ito. Kung mayroon kang oras, mangyaring tumulong sa pagboto hangga't maaari. Ito ay isang magandang paraan upang ipakita ang ating pagmamahal para sa FayMay."
+  description: "Lahat ng kasalukuyang aktibidad sa pagboto ay ibabahagi sa pahinang ito. Kung mayroon kang oras, maaari kang tumulong sa abot ng iyong makakaya. Ito ay isang magandang paraan upang ipakita ang ating pagmamahal para sa FayMay."
   instructions:
-    - "Mangyaring subukang panatilihin na pareho ang bilang ng boto para sa kanilang dalawa."
-    - "Mangyaring huwag gumamit ng mga automated na tool. Ayaw nating sila ay ma-disqualify."
+    - "Maaaring subukang panatilihin na pareho ang bilang ng boto para sa kanilang dalawa."
+    - "Maaaring huwag gumamit ng mga automated na tool. Ayaw nating sila ay ma-disqualify."
   
   starlight_award:
     title: "2024 Ang Pinakamatingkad na Bituin sa Thailand"
-    description: "Ang panahon ng pagboto ay mula Agosto 23 hanggang Setyembre 11 20:00 Oras ng BKK. Maaari kang makakuha ng hanggang 7 libreng boto, 4 na libreng boto araw-araw at 3 libreng boto araw-araw para sa unang social share. Mangyaring"
+    description: "Ang panahon ng pagboto ay mula Agosto 23 hanggang Setyembre 11 20:00 Oras ng BKK. Maaari kang makakuha ng hanggang 7 libreng boto, 4 na libreng boto araw-araw at 3 libreng boto araw-araw para sa unang social share."
     vote_link: "bumoto para sa kanila."
   
   thai_update_award:
     title: "Ang Pinakamagusto na On-Screen Couple ng 2024"
-    description: "Ang panahon ng pagboto ay mula Agosto 24 hanggang Setyembre 04 15:00 Oras ng BKK. Maaari kang bumoto nang walang limitasyon. Mangyaring"
+    description: "Ang panahon ng pagboto ay mula Agosto 24 hanggang Setyembre 04 15:00 Oras ng BKK. Maaari kang bumoto ng walang limitasyon."
     vote_link: "bumoto para sa kanila."
 
 # Fan Pages content
@@ -193,12 +191,12 @@ fan_creations:
 # Dream Series content
 dream_series:
   title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
-  description: "Ako si \"Dawhan\". Mula nang maaalala ko, palagi akong may kakaibang mga panaginip tungkol sa isang batang babae na tahimik ngunit madalas na nakikipaglaro sa akin sa aking mga panaginip. Isang araw, may bagong kapitbahay na lumipat, at iyon ang naging dahilan ng pagkasira ng aking pamilya. Tumakas ang aking ama kasama ang lalaking kapitbahay, na lumabas na ama pala ni \"Kimhan\" ang tahimik at maliit na babae mula sa katabing bahay. Sa simula, hindi kami malapit sa isa't isa, ngunit dahil sa iba't ibang pangyayari, kami ay naging mas malapit at naunawaan ang isa't isa. Gayunpaman, hindi alam ni Kimhan na habang sa tunay na mundo ay magkaibigan lang kami, sa aking mga panaginip, ang maliit na babae at ako ay gumagawa ng mga bagay na higit pa doon. Kaya, itinago ko ang aking mga damdamin dahil hindi ko maaaring ipaalam sa kanya. Hindi ko kailanman naunawaan na sa mga panaginip na iyon, hindi lang ako ang nananaginip."
+  description: "Ako si \"Dawhan\". Mula nang maaalala ko, palagi akong may kakaibang mga panaginip tungkol sa isang batang babae na tahimik ngunit madalas na nakikipaglaro sa aking mga panaginip. Isang araw, may bagong kapitbahay na lumipat, at iyon ang naging dahilan ng pagkasira ng aking pamilya. Tumakas ang aking ama kasama ang lalaking kapitbahay, na lumabas na ama pala ni \"Kimhan\" ang tahimik at maliit na babae mula sa katabing bahay. Sa simula, hindi kami malapit sa isa't isa, ngunit dahil sa iba't ibang pangyayari, kami ay naging mas malapit at naunawaan ang isa't isa. Gayunpaman, hindi alam ni Kimhan na habang sa tunay na mundo ay magkaibigan lang kami, sa aking mga panaginip, ang maliit na babae at ako ay gumagawa ng mga bagay na higit pa doon. Kaya, itinago ko ang aking mga damdamin dahil hindi ko maaaring ipaalam sa kanya. Hindi ko kailanman naunawaan na sa mga panaginip na iyon, hindi lang ako ang nananaginip."
   genres: "Mga Genre: Romansa, Pantasya"
   other_names: "Iba pang Pangalan: DreamGL, Dream The Series"
   main_roles:
     title: "Mga pangunahing papel:"
-    description: "Mangyaring sundan at suportahan ang lahat ng Dream Girls! Sila ay mga mahuhusay na aktres, at ang kanilang mga TikTok video ay napaka-masaya."
+    description: "Pakiusap, sundan at suportahan ang lahat ng Dream Girls! Sila ay mga mahuhusay na aktres, at ang kanilang mga TikTok video ay talagang nakakatuwa."
   table:
     name: "Pangalan"
     full_name: "Buong Pangalan"
@@ -207,21 +205,21 @@ dream_series:
     tiktok: "TikTok"
     hashtag: "Hashtag"
   teasers:
-    title: "Mga Teaser"
-    description: "Mangyaring panoorin ang mga opisyal na teaser at trailer sa playlist na ito ng Idol Factory."
+    title: "Mga Pasilip"
+    description: "Pakiusap, panoorin ang mga opisyal na teaser at trailer sa playlist na ito ng Idol Factory."
   episodes:
-    title: "Mga UNCUT na Episode"
-    description: "Mangyaring panoorin ang serye. Ito ay isang slow burn at maaaring magparamdam sa iyo ng frustrasyon sa ilang pagkakataon, ngunit ang chemistry ng FayMay ay hindi kapani-paniwala, at ang pag-arte ng buong cast ay kahanga-hanga. Hindi sapat ang isang beses na panonood, kaya mangyaring panoorin ang buong serye ng ilang beses."
+    title: "Mga UNCUT na episode"
+    description: "Pakiusap, panoorin ang serye. Ito ay isang slow burn at maaaring magparamdam sa iyo ng pagkayamot sa ilang pagkakataon, ngunit ang chemistry ng FayMay ay hindi kapani-paniwala, at ang pag-arte ng buong cast ay kahanga-hanga. Hindi sapat ang isang beses na panonood, kaya mangyaring panoorin ang buong serye ng ilang beses."
     table:
       episode: "Episode"
       teaser: "Teaser [Spoiler]"
       premiered: "Ipinalabas"
     spoilers:
-      ep1: "Matapos ang pagtatalo nila ni Dawhan, nagpasya si Kimhan na sumali kay Jessie, ang karibal ni Dawhan. Si Mali, na nakaramdam ng hindi pagkakomportable sa sitwasyon, ay nagsagawa ng imbestigasyon, at sa huli ay natuklasan ang tunay na dahilan sa likod ng desisyon ni Kimhan."
-      ep2: "Sa wakas ay naunawaan ni Dawhan ang tunay na dahilan kung bakit pumayag si Kimhun na magtrabaho para kay Jessie, na nagbigay-daan sa kanilang dalawa na magkaunawaan. Tumanggi si Dawhan na hayaan si Jessie na gamitin si Kimhun bilang isang kasangkapan at hinamon si Jessie na ilabas ang ebidensyang ginamit para i-blackmail siya."
+      ep1: "Matapos ang pagtatalo nila ni Dawhan, nagpasya si kimhan na mag trabaho para kay Jessie, ang karibal ni Dawhan. Si Mali, na nakaramdam ng hindi pagkakomportable sa sitwasyon, ay nagsagawa ng imbestigasyon, at sa huli ay natuklasan ang tunay na dahilan sa likod ng desisyon ni Kimhan."
+      ep2: "Sa wakas ay naunawaan ni Dawhan ang tunay na dahilan kung bakit pumayag si Kimhan na magtrabaho para kay Jessie, na nagbigay-daan sa kanilang dalawa na magkaunawaan. Tumanggi si Dawhan na hayaan si Jessie na gamitin si Kimhan bilang isang kasangkapan at hinamon si Jessie na ilabas ang ebidensyang ginamit para i-blackmail siya."
       ep3: "Nakaranas si Dawhan ng kaguluhan sa social media matapos niyang iuwi si Kimhan sa condo hanggang sa mahilo siya. Nagpasya si Toon na gamitin ang sikat na pares na \"Pat-Dawhan\" upang ilihis ang atensyon sa pamamagitan ng paglabas ng isang leaked na video clip."
-      ep4: "Nagkaroon ng pagkakataong makilala ni Kimhun si Mawin, ang may-ari ng gallery. Ang hindi inaasahang pagkikitang ito ay humantong sa desisyon ni Kimhun na magtrabaho sa gallery ni Mawin, isang pagpipiliang nagdala sa kanya ng tunay na kagalakan. Sa kabila ng mga pagsisikap ni Dawan na hadlangan siya, sumali pa rin si Kimhun sa gallery, na nag-udyok ng mainit na pagtatalo sa pagitan nila."
-      ep5: "Sinubukan ni Dawan ang lahat ng posibleng paraan upang abalahin si Mawin, na humantong sa isang alitan kay Kimhan at naging dahilan upang piliin ni Dawan na umuwi. Habang natutulog si Dawan, nanaginip siya na si Kimhan ay nagdrodrowing ng larawan nila ni Kim Han, ngunit ang imahe ay nagbago sa isang larawan ni Mawin."
+      ep4: "Nagkaroon ng pagkakataong makilala ni Kimhan si Mawin, ang may-ari ng gallery. Ang hindi inaasahang pagkikitang ito ay humantong sa desisyon ni Kimhan na magtrabaho sa gallery ni Mawin, isang pagpipiliang nagdala sa kanya ng tunay na kagalakan. Sa kabila ng mga pagsisikap ni Dawan na hadlangan siya, nag trabaho pa rin si kimhan sa gallery, na tumungo sa mainit na pagtatalo sa pagitan nila."
+      ep5: "Sinubukan ni Dawan ang lahat ng posibleng paraan upang abalahin si Mawin, na humantong sa isang alitan kay Kimhan at naging dahilan upang piliin ni Dawan na umuwi. Habang natutulog si Dawan, nanaginip siya na si Kimhan ay nagdradrawing ng larawan nila ni Kim Han, ngunit ang imahe ay nagbago sa isang larawan ni Mawin."
       ep6: "Ipinahayag ni Pat ang kanyang pag-ibig kay Dawan. Nang malaman ito, nagkasakit si Kimhan at na-ospital. Pinili ni Kimhan na umalis sa kwartong kanyang kinabahagi kay Dawan. Gayunpaman, nakita niya si Dawan na yumayakap kay Pat, na humantong sa kanilang pag-aaway. Sa init ng sandali, hindi sinasadyang ipinahayag ni Kimhan ang kanyang pagmamahal kay Mawin."
       ep7: "Pumayag si Kimhan na maging girlfriend ni Mawin upang masiguro ang kinabukasan ni Dawan. Si Dawan ay napalampas ng mga pagkakataon na maging kinatawan ng Thailand bilang aktres at sumailalim sa paggamot para sa depresyon."
       ep8: "Sina Dawan at Kimhan ay nagkabati muli sa pamamagitan ng isang matamis na halik. Sina Tim at Pongphon, ang mga taong nag-iwan sa mga pamilya nina Dawan at Kimhan sa kahirapan, ay bumalik upang makipagkita sa apat na muli."
@@ -231,7 +229,7 @@ dream_series:
       ep12: "Ako ay pinakamasaya kapag ako ay nasa panaginip, dahil doon... ikaw ay naroon"
   osts:
     title: "Mga OST"
-    description: "Ang mga OST sa seryeng ito ay napakaganda. Mangyaring ipakita sa kanila ang inyong pagmamahal!"
+    description: "Ang mga OST sa seryeng ito ay napakaganda. Pakiusap, ipakita sa kanila ang inyong pagmamahal!"
     table:
       language: "Wika"
       title: "Pamagat"
@@ -251,7 +249,7 @@ dream_series:
   spoiler:
     reveal: "I-click upang ipakita ang spoiler"
     hide: "I-click upang itago ang spoiler"
-  
+
 # Translation credit content
 translationcredit:
   title: "Mga Kredito sa Pagsasalin"
