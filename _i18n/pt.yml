@@ -14,10 +14,10 @@ global:
 
 # Navigation
 nav:
-  home: "Início"
+  home: "Início" 
   profiles: "Perfis"
   fan_pages: "Páginas de Fãs"
-  fan_creations: "Criações de Fãs"
+  fan_creations: "Criações dos Fãs"
   dream_series: "Série Dream"
   ongoing_votings: "Votações em Andamento"
   active_fan_pages: "Páginas de Fãs Ativas"
@@ -25,8 +25,6 @@ nav:
 # Footer
 footer:
   copyright: "© 2024 FayMay Fansite. Todos os direitos reservados."
-  privacy_policy: "Política de Privacidade"
-  terms_of_service: "Termos de Serviço"
 
 # Common elements
 common:
@@ -72,7 +70,7 @@ languages:
 
 # Home page content
 home:
-  actress_description: '{fay_name} e {may_name} são atrizes GL tailandesas da {idol_factory}. O nome do casal delas na tela é {couple_name}.'
+  actress_description: '{fay_name} e {may_name} são atrizes tailandesas de GL da {idol_factory}. O nome do casal delas na tela é {couple_name}.'
   series_description: 'O primeiro projeto de atuação delas como protagonistas é {series_name}, também conhecido como {dreamgl} ou {dream_the_series}.'
   watch_teasers: "Por favor, assista aos teasers oficiais e ao trailer {playlist_name} da {idol_factory}."
 
@@ -83,10 +81,10 @@ profile:
   welcome_message: "Bem-vindo ao FayMay Fansite. Esta página é mantida por fãs internacionais. Estamos felizes que você esteja curioso sobre FayMay e queira saber mais sobre elas. Gostaríamos de pedir apenas cinco coisas de você."
 
   fan_requests:
-    - "FayMay é uma só. Por favor, aprenda a amar as duas."
+    - "FayMay são uma só. Por favor, aprenda a amar as duas."
     - "Por favor, ame e aceite tanto Fay quanto May como elas são, não sua ideia de quem elas deveriam ser."
     - "Por favor, respeite e apoie as decisões delas, seja para o trabalho ou vida pessoal."
-    - "Por favor, respeite a privacidade delas e conheça nossos limites como fãs e artistas. Elas adoram compartilhar suas vidas conosco, mas isso não significa que podemos ultrapassar nossos limites. Isso inclui o relacionamento delas com outras pessoas, sejam figuras públicas ou cidadãos privados. Respeite o relacionamento que elas têm com os outros e dê-lhes privacidade."
+    - "Por favor, respeite a privacidade delas e conheça nossos limites como fãs e artistas. Elas adoram compartilhar suas vidas conosco, mas isso não significa que podemos ultrapassar nossos limites. Isso inclui o relacionamento delas com outras pessoas, sejam figuras públicas ou não. Respeite o relacionamento que elas têm com os outros e dê-lhes privacidade."
     - "Por favor, tente não amplificar as vozes dos haters, abafe-as com amor em vez disso. Nosso fandom é construído sobre o amor, mas se alguém pretende causar danos, protegeremos FayMay."
 
   fay:
@@ -98,7 +96,7 @@ profile:
     born: "2 de dezembro de 2001"
     blood_type: "AB"
     mbti: "INFJ-T"
-    favorite_things: "Chihuahua, Música, Filme"
+    favorite_things: "Chihuahua, Música, Filmes"
     hobbies: "Dançar, Cantar, Tocar Violão, Assistir Filmes, Ler Romances"
     favorite_snacks: "Macaron, Milo Nuggets, Choux Cream"
     favorite_colors: "Preto, Azul"
@@ -117,7 +115,7 @@ profile:
     blood_type: "A"
     mbti: "ESFJ-T"
     favorite_things: "Gato, Comida Tailandesa do Sul e Nordeste, Mar"
-    hobbies: "Assistir Filmes, Ouvir Música, Sair com amigos"
+    hobbies: "Assistir Filmes, Ouvir Música, Sair com os amigos"
     favorite_snacks: "Gelatina"
     favorite_colors: "Rosa Pastel"
     favorite_flowers: "Rosa Branca, Rosa Pêssego"
@@ -139,7 +137,7 @@ voting:
     vote_link: "vote nelas."
   
   thai_update_award:
-    title: "O Casal Favorito na Tela de 2024"
+    title: "O Casal Favorito na Tela de 2024" 
     description: "O período de votação é de 24 de agosto a 04 de setembro às 15:00 no horário de Bangkok. Você pode votar ilimitadamente. Por favor"
     vote_link: "vote nelas."
 
@@ -163,10 +161,10 @@ fan_pages:
 
 # Fan Creations content
 fan_creations:
-  title: "Criações de Fãs"
-  description: "Esta página tem como objetivo destacar os perfis de fãs que são fansites ou fãs que criam fan arts, edições de fãs, covers de fãs e traduções de fãs."
+  title: "Criações dos Fãs"
+  description: "Esta página tem como objetivo destacar os perfis de fãs que são fansites ou fãs que criam fan arts, edições, covers, e traduções."
   fan_sites:
-    title: "Sites de Fãs"
+    title: "Fansites"
     description: "Aqui está uma lista de fansites que frequentemente compartilham as atividades de FayMay através de um trabalho de câmera incrível!"
   fan_art:
     title: "Criadores de Fan Art"
@@ -220,9 +218,9 @@ dream_series:
       ep1: "Após uma briga com Dawhan, Kimhan tomou a decisão de se juntar a Jessie, rival de Dawhan. Mali, sentindo-se inquieta com a situação, tomou a iniciativa de conduzir uma investigação, revelando finalmente o verdadeiro motivo por trás da decisão de Kimhan."
       ep2: "Dawhan finalmente entendeu o verdadeiro motivo pelo qual Kimhun concordou em trabalhar para Jessie, permitindo que ambas chegassem a um entendimento. Dawhan se recusou a deixar Jessie usar Kimhun como uma ferramenta e desafiou Jessie a liberar evidências usadas para chantageá-la."
       ep3: "Dawhan enfrentou um frenesi nas redes sociais depois de trazer Kimhan de volta ao condomínio até ficar tonta. Toon decidiu usar o casal em tendência \"Pat-Dawhan\" para desviar a atenção, liberando um vídeo vazado."
-      ep4: "Kimhun teve um encontro casual com Mawin, o proprietário da galeria. Esse encontro inesperado levou Kimhun a decidir trabalhar com a galeria de Mawin, uma escolha que lhe trouxe alegria sincera. Apesar dos esforços de Dawan para impedi-la, Kimhun se juntou à galeria, desencadeando uma disputa acalorada entre elas."
+      ep4: "Kimhun teve um encontro casual com Mawin, o proprietário da galeria. Esse encontro inesperado levou Kimhan a decidir trabalhar na galeria de Mawin, uma escolha que lhe trouxe alegria sincera. Apesar dos esforços de Dawan para impedi-la, Kimhun se juntou à galeria, desencadeando uma disputa acalorada entre elas."
       ep5: "Dawan tentou todas as formas possíveis de interromper Mawin, levando a um conflito com Kimhan e fazendo com que Dawan escolhesse voltar para casa. Enquanto Dawan dormia, ela sonhou com Kimhan desenhando uma foto de Kim Han junto com ela mesma, mas a imagem se transformou em uma foto de Mawin."
-      ep6: "Pat confessa seu amor por Dawan. Ao descobrir isso, Kimhan adoeceu e foi hospitalizada. Kimhan optou por deixar o quarto que compartilhava com Dawan. No entanto, ela encontrou Dawan abraçando Pat, levando as duas a discutir. No calor do momento, Kimhan revelou involuntariamente sua afeição por Mawin."
+      ep6: "Pat confessa seu amor por Dawan. Ao descobrir isso, Kimhan adoeceu e foi hospitalizada. Kimhan optou por deixar o apartamento que compartilhava com Dawan. No entanto, ela encontrou Dawan abraçando Pat, levando as duas a discutir. No calor do momento, Kimhan revelou involuntariamente sua afeição por Mawin."
       ep7: "Kimhan concorda em ser namorada de Mawin para garantir o futuro de Dawan. Dawan perdeu oportunidades de representar a Tailândia como atriz e passou por tratamento para depressão."
       ep8: "Dawan e Kimhan se reconciliam novamente com um doce beijo. Tim e Pongphon, as pessoas que deixaram as famílias de Dawan e Kimhan na miséria, voltam para encontrar os quatro novamente."
       ep9: "Ae, a mãe de Kimhan, adoeceu repentinamente e expressou seu desejo de ver Kimhan e Marwin se casarem. Apesar do desejo de Kimhan de cumprir o desejo de sua mãe, em seu coração, ela só amava Dawan."
@@ -231,7 +229,7 @@ dream_series:
       ep12: "Eu sou mais feliz quando estou em um sonho, porque nele... você está lá"
   osts:
     title: "OSTs"
-    description: "As OSTs desta série são incríveis. Por favor, mostre algum amor a elas!"
+    description: "As OSTs desta série são incríveis. Por favor, demonstre amora elas!"
     table:
       language: "Idioma"
       title: "Título"
@@ -255,6 +253,7 @@ dream_series:
 # Translation credit content
 translationcredit:
   title: "Créditos de Tradução"
-  intro: "Olá pessoal! Queríamos dar um grande agradecimento às pessoas incríveis que ajudaram a tornar nosso fansite verdadeiramente global. Essas pessoas maravilhosas dedicaram seu tempo e esforço para levar nosso amor por FayMay aos fãs de todo o mundo."
+  intro: "Olá pessoal! Gostaríamos de agradecer às pessoas incríveis que ajudaram a tornar nosso fansite verdadeiramente global. Essas pessoas maravilhosas dedicaram seu tempo e esforço para levar nosso amor por FayMay aos fãs de todo o mundo."
   team: "Nossa incrível equipe de tradução/revisão:"
   thank_you: "Vocês são demais! Obrigado por nos ajudar a espalhar o amor por FayMay 🫶"
+

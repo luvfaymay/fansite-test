@@ -25,8 +25,6 @@ nav:
 # Footer
 footer:
   copyright: "© 2024 Sitio de fans de FayMay. Todos los derechos reservados."
-  privacy_policy: "Política de privacidad"
-  terms_of_service: "Términos de servicio"
 
 # Common elements
 common:
@@ -83,11 +81,11 @@ profile:
   welcome_message: "Bienvenido al sitio de fans de FayMay. Esta página es mantenida por fans internacionales. Nos alegra que tengas curiosidad sobre FayMay y quieras saber más sobre ellas. Nos gustaría pedirte solo cinco cosas."
 
   fan_requests:
-    - "FayMay es una. Por favor, aprende a amarlas a ambas."
-    - "Por favor, ama y acepta tanto a Fay como a May tal como son, no como crees que deberían ser."
+    - "FayMay son una. Por favor, aprende a amarlas a ambas."
+    - "Por favor, ama y acepta tanto a Fay como a May tal como son, no como crees que deberían ser." 
     - "Por favor, respeta y apoya sus decisiones, ya sea para el trabajo o la vida personal."
     - "Por favor, respeta su privacidad y conoce nuestros límites como fans y artistas. Les encanta compartir sus vidas con nosotros, pero eso no significa que podamos sobrepasar nuestros límites. Eso incluye su relación con otras personas, ya sean figuras públicas o ciudadanos privados. Respeta la relación que tienen con otros y dales su privacidad."
-    - "Por favor, trata de no amplificar las voces de los que odian, ahógalas con amor en su lugar. Nuestro fandom está construido sobre el amor, pero si alguien intenta causar daño, protegeremos a FayMay."
+    - "Por favor, trata de no amplificar las voces de los que odian, ahógalas con amor en su lugar. Nuestro fandom está construido sobre la base del amor, pero si alguien intenta causar daño, protegeremos a FayMay."
 
   fay:
     first_name: "Kunyaphat"
@@ -220,10 +218,10 @@ dream_series:
       ep1: "Después de una pelea con Dawhan, Kimhan tomó la decisión de unirse a Jessie, la rival de Dawhan. Mali, sintiéndose inquieta por la situación, se encargó de realizar una investigación, descubriendo finalmente la verdadera razón detrás de la decisión de Kimhan."
       ep2: "Dawhan finalmente entendió la verdadera razón por la que Kimhun aceptó trabajar para Jessie, lo que permitió que ambas llegaran a un entendimiento. Dawhan se negó a dejar que Jessie usara a Kimhun como una herramienta y desafió a Jessie a liberar la evidencia utilizada para chantajearla."
       ep3: "Dawhan se enfrentó a un frenesí en las redes sociales después de llevar a Kimhan de vuelta al condominio hasta el mareo. Toon decidió usar la pareja tendencia \"Pat-Dawhan\" para desviar la atención liberando un video filtrado."
-      ep4: "Kimhun tuvo un encuentro casual con Mawin, el propietario de la galería. Este encuentro inesperado llevó a Kimhun a tomar la decisión de trabajar con la galería de Mawin, una elección que le trajo alegría sincera. A pesar de los esfuerzos de Dawan por impedirlo, Kimhun se unió a la galería, encendiendo una acalorada disputa entre ellas."
-      ep5: "Dawan intentó interrumpir a Mawin de todas las formas posibles, lo que llevó a un conflicto con Kimhan y provocó que Dawan eligiera volver a casa. Mientras Dawan dormía, soñó que Kimhan dibujaba una imagen de Kim Han junto con ella misma, pero la imagen se transformó en una imagen de Mawin en su lugar."
+      ep4: "Kimhun tuvo un encuentro casual con Mawin, el propietario de la galería. Este encuentro inesperado llevó a Kimhun a tomar la desición de trabajar en la galería de Mawin, una elección que le trajo alegría sincera. A pesar de los esfuerzos de Dawan por impedirlo, Kimhun se unió a la galería, encendiendo una acalorada disputa entre ellas."
+      ep5: "Dawan intentó incordiar a Mawin de todas las formas posibles, lo que llevó a un conflicto con Kimhan y provocó que Dawan eligiera volver a casa. Mientras Dawan dormía, soñó que Kimhan dibujaba una imagen de Kim Han junto con ella misma, pero la imagen se transformó en una imagen de Mawin en su lugar." 
       ep6: "Pat confiesa su amor a Dawan. Al enterarse de esto, Kimhan cayó enferma y fue hospitalizada. Kimhan optó por dejar la habitación que compartía con Dawan. Sin embargo, se encontró con Dawan abrazando a Pat, lo que llevó a las dos a discutir. En el calor del momento, Kimhan reveló involuntariamente su afecto por Mawin."
-      ep7: "Kimhan acepta ser la novia de Mawin para asegurar el futuro de Dawan. Dawan perdió oportunidades de representar a Tailandia como actriz y se sometió a tratamiento por depresión."
+      ep7: "Kimhan acepta ser la novia de Mawin para asegurar el futuro de Dawan. Dawan perdió la oportunidad de representat a Tailandia como actriz y se sometió a tratamiento por depresión."
       ep8: "Dawan y Kimhan se reconcilian nuevamente con un dulce beso. Tim y Pongphon, las personas que dejaron a las familias de Dawan y Kimhan en la miseria, vuelven a encontrarse con las cuatro."
       ep9: "Ae, la madre de Kimhan, cayó repentinamente enferma y expresó su deseo de ver a Kimhan y Marwin casarse. A pesar del deseo de Kimhan de cumplir el deseo de su madre, en su corazón, solo amaba a Dawan."
       ep10: "Dawan se muestra reacia a asistir a la boda de Kimhan y Marwin al principio. Sin embargo, al leer la sincera carta de Kimhan confesando sus sentimientos, Dawan inmediatamente deja todo y corre a la boda para ver a Kimhan."
