@@ -15,73 +15,78 @@ nav-menu: true
 				<h2>{{ site.data[site.lang].translationcredit.title }}</h2>
 			</header>
 			<p>
-				{{ site.data[site.lang].translationcredit.intro }}<br/><br/>
-				{{ site.data[site.lang].translationcredit.team }}
-				<div class="table-wrapper">
-					<table>
-						<thead>
-							<tr>
-								<th>Language</th>
-								<th>Volunteer(s)</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>English - Original Content</td>
-								<td><a href="https://x.com/4ever_Marvelous">Forever Marvelous</a></td>
-							</tr>
-							<tr>
-								<td>ไทย (Thai)</td>
-								<td><a href="https://x.com/teeoheewhy">P't</a></td>
-							</tr>
-							<tr>
-								<td>简体中文 (Simplified Chinese)</td>
-								<td><a href="https://x.com/Gackyccc_">Gackyccc_</a></td>
-							</tr>
-							<tr>
-								<td>Filipino</td>
-								<td><a href="https://x.com/DoneeyyOfficial">D.A.M.</a></td>
-							</tr>
-							<tr>
-								<td>Bahasa Indonesia</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>Italiano (Italian)</td>
-								<td>
-									<a href="https://x.com/chi_for_FB">P’Chi :🤍) 🇮🇹🇪🇺🇯🇵 IS SICK</a>, 
-									<a href="https://x.com/Diziholic">Diziholic ⛓️🏳️‍🌈</a>
-								</td>
-							</tr>
-							<tr>
-								<td>日本語 (Japanese)</td>
-								<td><a href="https://x.com/chi_for_FB">P’Chi :🤍) 🇮🇹🇪🇺🇯🇵 IS SICK</a></td>
-							</tr>
-							<tr>
-								<td>한국어 (Korean)</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>မြန်မာဘာသာ (Burmese)</td>
-								<td><a href="https://x.com/chika_faymay">Chika</a></td>
-							</tr>
-							<tr>
-								<td>Português (Portuguese)</td>
-								<td><a href="https://x.com/taengeyez">han in dreamland</a><, <a href="https://x.com/princenicolax">𝙽𝙸𝙲𝙾𝙻𝙰𝚂 | 𝙵𝙰𝚈𝙼𝙰𝚈'𝚜 𝚂𝙾𝙽 🐱</a>/td>
-							</tr>
-							<tr>
-								<td>Español (Spanish)</td>
-								<td><a href="https://x.com/GretFeral">Gret | FAYMAY Dreamer Forever🌙⭐️</a></td>
-							</tr>
-							<tr>
-								<td>Tiếng Việt (Vietnamese)</td>
-								<td><a href="https://x.com/sharon_tla">sharon</a></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<p style="font-weight: bold;">{{ site.data[site.lang].translationcredit.thank_you }}</p>
+				{{ site.data[site.lang].translationcredit.intro }}
 			</p>
+			<p>
+				{{ site.data[site.lang].translationcredit.team }}
+			</p>
+			<div class="table-wrapper">
+				<table>
+					<thead>
+						<tr>
+							<th>Language</th>
+							<th>Volunteer(s)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>English - Original Content</td>
+							<td><a href="https://x.com/4ever_Marvelous">Forever Marvelous</a></td>
+						</tr>
+						<tr>
+							<td>ไทย (Thai)</td>
+							<td><a href="https://x.com/teeoheewhy">P't</a></td>
+						</tr>
+						<tr>
+							<td>简体中文 (Simplified Chinese)</td>
+							<td><a href="https://x.com/Gackyccc_">Gackyccc_</a></td>
+						</tr>
+						<tr>
+							<td>Filipino</td>
+							<td><a href="https://x.com/DoneeyyOfficial">D.A.M.</a></td>
+						</tr>
+						<tr>
+							<td>Bahasa Indonesia</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Italiano (Italian)</td>
+							<td>
+								<a href="https://x.com/chi_for_FB">P’Chi :🤍) 🇮🇹🇪🇺🇯🇵 IS SICK</a>, 
+								<a href="https://x.com/Diziholic">Diziholic ⛓️🏳️‍🌈</a>
+							</td>
+						</tr>
+						<tr>
+							<td>日本語 (Japanese)</td>
+							<td><a href="https://x.com/chi_for_FB">P’Chi :🤍) 🇮🇹🇪🇺🇯🇵 IS SICK</a></td>
+						</tr>
+						<tr>
+							<td>한국어 (Korean)</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>မြန်မာဘာသာ (Burmese)</td>
+							<td><a href="https://x.com/chika_faymay">Chika</a></td>
+						</tr>
+						<tr>
+							<td>Português (Portuguese)</td>
+							<td>
+								<a href="https://x.com/taengeyez">han in dreamland</a>, 
+								<a href="https://x.com/princenicolax">𝙽𝙸𝙲𝙾𝙻𝙰𝚂 | 𝙵𝙰𝚈𝙼𝙰𝚈'𝚜 𝚂𝙾𝙽 🐱</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Español (Spanish)</td>
+							<td><a href="https://x.com/GretFeral">Gret | FAYMAY Dreamer Forever🌙⭐️</a></td>
+						</tr>
+						<tr>
+							<td>Tiếng Việt (Vietnamese)</td>
+							<td><a href="https://x.com/sharon_tla">sharon</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<p style="font-weight: bold;">{{ site.data[site.lang].translationcredit.thank_you }}</p>
 		</div>
 	</section>
 </div>
