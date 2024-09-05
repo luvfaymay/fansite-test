@@ -1,4 +1,4 @@
-lang: id
+lang: id  # juragans DONE
 
 # Global section
 global:
@@ -25,8 +25,6 @@ nav:
 # Footer
 footer:
   copyright: "© 2024 FayMay Fansite. Hak cipta dilindungi undang-undang."
-  privacy_policy: "Kebijakan Privasi"
-  terms_of_service: "Ketentuan Layanan"
 
 # Common elements
 common:
@@ -72,7 +70,7 @@ languages:
 
 # Home page content
 home:
-  actress_description: '{fay_name} dan {may_name} adalah aktris GL Thailand di bawah naungan {idol_factory}. Nama pasangan mereka di layar adalah {couple_name}.'
+  actress_description: '{fay_name} dan {may_name} adalah aktris GL Thailand di bawah naungan {idol_factory}. Nama panggung mereka saat berpasangan adalah {couple_name}.'
   series_description: 'Proyek akting pertama mereka sebagai pemeran utama adalah {series_name}, juga dikenal sebagai {dreamgl} atau {dream_the_series}.'
   watch_teasers: "Silakan tonton teaser dan trailer resmi {playlist_name} oleh {idol_factory}."
 
@@ -80,11 +78,11 @@ home:
 profile:
   title: "Profil FayMay"
   header: "Profil FayMay"
-  welcome_message: "Selamat datang di Fansite FayMay. Halaman ini dikelola oleh penggemar internasional. Kami senang bahwa Anda penasaran tentang FayMay dan ingin mengenal mereka lebih jauh. Kami ingin meminta lima hal dari Anda."
+  welcome_message: "Selamat datang di Fansite FayMay. Halaman ini dikelola oleh penggemar internasional. Kami senang bahwa Anda penasaran tentang FayMay dan ingin mengenal mereka lebih jauh. Namun sebelumnya, kami ingin meminta lima hal dari Anda."
 
   fan_requests:
     - "FayMay adalah satu kesatuan. Mohon belajar untuk mencintai keduanya."
-    - "Mohon cintai dan terima Fay dan May apa adanya, bukan seperti yang Anda pikir seharusnya mereka."
+    - "Mohon cintai dan terima Fay dan May apa adanya, bukan berdasarkan pada apa yang Anda pikirkan tentang bagaimana mereka seharusnya."
     - "Mohon hormati dan dukung keputusan mereka, baik untuk pekerjaan maupun kehidupan pribadi."
     - "Mohon hormati privasi mereka dan ketahui batasan kita sebagai penggemar dan artis. Mereka senang berbagi kehidupan mereka dengan kita, tapi itu tidak berarti kita bisa melampaui batas. Termasuk hubungan mereka dengan orang lain, baik tokoh publik atau warga biasa. Hormati hubungan mereka dengan orang lain dan berikan mereka privasi."
     - "Mohon jangan memperkuat suara para pembenci, tenggelamkan mereka dengan cinta sebagai gantinya. Fandom kita dibangun atas dasar cinta, tapi jika ada yang berniat menyakiti, kita akan melindungi FayMay."
@@ -131,16 +129,16 @@ voting:
   description: "Semua kegiatan pemungutan suara yang sedang berlangsung akan dibagikan di halaman ini. Jika Anda punya waktu, mohon bantu memberikan suara sebanyak mungkin. Ini adalah cara yang baik untuk menunjukkan cinta kita pada FayMay."
   instructions:
     - "Mohon usahakan agar keduanya memiliki jumlah suara yang sama."
-    - "Mohon jangan menggunakan alat otomatis. Kita tidak ingin mereka didiskualifikasi."
+    - "Mohon jangan menggunakan alat bantu otomatis. Kita tidak ingin mereka didiskualifikasi."
   
   starlight_award:
     title: "2024 Bintang Paling Bersinar di Thailand"
-    description: "Periode pemungutan suara adalah dari 23 Agustus hingga 11 September 20:00 Waktu BKK. Anda bisa mendapatkan hingga 7 suara gratis, 4 suara gratis harian dan 3 suara gratis harian untuk berbagi sosial pertama. Mohon"
+    description: "Periode pemungutan suara adalah dari 23 Agustus hingga 11 September 20:00 Waktu BKK. Anda bisa mendapatkan hingga 7 suara gratis, 4 suara gratis harian dan 3 suara gratis harian untuk berbagi sosial pertama. Mohon partisipasinya."
     vote_link: "berikan suara untuk mereka."
   
   thai_update_award:
     title: "Pasangan Layar Favorit 2024"
-    description: "Periode pemungutan suara adalah dari 24 Agustus hingga 04 September 15:00 Waktu BKK. Anda bisa memberikan suara tanpa batas. Mohon"
+    description: "Periode pemungutan suara adalah dari 24 Agustus hingga 04 September 15:00 Waktu BKK. Anda bisa memberikan suara tanpa batas. Mohon partisipasinya"
     vote_link: "berikan suara untuk mereka."
 
 # Fan Pages content
@@ -164,7 +162,7 @@ fan_pages:
 # Fan Creations content
 fan_creations:
   title: "Kreasi Penggemar"
-  description: "Halaman ini bertujuan untuk menyoroti profil penggemar yang merupakan fansite atau penggemar yang membuat karya seni penggemar, edit penggemar, cover penggemar, dan terjemahan penggemar."
+  description: "Halaman ini bertujuan untuk menampilkan profil penggemar yang merupakan fansite atau penggemar yang membuat karya seni penggemar, edit penggemar, cover penggemar, dan terjemahan penggemar."
   fan_sites:
     title: "Situs Penggemar"
     description: "Berikut adalah daftar fansite yang sering membagikan aktivitas FayMay melalui hasil kamera yang menakjubkan!"
@@ -173,7 +171,7 @@ fan_creations:
     description: "Lihat daftar pembuat karya seni penggemar yang menampilkan karya luar biasa mereka!"
   fan_edits:
     title: "Pembuat Video Edit Penggemar"
-    description: "Pastikan untuk melihat pembuat video penggemar yang keren ini dan edit mereka yang luar biasa!"
+    description: "Pastikan untuk melihat pembuat video penggemar yang keren ini dan hasil kreasi mereka yang luar biasa!"
   fan_covers:
     title: "Cover Penggemar"
   fan_translations:
@@ -193,7 +191,7 @@ fan_creations:
 # Dream Series content
 dream_series:
   title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
-  description: "Aku \"Dawhan\". Sejak yang bisa kuingat, aku selalu memiliki mimpi aneh tentang seorang gadis muda yang pendiam tapi sering bermain denganku dalam mimpiku. Suatu hari, tetangga baru pindah, dan itu menyebabkan keluargaku berantakan. Ayahku kabur dengan pria sebelah, yang ternyata adalah ayah dari \"Kimhan\" gadis pendiam & kecil dari sebelah. Awalnya, kami tidak dekat sama sekali, tapi berbagai keadaan membawa kami lebih dekat dan membuat kami saling memahami. Namun, Kimhan tidak menyadari bahwa sementara di dunia nyata kami hanya teman, dalam mimpiku, gadis kecil itu dan aku melakukan hal-hal yang jauh melampaui itu. Jadi, aku menyembunyikan perasaanku karena aku tidak bisa membiarkan dia tahu. Aku tidak pernah menyadari bahwa dalam mimpi-mimpi itu, aku bukan satu-satunya yang bermimpi."
+  description: "Aku \"Dahwan\". Sejak yang bisa kuingat, aku selalu memiliki mimpi aneh tentang seorang gadis kecil yang pendiam tapi sering bermain denganku dalam mimpiku. Suatu hari, tetangga baru pindah, dan itu menyebabkan keluargaku berantakan. Ayahku kabur dengan pria sebelah, yang ternyata adalah ayah dari \"Kimhan\" gadis pendiam & kecil dari sebelah. Awalnya, kami tidak dekat sama sekali, tapi berbagai keadaan membawa kami lebih dekat dan membuat kami saling memahami. Namun, Kimhan tidak menyadari bahwa sementara di dunia nyata kami hanya teman, dalam mimpiku, gadis kecil itu dan aku melakukan hal-hal yang jauh melampaui itu. Jadi, aku menyembunyikan perasaanku karena aku tidak bisa membiarkan dia tahu. Aku tidak pernah menyadari bahwa dalam mimpi-mimpi itu, aku bukan satu-satunya yang bermimpi."
   genres: "Genre: Romansa, Fantasi"
   other_names: "Nama Lain: DreamGL, Dream The Series"
   main_roles:
@@ -211,23 +209,23 @@ dream_series:
     description: "Silakan tonton teaser dan trailer resmi dalam playlist ini oleh Idol Factory."
   episodes:
     title: "Episode UNCUT"
-    description: "Silakan tonton serinya. Ini adalah slow burn dan mungkin membuatmu merasa frustasi kadang-kadang, tapi kimia FayMay luar biasa, dan akting dari seluruh pemain brilian. Menonton sekali saja tidak cukup, jadi silakan tonton seluruh seri beberapa kali."
+    description: "Silakan tonton serinya. Ini adalah tipikal drama yang slow burn dan terkadang mungkin akan membuatmu merasa frustrasi, tapi ikatan emosional FayMay luar biasa, dan akting dari seluruh pemain sangat brilian. Menonton sekali saja tidak cukup, jadi silakan tonton ulang seluruh seri beberapa kali."
     table:
       episode: "Episode"
       teaser: "Teaser [Spoiler]"
       premiered: "Tayang Perdana"
     spoilers:
-      ep1: "Setelah bertengkar dengan Dawhan, Kimhan memutuskan untuk bergabung dengan Jessie, rival Dawhan. Mali, merasa tidak nyaman dengan situasi tersebut, mengambil inisiatif untuk melakukan penyelidikan, akhirnya mengungkap alasan sebenarnya di balik keputusan Kimhan."
-      ep2: "Dawhan akhirnya memahami alasan sebenarnya mengapa Kimhun setuju bekerja untuk Jessie, memungkinkan keduanya untuk saling memahami. Dawhan menolak membiarkan Jessie menggunakan Kimhun sebagai alat dan menantang Jessie untuk merilis bukti yang digunakan untuk memeras dia."
-      ep3: "Dawhan menghadapi kegilaan media sosial setelah dia membawa Kimhan kembali ke kondominium sampai pusing. Toon memutuskan untuk menggunakan pasangan trending \"Pat-Dawhan\" untuk mengalihkan perhatian dengan merilis klip video bocoran."
-      ep4: "Kimhun secara tidak sengaja bertemu dengan Mawin, pemilik galeri. Pertemuan tak terduga ini membuat Kimhun memutuskan untuk bekerja dengan galeri Mawin, pilihan yang memberinya kebahagiaan tulus. Meskipun upaya Dawan untuk menghalanginya, Kimhun bergabung dengan galeri, memicu perselisihan panas di antara mereka."
-      ep5: "Dawan mencoba segala cara untuk mengganggu Mawin, yang menyebabkan konflik dengan Kimhan dan membuat Dawan memilih untuk pulang. Saat Dawan tertidur, dia bermimpi Kimhan menggambar gambar Kim Han bersama dirinya sendiri, tapi gambar itu berubah menjadi gambar Mawin."
-      ep6: "Pat mengungkapkan cintanya pada Dawan. Setelah mengetahui hal ini, Kimhan jatuh sakit dan dirawat di rumah sakit. Kimhan memilih untuk meninggalkan kamar yang dia bagi dengan Dawan. Namun, dia melihat Dawan memeluk Pat, yang menyebabkan keduanya bertengkar. Dalam suasana panas, Kimhan tanpa sengaja mengungkapkan perasaannya untuk Mawin."
-      ep7: "Kimhan setuju menjadi pacar Mawin untuk mengamankan masa depan Dawan. Dawan kehilangan kesempatan untuk mewakili Thailand sebagai aktris dan menjalani perawatan untuk depresi."
-      ep8: "Dawan dan Kimhan berdamai kembali dengan ciuman manis. Tim dan Pongphon, orang-orang yang meninggalkan keluarga Dawan dan Kimhan dalam kesengsaraan, kembali untuk bertemu dengan mereka berempat lagi."
-      ep9: "Ae, ibu Kimhan, tiba-tiba jatuh sakit dan mengungkapkan keinginannya untuk melihat Kimhan dan Marwin menikah. Meskipun Kimhan ingin memenuhi keinginan ibunya, tapi dalam hatinya, dia hanya mencintai Dawan."
-      ep10: "Awalnya Dawan enggan menghadiri pernikahan Kimhan dan Marwin. Namun, setelah membaca surat tulus Kimhan yang mengungkapkan perasaannya, Dawan segera meninggalkan segalanya dan bergegas ke pernikahan untuk menemui Kimhan."
-      ep11: "Kimhan memutuskan untuk kabur dari pernikahan bersama Dawan. Keputusan ini membawa mereka kembali bersama lagi. Sementara itu, Ibu Ae, setelah kekhawatirannya berakhir, dia meninggal dengan damai."
+      ep1: "Setelah bertengkar dengan Dahwan, Kimhan memutuskan untuk bergabung dengan Jessie, rival Dahwan. Mali, merasa tidak nyaman dengan situasi tersebut, mengambil inisiatif untuk melakukan penyelidikan, akhirnya mengungkap alasan sebenarnya di balik keputusan Kimhan."
+      ep2: "Dahwan akhirnya memahami alasan sebenarnya mengapa Kimhan setuju bekerja untuk Jessie, memungkinkan keduanya untuk saling memahami. Dahwan menolak membiarkan Jessie menggunakan Kimhan sebagai alat dan menantang Jessie untuk merilis bukti yang digunakan untuk memeras dia."
+      ep3: "Dahwan sampai pusing menghadapi kegilaan media sosial setelah dia membawa Kimhan kembali ke kondominium. Toon memutuskan untuk menggunakan pasangan trending \"Pat-Dahwan\" untuk mengalihkan perhatian dengan merilis bocoran klip video."
+      ep4: "Kimhan secara tidak sengaja bertemu dengan Marwin, pemilik galeri. Pertemuan tak terduga ini membuat Kimhan memutuskan untuk bekerja dengan galeri Marwin, pilihan yang memberinya kebahagiaan tulus. Meskipun Dawhan berupaya untuk menghalanginya, Kimhan tetap memutuskan bergabung dengan galeri, yang akhirnya memicu perselisihan panas di antara mereka."
+      ep5: "Dahwan mencoba segala cara untuk mengganggu Marwin, yang akhirnya menyebabkan konflik dengan Kimhan dan membuat Dahwan memilih untuk pulang. Saat Dahwan tertidur, dia bermimpi Kimhan sedang menggambar gambar Kimhan bersama dirinya sendiri, tapi gambar itu berubah menjadi gambar Marwin."
+      ep6: "Pat mengungkapkan cintanya pada Dahwan. Setelah mengetahui hal ini, Kimhan jatuh sakit dan dirawat di rumah sakit. Setelah sembuh, Kimhan memilih untuk meninggalkan kamar yang dia bagi dengan Dahwan. Namun, dia melihat Dahwan memeluk Pat, yang menyebabkan keduanya bertengkar. Dalam suasana panas, Kimhan tanpa sengaja mengungkapkan perasaannya untuk Marwin."
+      ep7: "Kimhan setuju menjadi pacar Marwin untuk mengamankan masa depan Dahwan. Sayangnya, Dahwan kehilangan kesempatan untuk mewakili Thailand sebagai aktris dan menjalani perawatan untuk depresi."
+      ep8: "Dahwan dan Kimhan berdamai kembali dengan ciuman manis. Tim dan Pongphon, orang-orang yang meninggalkan keluarga Dahwan dan Kimhan dalam kesengsaraan, kembali untuk bertemu dengan mereka berempat lagi."
+      ep9: "Ae, ibu Kimhan, tiba-tiba jatuh sakit dan mengungkapkan keinginannya untuk melihat Kimhan dan Marwin menikah. Meskipun Kimhan ingin memenuhi keinginan ibunya, tapi dalam hatinya, dia hanya mencintai Dahwan."
+      ep10: "Awalnya Dahwan enggan menghadiri pernikahan Kimhan dan Marwin. Namun, setelah membaca surat tulus Kimhan yang mengungkapkan perasaannya, Dahwan segera meninggalkan segalanya dan bergegas ke pesta pernikahan untuk menemui Kimhan."
+      ep11: "Kimhan memutuskan untuk kabur dari pernikahan bersama Dahwan. Keputusan ini membawa mereka kembali bersama lagi. Sementara itu, Ibu Ae, setelah kekhawatirannya berakhir, dia meninggal dengan damai."
       ep12: "Aku paling bahagia ketika aku berada dalam mimpi, karena di dalamnya... kamu ada di sana"
   osts:
     title: "OST"
@@ -244,9 +242,9 @@ dream_series:
       - "May bahkan tidak berencana untuk audisi hari itu; dia hanya menemani temannya. Temannya meyakinkan dia untuk audisi setelah mereka sudah berada di acara tersebut. Kita semua harus berterima kasih pada teman May!"
       - "Fay dan May bertemu untuk pertama kalinya di acara audisi, dan mereka berdua mengenakan jaket hitam yang mirip."
       - "Teman yang datang bersama Fay juga teman May, jadi mereka memiliki teman bersama tetapi tidak sempat berbicara sebelum audisi dimulai."
-      - "Kimia mereka luar biasa bagus hari itu. Banyak orang di penonton yang menonton siaran langsung audisi bersorak agar mereka menjadi dua pemeran utama akhir."
-      - "Malam itu, setelah audisi berakhir, mereka melakukan TikTok LIVE pertama mereka bersama dengan teman bersama mereka."
-      - "Setelah TikTok LIVE itu, mereka melakukan Instagram LIVE hanya berdua."
+      - "Koneksi emosional mereka luar biasa bagus hari itu. Banyak pemirsa yang menonton siaran langsung audisi bersorak agar mereka terpilih menjadi dua pemeran utama."
+      - "Malam itu, setelah audisi berakhir, Fay dan May melakukan TikTok LIVE pertama mereka, bersama dengan teman-teman mereka berdua."
+      - "Setelah TikTok LIVE pertama itu, selanjutnya mereka melakukan Instagram LIVE hanya berdua."
       - "Anda dapat menonton beberapa video bersubtitel tentang hari casting dalam playlist ini."
   spoiler:
     reveal: "Klik untuk membuka spoiler"
@@ -258,3 +256,4 @@ translationcredit:
   intro: "Hai semuanya! Kami ingin memberikan penghargaan besar kepada orang-orang luar biasa yang telah membantu membuat fansite kami benar-benar mendunia. Orang-orang hebat ini telah mencurahkan waktu dan usaha mereka untuk menyebarkan cinta kami terhadap FayMay kepada penggemar di seluruh dunia."
   team: "Tim penerjemahan/proofreading kami yang luar biasa:"
   thank_you: "Kalian semua keren! Terima kasih telah membantu kami menyebarkan cinta untuk FayMay 🫶"
+

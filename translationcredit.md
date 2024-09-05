@@ -51,7 +51,7 @@ nav-menu: true
 						</tr>
 						<tr>
 							<td>Bahasa Indonesia</td>
-							<td>&nbsp;</td>
+							<td><a href="https://x.com/juragans">juragans ∞</a></td>
 						</tr>
 						<tr>
 							<td>Italiano (Italian)</td>
