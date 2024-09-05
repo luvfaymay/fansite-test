@@ -1,4 +1,4 @@
-lang: pt
+lang: pt # Han, DONE 
 
 # Global section
 global:
@@ -125,20 +125,20 @@ profile:
 
 # Voting page content
 voting:
-  title: "Votações em Andamento"
+  title: "Votações em andamento"
   description: "Todas as atividades de votação em andamento serão compartilhadas nesta página. Se você tiver tempo, por favor, ajude com a votação o máximo que puder. É uma boa maneira de mostrar nosso amor por FayMay."
   instructions:
     - "Por favor, tente manter ambas com a mesma contagem de votos."
-    - "Por favor, não use ferramentas automatizadas. Não queremos que elas sejam desclassificadas."
+    - "Por favor, não use ferramentas automatizadas/bots. Não queremos que elas sejam desclassificadas."
   
   starlight_award:
-    title: "2024 A Estrela Mais Brilhante da Tailândia"
-    description: "O período de votação é de 23 de agosto a 11 de setembro às 20:00 no horário de Bangkok. Você pode obter até 7 votos grátis, 4 votos grátis diários e 3 votos grátis diários pela primeira compartilhamento social. Por favor"
+    title: "2024 The Most Shining Star in Thailand"
+    description: "O período de votação é de 23 de agosto a 11 de setembro às 20:00 no horário de Bangkok. Você pode obter até 7 votos grátis, 4 votos grátis diários e 3 votos grátis diários pela primeira compartilhamento social. Por favor,"
     vote_link: "vote nelas."
   
   thai_update_award:
-    title: "O Casal Favorito na Tela de 2024" 
-    description: "O período de votação é de 24 de agosto a 04 de setembro às 15:00 no horário de Bangkok. Você pode votar ilimitadamente. Por favor"
+    title: "The Most Favorite On-Screen Couple of 2024" 
+    description: "O período de votação é de 24 de agosto a 04 de setembro às 15:00 no horário de Bangkok. Você pode votar ilimitadamente. Por favor,"
     vote_link: "vote nelas."
 
 # Fan Pages content
@@ -209,7 +209,7 @@ dream_series:
     description: "Por favor, assista aos teasers oficiais e ao trailer nesta playlist da Idol Factory."
   episodes:
     title: "Episódios SEM CORTES"
-    description: "Por favor, assista à série. É uma queimação lenta e pode fazer você se sentir frustrado às vezes, mas a química de FayMay é incrível, e a atuação de todo o elenco é brilhante. Assistir uma vez não é suficiente, então por favor assista à série inteira algumas vezes."
+    description: "Por favor, assista à série. É um slow burn que pode fazer você se sentir frustrado às vezes, mas a química de FayMay é incrível, e a atuação de todo o elenco é brilhante. Assistir uma vez não é suficiente, então por favor assista à série inteira algumas vezes."
     table:
       episode: "Episódio"
       teaser: "Teaser [Spoiler]"
@@ -219,10 +219,10 @@ dream_series:
       ep2: "Dawhan finalmente entendeu o verdadeiro motivo pelo qual Kimhun concordou em trabalhar para Jessie, permitindo que ambas chegassem a um entendimento. Dawhan se recusou a deixar Jessie usar Kimhun como uma ferramenta e desafiou Jessie a liberar evidências usadas para chantageá-la."
       ep3: "Dawhan enfrentou um frenesi nas redes sociais depois de trazer Kimhan de volta ao condomínio até ficar tonta. Toon decidiu usar o casal em tendência \"Pat-Dawhan\" para desviar a atenção, liberando um vídeo vazado."
       ep4: "Kimhun teve um encontro casual com Mawin, o proprietário da galeria. Esse encontro inesperado levou Kimhan a decidir trabalhar na galeria de Mawin, uma escolha que lhe trouxe alegria sincera. Apesar dos esforços de Dawan para impedi-la, Kimhun se juntou à galeria, desencadeando uma disputa acalorada entre elas."
-      ep5: "Dawan tentou todas as formas possíveis de interromper Mawin, levando a um conflito com Kimhan e fazendo com que Dawan escolhesse voltar para casa. Enquanto Dawan dormia, ela sonhou com Kimhan desenhando uma foto de Kim Han junto com ela mesma, mas a imagem se transformou em uma foto de Mawin."
+      ep5: "Dawan tentou todas as formas possíveis de interromper Mawin, levando a um conflito com Kimhan e fazendo com que Dawan escolhesse voltar para casa. Enquanto Dawan dormia, ela sonhou com Kimhan pintando um quadro de Kimhan junto com ela mesma, mas a imagem se transformou em uma pintura de Marwin."
       ep6: "Pat confessa seu amor por Dawan. Ao descobrir isso, Kimhan adoeceu e foi hospitalizada. Kimhan optou por deixar o apartamento que compartilhava com Dawan. No entanto, ela encontrou Dawan abraçando Pat, levando as duas a discutir. No calor do momento, Kimhan revelou involuntariamente sua afeição por Mawin."
       ep7: "Kimhan concorda em ser namorada de Mawin para garantir o futuro de Dawan. Dawan perdeu oportunidades de representar a Tailândia como atriz e passou por tratamento para depressão."
-      ep8: "Dawan e Kimhan se reconciliam novamente com um doce beijo. Tim e Pongphon, as pessoas que deixaram as famílias de Dawan e Kimhan na miséria, voltam para encontrar os quatro novamente."
+      ep8: "Dawan e Kimhan se reconciliam novamente com um doce beijo. Tim e Pongphon, as pessoas que deixaram as famílias de Dawan e Kimhan na miséria, voltam para encontrar as quatro novamente."
       ep9: "Ae, a mãe de Kimhan, adoeceu repentinamente e expressou seu desejo de ver Kimhan e Marwin se casarem. Apesar do desejo de Kimhan de cumprir o desejo de sua mãe, em seu coração, ela só amava Dawan."
       ep10: "Dawan reluta em comparecer ao casamento de Kimhan e Marwin no início. No entanto, ao ler a carta sincera de Kimhan confessando seus sentimentos, Dawan imediatamente larga tudo e corre para o casamento para ver Kimhan."
       ep11: "Kimhan decide fugir do casamento com Dawan. Esta decisão as reuniu novamente. Quanto à Mãe Ae, depois que suas preocupações acabaram, ela faleceu pacificamente."
@@ -240,7 +240,7 @@ dream_series:
     facts:
       - "Você pode encontrar a tradução em inglês da chamada para o casting aqui."
       - "May nem planejava fazer o teste naquele dia; ela estava apenas acompanhando sua amiga. Sua amiga a convenceu a fazer o teste quando já estavam no evento. Todos nós deveríamos agradecer à amiga de May!"
-      - "Fay e May se conheceram no evento de audição pela primeira vez, e ambas estavam usando jaquetas pretas semelhantes."
+      - "Fay e May se conheceram no evento de audição, e ambas estavam usando jaquetas pretas semelhantes."
       - "A amiga que veio com Fay também é amiga de May, então elas tinham uma amiga em comum, mas não tiveram a chance de conversar antes do início da audição."
       - "A química delas era incrivelmente boa naquele dia. Muitas pessoas na plateia assistindo ao livestream da audição estavam torcendo para que elas fossem as duas protagonistas finais."
       - "Naquela noite, após o término da audição, elas fizeram seu primeiro TikTok LIVE juntas com sua amiga em comum."

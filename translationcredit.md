@@ -34,6 +34,10 @@ nav-menu: true
 							<td><a href="https://x.com/4ever_Marvelous">Forever Marvelous</a></td>
 						</tr>
 						<tr>
+							<td>English - Original Content Proofreading/Correction</td>
+							<td><a href="https://x.com/mvyhck">Mavy ✨ | DreamGL | FayMay 🐶🐹</a>, <a href="https://x.com/yaalisaya">K R Y</a>, <a href="https://x.com/DoneeyyOfficial">D.A.M.</a>, <a href="https://x.com/chi_for_FB">P’Chi :🤍) 🇮🇹🇪🇺🇯🇵 IS SICK</a>, <a href="https://x.com/Diziholic">Diziholic ⛓️🏳️‍🌈</a>, <a href="https://x.com/taengeyez">han in dreamland</a>, <a href="https://x.com/princenicolax">𝙽𝙸𝙲𝙾𝙻𝙰𝚂 | 𝙵𝙰𝚈𝙼𝙰𝚈'𝚜 𝚂𝙾𝙽 🐱</a>, <a href="https://x.com/GretFeral">Gret | FAYMAY Dreamer Forever🌙⭐️</a></td>
+						</tr>
+						<tr>
 							<td>ไทย (Thai)</td>
 							<td><a href="https://x.com/teeoheewhy">P't</a></td>
 						</tr>
@@ -52,8 +56,7 @@ nav-menu: true
 						<tr>
 							<td>Italiano (Italian)</td>
 							<td>
-								<a href="https://x.com/chi_for_FB">P’Chi :🤍) 🇮🇹🇪🇺🇯🇵 IS SICK</a>, 
-								<a href="https://x.com/Diziholic">Diziholic ⛓️🏳️‍🌈</a>
+								<a href="https://x.com/chi_for_FB">P’Chi :🤍) 🇮🇹🇪🇺🇯🇵 IS SICK</a>, <a href="https://x.com/Diziholic">Diziholic ⛓️🏳️‍🌈</a>
 							</td>
 						</tr>
 						<tr>
