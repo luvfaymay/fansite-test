@@ -104,6 +104,7 @@ nav-menu: true
                     <p>
                         <a href="https://youtube.com/playlist?list=PL4D0KlUVq4IwGzHhJJOjghXfF23PnG96i&si=PHltvEgXwS4hKR2w">
                             {{ site.translations[site.lang].dream_series.teasers.description }}
+                        </a> 
                     </p>
                 </div>
             </div>
