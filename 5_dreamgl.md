@@ -101,7 +101,10 @@ nav-menu: true
                     <header class="major">
                         <h3>{{ site.translations[site.lang].dream_series.teasers.title }}</h3>
                     </header>
-                    <p>{{ site.translations[site.lang].dream_series.teasers.description }} <a href="https://youtube.com/playlist?list=PL4D0KlUVq4IwGzHhJJOjghXfF23PnG96i&si=PHltvEgXwS4hKR2w">{{ site.translations[site.lang].dream_series.teasers.playlist_link }}</a> {{ site.translations[site.lang].dream_series.teasers.by }} Idol Factory.</p>
+                    <p>
+                        <a href="https://youtube.com/playlist?list=PL4D0KlUVq4IwGzHhJJOjghXfF23PnG96i&si=PHltvEgXwS4hKR2w">
+                            {{ site.translations[site.lang].dream_series.teasers.description }}
+                    </p>
                 </div>
             </div>
         </section>
