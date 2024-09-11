@@ -28,7 +28,7 @@ nav-menu: true
     <section id="three" class="spotlights">
         <section>
             <div class="image">
-                <img src="{{ 'assets/images/fay.jpeg' | relative_url }}" alt="Fay" data-position="top center">
+                <img src="{{ 'assets/images/fayofficial.jpeg' | relative_url }}" alt="Fay" data-position="top center">
             </div>
             <div class="content">
                 <div class="inner">
@@ -45,7 +45,7 @@ nav-menu: true
         </section>
         <section>
             <div class="image">
-                <img src="{{ 'assets/images/may.jpeg' | relative_url }}" alt="Fay" data-position="top center">
+                <img src="{{ 'assets/images/mayofficial.jpeg' | relative_url }}" alt="May" data-position="top center">
             </div>
             <div class="content">
                 <div class="inner">
