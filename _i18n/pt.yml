@@ -257,3 +257,60 @@ translationcredit:
   team: "Nossa incrível equipe de tradução/revisão:"
   thank_you: "Vocês são demais! Obrigado por nos ajudar a espalhar o amor por FayMay 🫶"
 
+# Official Events content
+official_events:
+  title: "Eventos Oficiais"
+  description: "Confira estes eventos oficiais que estão por vir e, por favor, apoie a FayMay."
+  fanmeeting:
+    title: "1º Encontro de Fãs de Fay & May na China"
+    description: "O 1º encontro de fãs da FayMay será no"
+    date: "21 de setembro de 2024 às 14:30 CST"
+    details: "na cidade de Hangzhou, província de Zhejiang. As vendas públicas dos ingressos começam em 10 de setembro de 2024 às 17:20 CST. Por favor,"
+    check_post: "verifique a postagem traduzida completa e a opção de compra em grupo aqui."
+    purchase_ticket: "Por favor,"
+    purchase_link: "compre o ingresso do patrocinador oficial aqui."
+
+# Fan Projects content
+fan_projects:
+  title: "Projetos de Fãs"
+  description: "Todos os projetos de fãs em andamento e os passados serão compartilhados nesta página."
+  ongoing:
+    title: "Projetos de Fãs em Andamento"
+    description: "Estes são os projetos de fãs em andamento. Se puder, por favor, faça uma doação. Qualquer valor de doação ajuda."
+  may_birthday:
+    title: "Projeto de Aniversário da May"
+    description: "Este é o projeto oficial de apoio aos fãs organizado pela May Official. O período de doação é"
+    donation_period: "de 10 de setembro a 10 de outubro de 2024"
+    activities: "As atividades incluem:"
+    activities_list:
+      project_cafe: "Café do Projeto de Fãs: 20.000 THB"
+      tuk_tuk_ads: "Anúncios de Tuk Tuk: 10.000 THB"
+      special_gift: "Presente de Aniversário Especial: 20.000 THB"
+    check_post: "Por favor, verifique a postagem completa aqui."
+    full_post: "verifique a postagem completa aqui."
+  faymay_birthday:
+    title: "Projeto de Apoio ao Aniversário da FayMay"
+    description: "Este é o projeto de apoio aos fãs organizado pela FayMay Taiwan. O período de doação termina"
+    end_date: "em 24 de novembro de 2024, às 23:59"
+    check_post: "Por favor, verifique a postagem completa aqui."
+  past:
+    title: "Projetos de Fãs Passados"
+    description: "Estes são alguns dos projetos de fãs passados. Parabéns a todos os organizadores e doadores pela execução bem-sucedida desses projetos. Tentaremos manter esta lista atualizada."
+  faymay_times_square:
+    title: "FayMay na Times Square de Nova York"
+    description: "Este projeto de apoio aos fãs foi organizado pela América Latina/Interfans. O vídeo de apoio aos fãs promovendo FayMay foi exibido"
+    date: "em agosto de 2024"
+    check_post: "Por favor, verifique a postagem completa aqui."
+    full_post: "verifique a postagem completa aqui."
+  faymay_times_square_chinese:
+    title: "FayMay na Times Square de Nova York"
+    description: "Este projeto de apoio foi organizado por fãs chineses. O vídeo de apoio aos fãs promovendo FayMay foi exibido"
+    date: "em julho de 2024"
+    check_post: "Por favor, verifique a postagem completa aqui."
+    full_post: "verifique a postagem completa aqui."
+  faymay_mbk_screen:
+    title: "FayMay na Tela MBK de Bangkok"
+    description: "Este projeto de apoio foi organizado por fãs chineses. O vídeo de 15 segundos promovendo FayMay foi exibido"
+    date: "de 25 de julho a 31 de julho de 2024"
+    check_post: "Por favor, verifique a postagem completa aqui."
+    full_post: "verifique a postagem completa aqui."

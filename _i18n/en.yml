@@ -256,3 +256,61 @@ translationcredit:
   intro: "Hey there! We wanted to give a big shout-out to the incredible folks who've helped make our fansite truly global. These wonderful people have put in their time and effort to bring our love for FayMay to fans around the world."
   team: "Our awesome translation/proofreading team:"
   thank_you: "You guys rock! Thank you for helping us spread the love for FayMay 🫶"
+
+# Official Events content
+official_events:
+  title: "Official Events"
+  description: "Check out these upcoming official events, and please support FayMay."
+  fanmeeting:
+    title: "Fay & May 1st Fanmeeting in China"
+    description: "FayMay's 1st fanmeeting is on"
+    date: "Sept 21, 2024 at 14:30 CST"
+    details: "in Hangzhou City, Zhejiang Province. Public sales of the tickets start on Sept 10, 2024 at 17:20 CST. Please"
+    check_post: "check the full translated post and group buy option here."
+    purchase_ticket: "Please"
+    purchase_link: "purchase the ticket from official sponsor here."
+
+# Fan Projects content
+fan_projects:
+  title: "Fan Projects"
+  description: "All the ongoing and the past fan projects will be shared on this page."
+  ongoing:
+    title: "Ongoing Fan Projects"
+    description: "These are the ongoing fan projects. If you can, please donate to them. Any amount of donation helps."
+  may_birthday:
+    title: "May's B Day Project"
+    description: "This is the official fan support project organized by May Official. The donation period is"
+    donation_period: "from 10 September to 10 October 2024"
+    activities: "The activities include:"
+    activities_list:
+      project_cafe: "Fan’s Project Café: 20,000 THB"
+      tuk_tuk_ads: "Tuk Tuk ADS: 10,000 THB"
+      special_gift: "Special Birthday Gift: 20,000 THB"
+    check_post: "Please check the full post here."
+    full_post: "check the full post here."
+  faymay_birthday:
+    title: "FayMay B-Day support project"
+    description: "This is the fan support project organized by FayMay Taiwan. The donation period ends"
+    end_date: "on Nov 24, 2024, at 23:59"
+    check_post: "Please check the full post here."
+  past:
+    title: "Past Fan Projects"
+    description: "These are some of the past fan projects. Kudos to all the organizers and donors for the successful execution of these projects. We will try to keep this list updated."
+  faymay_times_square:
+    title: "FayMay in New York Time Square"
+    description: "This fan support project was organized by Latin America/Interfans. The fan support video promoting FayMay was displayed"
+    date: "on August 2024"
+    check_post: "Please check the full post here."
+    full_post: "check the full post here."
+  faymay_times_square_chinese:
+    title: "FayMay in New York Time Square"
+    description: "This support project was organized by Chinese fans. The fan support video promoting FayMay was displayed"
+    date: "on Jul 2024"
+    check_post: "Please check the full post here."
+    full_post: "check the full post here."
+  faymay_mbk_screen:
+    title: "FayMay on Bangkok MBK Screen"
+    description: "This support project was organized by Chinese fans. The 15 seconds video promoting FayMay was displayed"
+    date: "from 25 Jul to 31 Jul 2024"
+    check_post: "Please check the full post here."
+    full_post: "check the full post here."

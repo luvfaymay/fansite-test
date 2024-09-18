@@ -256,3 +256,61 @@ translationcredit:
   intro: "Kumusta! Gusto naming bigyan ng malaking pagkilala ang mga kahanga-hangang tao na tumulong para gawing tunay na global ang aming fansite. Ang mga kamangha-manghang taong ito ay nagbigay ng kanilang oras at pagsisikap para ihatid ang aming pagmamahal para sa FayMay sa mga tagahanga sa buong mundo."
   team: "Ang aming mahusay na team sa pagsasalin/pagwawasto:"
   thank_you: "Ang galing ninyo! Salamat sa pagtulong sa amin na ipakalat ang pagmamahal para sa FayMay 🫶"
+
+# Official Events content
+official_events:
+  title: "Opisyal na Kaganapan"
+  description: "Suriin ang mga paparating na opisyal na kaganapan na ito, at mangyaring suportahan ang FayMay."
+  fanmeeting:
+    title: "Fay & May 1st Fanmeeting sa Tsina"
+    description: "Ang 1st fanmeeting ng FayMay ay sa"
+    date: "Setyembre 21, 2024 sa 14:30 CST"
+    details: "sa Lungsod ng Hangzhou, Lalawigan ng Zhejiang. Ang pampublikong benta ng mga tiket ay magsisimula sa Setyembre 10, 2024 sa 17:20 CST. Mangyaring"
+    check_post: "suriin ang buong isinalin na post at ang opsyon para sa grupong pagbili dito."
+    purchase_ticket: "Mangyaring"
+    purchase_link: "bilhin ang tiket mula sa opisyal na sponsor dito."
+
+# Fan Projects content
+fan_projects:
+  title: "Mga Proyekto ng Fan"
+  description: "Lahat ng kasalukuyang proyekto ng fan at mga nakaraang proyekto ay ibabahagi sa pahinang ito."
+  ongoing:
+    title: "Mga Proyekto ng Fan na Kasalukuyang Isinasagawa"
+    description: "Ito ang mga kasalukuyang proyekto ng fan. Kung maaari, mangyaring magdonate sa kanila. Anumang halaga ng donasyon ay nakakatulong."
+  may_birthday:
+    title: "Proyekto ng Kaarawan ni May"
+    description: "Ito ang opisyal na proyekto ng suporta sa fan na inayos ng May Official. Ang panahon ng donasyon ay"
+    donation_period: "mula Setyembre 10 hanggang Oktubre 10, 2024"
+    activities: "Kabilang sa mga aktibidad ay:"
+    activities_list:
+      project_cafe: "Café ng Proyekto ng Fan: 20,000 THB"
+      tuk_tuk_ads: "Tuk Tuk ADS: 10,000 THB"
+      special_gift: "Espesyal na Regalo sa Kaarawan: 20,000 THB"
+    check_post: "Mangyaring suriin ang buong post dito."
+    full_post: "suriin ang buong post dito."
+  faymay_birthday:
+    title: "Proyekto ng Suporta sa Kaarawan ng FayMay"
+    description: "Ito ang proyekto ng suporta sa fan na inayos ng FayMay Taiwan. Ang panahon ng donasyon ay magtatapos"
+    end_date: "noong Nobyembre 24, 2024, sa 23:59"
+    check_post: "Mangyaring suriin ang buong post dito."
+  past:
+    title: "Mga Nakaraang Proyekto ng Fan"
+    description: "Ito ang ilan sa mga nakaraang proyekto ng fan. Salamat sa lahat ng mga organizer at donor para sa matagumpay na pagsasakatuparan ng mga proyektong ito. Susubukan naming panatilihing na-update ang listahang ito."
+  faymay_times_square:
+    title: "FayMay sa New York Times Square"
+    description: "Ang proyektong ito ng suporta sa fan ay inayos ng Latin America/Interfans. Ang video ng suporta sa fan na nagpo-promote sa FayMay ay naipakita"
+    date: "noong Agosto 2024"
+    check_post: "Mangyaring suriin ang buong post dito."
+    full_post: "suriin ang buong post dito."
+  faymay_times_square_chinese:
+    title: "FayMay sa New York Times Square"
+    description: "Ang proyektong ito ng suporta ay inayos ng mga Chinese fan. Ang video ng suporta sa fan na nagpo-promote sa FayMay ay naipakita"
+    date: "noong Hulyo 2024"
+    check_post: "Mangyaring suriin ang buong post dito."
+    full_post: "suriin ang buong post dito."
+  faymay_mbk_screen:
+    title: "FayMay sa MBK Screen ng Bangkok"
+    description: "Ang proyektong ito ng suporta ay inayos ng mga Chinese fan. Ang 15 segundong video na nagpo-promote sa FayMay ay naipakita"
+    date: "mula Hulyo 25 hanggang Hulyo 31, 2024"
+    check_post: "Mangyaring suriin ang buong post dito."
+    full_post: "suriin ang buong post dito."

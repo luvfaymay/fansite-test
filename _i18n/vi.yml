@@ -256,3 +256,61 @@ translationcredit:
   intro: "Xin chào cả nhà iu! Tụi mình muốn gửi lời cảm ơn chân thành đến những người bạn  tuyệt vời đã giúp fansite của tụi mình thực sự trở nên toàn cầu hóa. Những con người tuyệt vời này đã bỏ thời gian và công sức để mang tình yêu của tụi mình dành cho FayMay đến với những người hâm mộ trên khắp thế giới."
   team: "Đội ngũ dịch thuật/hiệu đính tuyệt vời của tụi mình:"
   thank_you: "Các bạn thật sự đỉnh của chóp! Cảm ơn vì đã giúp tụi mình lan tỏa tình yêu dành cho FayMay 🫶"
+
+# Official Events content
+official_events:
+  title: "Sự kiện chính thức"
+  description: "Hãy xem các sự kiện chính thức sắp tới và xin vui lòng hỗ trợ FayMay."
+  fanmeeting:
+    title: "Cuộc gặp gỡ fan đầu tiên của Fay & May tại Trung Quốc"
+    description: "Cuộc gặp gỡ fan đầu tiên của FayMay sẽ diễn ra vào"
+    date: "21 tháng 9 năm 2024 lúc 14:30 CST"
+    details: "tại thành phố Hàng Châu, tỉnh Chiết Giang. Bán vé công khai sẽ bắt đầu vào ngày 10 tháng 9 năm 2024 lúc 17:20 CST. Xin"
+    check_post: "kiểm tra bài đăng đã dịch đầy đủ và tùy chọn mua nhóm ở đây."
+    purchase_ticket: "Xin vui lòng"
+    purchase_link: "mua vé từ nhà tài trợ chính thức ở đây."
+
+# Fan Projects content
+fan_projects:
+  title: "Dự án của fan"
+  description: "Tất cả các dự án của fan đang diễn ra và đã qua sẽ được chia sẻ trên trang này."
+  ongoing:
+    title: "Dự án của fan đang diễn ra"
+    description: "Đây là những dự án của fan đang diễn ra. Nếu bạn có thể, hãy quyên góp cho họ. Bất kỳ khoản quyên góp nào cũng đều có ý nghĩa."
+  may_birthday:
+    title: "Dự án sinh nhật của May"
+    description: "Đây là dự án hỗ trợ fan chính thức do May Official tổ chức. Thời gian quyên góp là"
+    donation_period: "từ ngày 10 tháng 9 đến ngày 10 tháng 10 năm 2024"
+    activities: "Các hoạt động bao gồm:"
+    activities_list:
+      project_cafe: "Café dự án fan: 20,000 THB"
+      tuk_tuk_ads: "Quảng cáo Tuk Tuk: 10,000 THB"
+      special_gift: "Quà sinh nhật đặc biệt: 20,000 THB"
+    check_post: "Xin vui lòng kiểm tra bài đăng đầy đủ ở đây."
+    full_post: "kiểm tra bài đăng đầy đủ ở đây."
+  faymay_birthday:
+    title: "Dự án hỗ trợ sinh nhật FayMay"
+    description: "Đây là dự án hỗ trợ fan do FayMay Đài Loan tổ chức. Thời gian quyên góp kết thúc"
+    end_date: "vào ngày 24 tháng 11 năm 2024, lúc 23:59"
+    check_post: "Xin vui lòng kiểm tra bài đăng đầy đủ ở đây."
+  past:
+    title: "Dự án fan đã qua"
+    description: "Đây là một số dự án fan đã qua. Xin chúc mừng tất cả các nhà tổ chức và nhà tài trợ vì đã thực hiện thành công những dự án này. Chúng tôi sẽ cố gắng cập nhật danh sách này."
+  faymay_times_square:
+    title: "FayMay tại Quảng trường Thời gian New York"
+    description: "Dự án hỗ trợ fan này được tổ chức bởi Latin America/Interfans. Video hỗ trợ fan quảng bá FayMay đã được trình chiếu"
+    date: "vào tháng 8 năm 2024"
+    check_post: "Xin vui lòng kiểm tra bài đăng đầy đủ ở đây."
+    full_post: "kiểm tra bài đăng đầy đủ ở đây."
+  faymay_times_square_chinese:
+    title: "FayMay tại Quảng trường Thời gian New York"
+    description: "Dự án hỗ trợ này được tổ chức bởi các fan Trung Quốc. Video hỗ trợ fan quảng bá FayMay đã được trình chiếu"
+    date: "vào tháng 7 năm 2024"
+    check_post: "Xin vui lòng kiểm tra bài đăng đầy đủ ở đây."
+    full_post: "kiểm tra bài đăng đầy đủ ở đây."
+  faymay_mbk_screen:
+    title: "FayMay trên màn hình MBK Bangkok"
+    description: "Dự án hỗ trợ này được tổ chức bởi các fan Trung Quốc. Video 15 giây quảng bá FayMay đã được trình chiếu"
+    date: "từ ngày 25 tháng 7 đến 31 tháng 7 năm 2024"
+    check_post: "Xin vui lòng kiểm tra bài đăng đầy đủ ở đây."
+    full_post: "kiểm tra bài đăng đầy đủ ở đây."

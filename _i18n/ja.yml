@@ -258,3 +258,61 @@ translationcredit:
   intro: "こんにちは！私たちのファンサイトを真にグローバルなものにするのを助けてくれた素晴らしい人々に、大きな感謝の意を表したいと思います。これらの素晴らしい人々は、世界中のファンにFayMayへの愛を届けるために、時間と労力を惜しみませんでした。"
   team: "私たちの素晴らしい翻訳/校正チーム："
   thank_you: "皆さん、最高です！FayMayへの愛を広めるのを手伝ってくれてありがとう 🫶"
+
+# Official Events content
+official_events:
+  title: "公式イベント"
+  description: "これらの今後の公式イベントをチェックし、ぜひFayMayをサポートしてください。"
+  fanmeeting:
+    title: "中国でのFay & May 1回目ファンミーティング"
+    description: "FayMayの1回目のファンミーティングは"
+    date: "2024年9月21日14:30 CST"
+    details: "浙江省杭州市で行われます。チケットの一般販売は2024年9月10日17:20 CSTに開始されます。ぜひ"
+    check_post: "完全に翻訳された投稿とグループ購入オプションをここで確認してください。"
+    purchase_ticket: "ぜひ"
+    purchase_link: "公式スポンサーからチケットを購入してください。"
+
+# Fan Projects content
+fan_projects:
+  title: "ファンプロジェクト"
+  description: "現在進行中および過去のファンプロジェクトはこのページで共有されます。"
+  ongoing:
+    title: "進行中のファンプロジェクト"
+    description: "これらは現在進行中のファンプロジェクトです。可能であれば、ぜひ支援してください。どんな額の寄付も助けになります。"
+  may_birthday:
+    title: "Mayの誕生日プロジェクト"
+    description: "これはMay Officialによって組織された公式ファン支援プロジェクトです。寄付期間は"
+    donation_period: "2024年9月10日から10月10日まで"
+    activities: "活動内容は次のとおりです："
+    activities_list:
+      project_cafe: "ファンのプロジェクトカフェ：20,000バーツ"
+      tuk_tuk_ads: "トゥクトゥク広告：10,000バーツ"
+      special_gift: "特別誕生日ギフト：20,000バーツ"
+    check_post: "ぜひこちらで完全な投稿を確認してください。"
+    full_post: "こちらで完全な投稿を確認してください。"
+  faymay_birthday:
+    title: "FayMay誕生日支援プロジェクト"
+    description: "これはFayMay台湾によって組織されたファン支援プロジェクトです。寄付期間は"
+    end_date: "2024年11月24日23:59に終了します。"
+    check_post: "ぜひこちらで完全な投稿を確認してください。"
+  past:
+    title: "過去のファンプロジェクト"
+    description: "これらは過去のファンプロジェクトの一部です。これらのプロジェクトを成功させたすべての主催者と寄付者に感謝します。このリストを更新し続けるよう努めます。"
+  faymay_times_square:
+    title: "FayMay in ニューヨークのタイムズスクエア"
+    description: "このファン支援プロジェクトはラテンアメリカ/Interfansによって組織されました。FayMayを宣伝するファン支援ビデオが"
+    date: "2024年8月に表示されました。"
+    check_post: "ぜひこちらで完全な投稿を確認してください。"
+    full_post: "こちらで完全な投稿を確認してください。"
+  faymay_times_square_chinese:
+    title: "FayMay in ニューヨークのタイムズスクエア"
+    description: "この支援プロジェクトは中国のファンによって組織されました。FayMayを宣伝するファン支援ビデオが"
+    date: "2024年7月に表示されました。"
+    check_post: "ぜひこちらで完全な投稿を確認してください。"
+    full_post: "こちらで完全な投稿を確認してください。"
+  faymay_mbk_screen:
+    title: "FayMay on バンコクMBKスクリーン"
+    description: "この支援プロジェクトは中国のファンによって組織されました。FayMayを宣伝する15秒のビデオが"
+    date: "2024年7月25日から31日まで表示されました。"
+    check_post: "ぜひこちらで完全な投稿を確認してください。"
+    full_post: "こちらで完全な投稿を確認してください。"

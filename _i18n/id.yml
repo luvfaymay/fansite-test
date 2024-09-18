@@ -258,3 +258,60 @@ translationcredit:
   team: "Tim penerjemahan/proofreading kami yang luar biasa:"
   thank_you: "Kalian semua keren! Terima kasih telah membantu kami menyebarkan cinta untuk FayMay 🫶"
 
+# Official Events content
+official_events:
+  title: "Acara Resmi"
+  description: "Lihat acara resmi yang akan datang ini, dan mohon dukung FayMay."
+  fanmeeting:
+    title: "Pertemuan Penggemar Pertama Fay & May di China"
+    description: "Pertemuan penggemar pertama FayMay akan diadakan pada"
+    date: "21 September 2024 pukul 14:30 CST"
+    details: "di Kota Hangzhou, Provinsi Zhejiang. Penjualan tiket publik akan dimulai pada 10 September 2024 pukul 17:20 CST. Silakan"
+    check_post: "periksa pos terjemahan lengkap dan opsi pembelian grup di sini."
+    purchase_ticket: "Silakan"
+    purchase_link: "beli tiket dari sponsor resmi di sini."
+
+# Fan Projects content
+fan_projects:
+  title: "Proyek Penggemar"
+  description: "Semua proyek penggemar yang sedang berlangsung dan yang lalu akan dibagikan di halaman ini."
+  ongoing:
+    title: "Proyek Penggemar yang Sedang Berlangsung"
+    description: "Ini adalah proyek penggemar yang sedang berlangsung. Jika Anda bisa, mohon untuk mendonasikannya. Setiap jumlah donasi akan membantu."
+  may_birthday:
+    title: "Proyek Ulang Tahun May"
+    description: "Ini adalah proyek dukungan penggemar resmi yang diselenggarakan oleh May Official. Periode donasi adalah"
+    donation_period: "dari 10 September hingga 10 Oktober 2024"
+    activities: "Kegiatan yang termasuk:"
+    activities_list:
+      project_cafe: "Kafe Proyek Penggemar: 20.000 THB"
+      tuk_tuk_ads: "Iklan Tuk Tuk: 10.000 THB"
+      special_gift: "Hadiah Ulang Tahun Spesial: 20.000 THB"
+    check_post: "Silakan periksa pos lengkap di sini."
+    full_post: "periksa pos lengkap di sini."
+  faymay_birthday:
+    title: "Proyek Dukungan Ulang Tahun FayMay"
+    description: "Ini adalah proyek dukungan penggemar yang diselenggarakan oleh FayMay Taiwan. Periode donasi berakhir"
+    end_date: "pada 24 November 2024, pukul 23:59"
+    check_post: "Silakan periksa pos lengkap di sini."
+  past:
+    title: "Proyek Penggemar yang Telah Berlalu"
+    description: "Ini adalah beberapa proyek penggemar yang telah berlalu. Terima kasih kepada semua penyelenggara dan donor atas pelaksanaan proyek ini yang sukses. Kami akan berusaha untuk memperbarui daftar ini."
+  faymay_times_square:
+    title: "FayMay di New York Times Square"
+    description: "Proyek dukungan penggemar ini diselenggarakan oleh Latin America/Interfans. Video dukungan penggemar yang mempromosikan FayMay telah ditampilkan"
+    date: "pada Agustus 2024"
+    check_post: "Silakan periksa pos lengkap di sini."
+    full_post: "periksa pos lengkap di sini."
+  faymay_times_square_chinese:
+    title: "FayMay di New York Times Square"
+    description: "Proyek dukungan ini diselenggarakan oleh penggemar China. Video dukungan penggemar yang mempromosikan FayMay telah ditampilkan"
+    date: "pada Juli 2024"
+    check_post: "Silakan periksa pos lengkap di sini."
+    full_post: "periksa pos lengkap di sini."
+  faymay_mbk_screen:
+    title: "FayMay di Layar MBK Bangkok"
+    description: "Proyek dukungan ini diselenggarakan oleh penggemar China. Video 15 detik yang mempromosikan FayMay telah ditampilkan"
+    date: "dari 25 Juli hingga 31 Juli 2024"
+    check_post: "Silakan periksa pos lengkap di sini."
+    full_post: "periksa pos lengkap di sini."
