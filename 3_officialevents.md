@@ -22,6 +22,19 @@ nav-menu: true
                 <div class="carousel-container">
                     <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
                     <div class="carousel">
+                        {% for i in (0..3) %}
+                            <div>
+                                <a href="{{ 'assets/images/fmcn' | append: i | append: '.jpg' | relative_url }}" data-lightbox="image-carousel">
+                                    <img src="{{ 'assets/images/fmcn' | append: i | append: '.jpg' | relative_url }}" alt="Portrait {{ i }}">
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <button type="button" class="carousel-arrow carousel-next">&gt;</button>
+                </div>
+                <!-- <div class="carousel-container">
+                    <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
+                    <div class="carousel">
                         <div>
                             <a href="assets/images/fmcn0.jpg" data-lightbox="image-carousel">
                                 <img src="assets/images/fmcn0.jpg" alt="1">
@@ -44,7 +57,7 @@ nav-menu: true
                         </div>
                     </div>
                     <button type="button" class="carousel-arrow carousel-next">&gt;</button>
-                </div>
+                </div> -->
             </div>
             <div class="content">
                 <div class="inner">
