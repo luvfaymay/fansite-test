@@ -38,7 +38,7 @@ jekyll-multiple-languages-plugin:
 
 # Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 10
 
 # Build settings
 markdown: kramdown
