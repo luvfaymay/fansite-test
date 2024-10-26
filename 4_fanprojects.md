@@ -97,7 +97,7 @@ nav-menu: true
                         <span class="dot" onclick="goToSlide(1)"></span>
                         <span class="dot" onclick="goToSlide(2)"></span>
                     </div>
-                    </div>
+                    <!-- </div> -->
             </div>
             <div class="content">
                 <div class="inner">
@@ -107,7 +107,7 @@ nav-menu: true
                     <p>{{ site.translations[site.lang].fan_projects.may_birthday.description }} <strong>{{ site.translations[site.lang].fan_projects.may_birthday.date }}</strong>.</p>
                     <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1845788587910210029">{{ site.translations[site.lang].fan_projects.may_birthday.full_post }}</a></span></p>
                 </div>
-            <!-- </div> -->
+            </div>
         </section>
         <section>
             <div class="twitter-embed">
