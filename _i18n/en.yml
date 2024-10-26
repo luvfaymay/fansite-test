@@ -315,13 +315,13 @@ fan_projects:
       special_gift: "Special Birthday Gifts: 30,000 THB"
       tuk_tuk_ads: "Tuk Tuk ADS: 15,000 THB"
       gallery: "Fay's Gallery: 20,000 THB"
-    check_post: "Please check the full post here."
+    check_post: "Please"
     full_post: "check the full post here."
   fay_birthday_tw:
     title: "Fay B-Day Support Project"
     description: "This is the fan support project organized by FayMay Taiwan. The donation period ends"
     donation_period: "on 10 November 2024, at 23:59"
-    check_post: "Please check the full post here."
+    check_post: "Please"
     full_post: "check the full post here."
   may_birthday:
     title: "May's B Day Project"
@@ -332,7 +332,7 @@ fan_projects:
       project_cafe: "Fan’s Project Café: 20,000 THB"
       tuk_tuk_ads: "Tuk Tuk ADS: 10,000 THB"
       special_gift: "Special Birthday Gift: 20,000 THB"
-    check_post: "Please check the full post here."
+    check_post: "Please"
     full_post: "check the full post here."
   past:
     title: "Past Fan Projects"
@@ -346,30 +346,30 @@ fan_projects:
     part2_desc: "Location: MBK, SIAM, CHULA. Date: 15 Oct to 15 Nov 2024."
     part3: "Part3: Special Birthday Gift"
     part3_desc: "1st : MEGA CRYBABY 400%, 2nd : Moskaic Maker, 3rd : LIFELONG BOW BRACELET."
-    check_post: "Please check the full post here."
+    check_post: "Please"
     full_post: "check the full post here."
   may_birthday_tw:
     title: "May's B-Day fans project cafe"
     description: "This fan support project was organized by FayMay Taiwan."
-    check_post: "Please check the full post here."
+    check_post: "Please"
     full_post: "check the full post here."
   faymay_times_square:
     title: "FayMay in New York Time Square"
     description: "This fan support project was organized by Latin America/Interfans. The fan support video promoting FayMay was displayed"
     date: "on August 2024"
-    check_post: "Please check the full post here."
+    check_post: "Please"
     full_post: "check the full post here."
   faymay_times_square_chinese:
     title: "FayMay in New York Time Square"
     description: "This support project was organized by Chinese fans. The fan support video promoting FayMay was displayed"
     date: "on Jul 2024"
-    check_post: "Please check the full post here."
+    check_post: "Please"
     full_post: "check the full post here."
   faymay_mbk_screen:
     title: "FayMay on Bangkok MBK Screen"
     description: "This support project was organized by Chinese fans. The 15 seconds video promoting FayMay was displayed"
     date: "from 25 Jul to 31 Jul 2024"
-    check_post: "Please check the full post here."
+    check_post: "Please"
     full_post: "check the full post here."
 
 # Somewhere Somehow Series content
