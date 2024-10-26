@@ -68,46 +68,35 @@ nav-menu: true
         </div>
     </section>
     <section>
-            <!-- <div class="image"> -->
-                <div class="tweet-carousel">
-                    <div class="tweet-container">
-                        <div class="tweet-slides" id="tweetSlides">
-                        <div class="tweet-slide">
-                            <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-theme="light">
-                            <a href="https://twitter.com/MayOfficial_TH/status/1842123662562103331"></a>
-                            </blockquote>
-                        </div>
-                        <div class="tweet-slide">
-                            <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-theme="light">
-                            <a href="https://twitter.com/MayOfficial_TH/status/1846083006647411022"></a>
-                            </blockquote>
-                        </div>
-                        <div class="tweet-slide">
-                            <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-theme="light">
-                            <a href="https://twitter.com/MayOfficial_TH/status/1847677352865870165"></a>
-                            </blockquote>
-                        </div>
-                        </div>
-                    </div>
-                    <button class="carousel-btn prev-btn" onclick="moveSlide(-1)">←</button>
-                    <button class="carousel-btn next-btn" onclick="moveSlide(1)">→</button>
-                    <div class="carousel-dots" id="dots">
-                        <span class="dot active" onclick="goToSlide(0)"></span>
-                        <span class="dot" onclick="goToSlide(1)"></span>
-                        <span class="dot" onclick="goToSlide(2)"></span>
-                    </div>
-                    <!-- </div> -->
-            </div>
-            <div class="content">
-                <div class="inner">
-                    <header class="major">
-                        <h3>{{ site.translations[site.lang].fan_projects.may_birthday.title }}</h3>
-                    </header>
-                    <p>{{ site.translations[site.lang].fan_projects.may_birthday.description }} <strong>{{ site.translations[site.lang].fan_projects.may_birthday.date }}</strong>.</p>
-                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1845788587910210029">{{ site.translations[site.lang].fan_projects.may_birthday.full_post }}</a></span></p>
+        <div class="tweet-carousel">
+            <div class="tweet-container">
+                <div class="tweet-slides" id="tweetSlides">
+                <div class="tweet-slide">
+                    <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-theme="light" data-width="350">
+                    <a href="https://twitter.com/MayOfficial_TH/status/1842123662562103331"></a>
+                    </blockquote>
+                </div>
+                <div class="tweet-slide">
+                    <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-theme="light" data-width="350">
+                    <a href="https://twitter.com/MayOfficial_TH/status/1846083006647411022"></a>
+                    </blockquote>
+                </div>
+                <div class="tweet-slide">
+                    <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-theme="light" data-width="350">
+                    <a href="https://twitter.com/MayOfficial_TH/status/1847677352865870165"></a>
+                    </blockquote>
+                </div>
                 </div>
             </div>
-        </section>
+            <button class="carousel-btn prev-btn" onclick="moveSlide(-1)">←</button>
+            <button class="carousel-btn next-btn" onclick="moveSlide(1)">→</button>
+            <div class="carousel-dots" id="dots">
+                <span class="dot active" onclick="goToSlide(0)"></span>
+                <span class="dot" onclick="goToSlide(1)"></span>
+                <span class="dot" onclick="goToSlide(2)"></span>
+            </div>
+            </div>
+    </section>
     <section id="five" class="spotlights">
         <section>
             <div class="twitter-embed">

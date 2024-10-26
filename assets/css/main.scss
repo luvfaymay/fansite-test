@@ -368,19 +368,30 @@
 
 .tweet-slides {
 	display: flex;
+	flex-direction: row; /* Ensure horizontal layout */
+	width: 100%;
+	height: 100%;
 	transition: transform 0.3s ease;
 }
 
 .tweet-slide {
-	min-width: 100%;
+	flex: 0 0 100%; /* Each slide takes full width, no shrinking */
+	width: 100%;
+	min-width: 100%; /* Ensure full width */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.tweet-slide iframe {
-	max-width: 100% !important;
+/* Force iframe size */
+.twitter-tweet {
 	width: 350px !important;
+	margin: 0 !important;
+}
+
+.twitter-tweet iframe {
+	width: 350px !important;
+	margin: 0 !important;
 }
 
 .carousel-btn {
@@ -397,6 +408,7 @@
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	z-index: 10;
 }
 
 .prev-btn {
@@ -423,5 +435,5 @@
 }
 
 .dot.active {
-background: #1da1f2;
+	background: #1da1f2;
 }
