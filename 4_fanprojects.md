@@ -67,15 +67,14 @@ nav-menu: true
             <p>{{ site.translations[site.lang].fan_projects.past.description }}</p>
         </div>
     </section>
-    <section>
-        <div class="image twitter-slider">
-            <!-- Swiper Container -->
-            <div class="swiper-container">
-                <!-- Wrapper for slides -->
-                <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <blockquote class="twitter-tweet">
+    <section id="two" class="spotlights">
+        <section>
+            <div class="image">
+                <div class="carousel-container">
+                    <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
+                    <div class="carousel">
+                        <div>
+                            <blockquote class="twitter-tweet">
                             <p lang="und" dir="ltr">📣 มาแล้วจ้าๆๆๆ 
                                 <a href="https://twitter.com/hashtag/MaysBdayProject2024?src=hash&amp;ref_src=twsrc%5Etfw">#MaysBdayProject2024</a>
                                 <a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a><br><br>Part1: Fans Project Cafe ☕️<br>Gallery Theme: Happily Ever Laughter 😆<br>Location: G U Cafe<br>Date: 31 Oct - 2 Nov 2024<br>Time: 10 AM - 6 PM<br><br>✨นอกจากแกลเลอรี่ที่รวบรวมรอยยิ้ม และเสียงหัวเราะของเมษ์ ญดาแล้ว ทางทีมงานมีจัดทำ Giveaway… 
@@ -83,20 +82,18 @@ nav-menu: true
                             </p>&mdash; MAY OFFICIAL (@MayOfficial_TH)
                             <a href="https://twitter.com/MayOfficial_TH/status/1842123662562103331?ref_src=twsrc%5Etfw">October 4, 2024</a>
                         </blockquote>
-                    </div>
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <blockquote class="twitter-tweet">
+                        </div>
+                        <div>
+                            <blockquote class="twitter-tweet">
                             <p lang="in" dir="ltr">🛺💨💨💨<br>Part2: Tuk Tuk ADS<br>Location: MBK, SIAM, CHULA<br>Period: 15 Oct - 15 Nov 2024<a href="https://twitter.com/hashtag/MaysBdayProject2024?src=hash&amp;ref_src=twsrc%5Etfw">#MaysBdayProject2024</a>
                                 <a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/pewM3uxxKY">https://t.co/pewM3uxxKY</a> 
                                 <a href="https://t.co/yBskytqiAU">pic.twitter.com/yBskytqiAU</a>
                             </p>&mdash; MAY OFFICIAL (@MayOfficial_TH)
                             <a href="https://twitter.com/MayOfficial_TH/status/1846083006647411022?ref_src=twsrc%5Etfw">October 15, 2024</a>
                         </blockquote>
-                    </div>
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <blockquote class="twitter-tweet">
+                        </div>
+                        <div>
+                            <blockquote class="twitter-tweet">
                             <p lang="th" dir="ltr">MAY BDAY FANSIGN<a href="https://twitter.com/hashtag/YADA27thBirthday?src=hash&amp;ref_src=twsrc%5Etfw">#YADA27thBirthday</a>
                                 <a href="https://twitter.com/hashtag/MaysBdayProject2024?src=hash&amp;ref_src=twsrc%5Etfw">#MaysBdayProject2024</a>
                                 <a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a><br><br>Part3: Special Birthday Gift <br>🎁 1st : MEGA CRYBABY 400%<br>THE MISSING TAIL<br>CRYBABY เป็นคาแรคเตอร์อุาร์ตทอยที่มีความคล้ายเมษ์มาก (ตามรูปที่แนบมา) ซึ่งเมษ์ก็ชื่นชอบ และสะสมอยู่ คอลเลคชั่นนี้ทำให้นึกถึงเมษ์…
@@ -104,22 +101,20 @@ nav-menu: true
                             </p>&mdash; MAY OFFICIAL (@MayOfficial_TH)
                             <a href="https://twitter.com/MayOfficial_TH/status/1847677352865870165?ref_src=twsrc%5Etfw">October 19, 2024</a>
                         </blockquote>
+                        </div>
                     </div>
                 </div>
-                <!-- Swiper Navigation Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
-        </div>
-        <div class="content">
-            <div class="inner">
-                <header class="major">
-                    <h3>{{ site.translations[site.lang].fan_projects.may_birthday.title }}</h3>
-                </header>
-                <p>{{ site.translations[site.lang].fan_projects.may_birthday.description }} <strong>{{ site.translations[site.lang].fan_projects.may_birthday.date }}</strong>.</p>
-                <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1845788587910210029">{{ site.translations[site.lang].fan_projects.may_birthday.full_post }}</a></span></p>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>{{ site.translations[site.lang].fan_projects.may_birthday.title }}</h3>
+                    </header>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday.description }} <strong>{{ site.translations[site.lang].fan_projects.may_birthday.date }}</strong>.</p>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1845788587910210029">{{ site.translations[site.lang].fan_projects.may_birthday.full_post }}</a></span></p>
+                </div>
             </div>
-        </div>
+        </section>
     </section>
     <section id="five" class="spotlights">
         <section>

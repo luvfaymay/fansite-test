@@ -351,38 +351,3 @@
         padding: 1.5em;
     }
 }
-
-/* Ensure the twitter-slider fits within the spotlights section */
-.spotlights .twitter-slider {
-    width: 100%;
-    max-width: 500px; /* Adjust to your needs */
-    height: 400px; /* Adjust to fit tweet embed */
-    margin: 0 auto;
-}
-
-.spotlights .swiper-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.spotlights .swiper-wrapper, .spotlights .swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.spotlights .twitter-tweet {
-    width: 100% !important;
-    max-height: 100% !important;
-    overflow: hidden;
-}
-
-.spotlights .content {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-}
