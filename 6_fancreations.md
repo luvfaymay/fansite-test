@@ -165,10 +165,10 @@ nav-menu: true
 									<td>&nbsp;</td>
 								</tr>
 								<tr>
-									<td>{{ site.translations[site.lang].fan_creations.languages.english }}</td>
-									<td><a href="https://x.com/bsj1994">Jill</a></td>
-									<td><a href="https://www.youtube.com/playlist?list=PLEjb0lkNnMIGksyEaISEaQ02bizNvmUB9">J FreenBecky and FayMay always and forever</a></td>
+									<td>{{ site.translations[site.lang].fan_creations.languages.vietnamese }}</td>
 									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td><a href="https://www.tiktok.com/@bar.nqocc_fb8?_t=8pdNPgtfAPg&_r=1">✎𝘙𝘦𝘢𝘺𝘞𝘰𝘰𝘵-FayMay</a></td>
 								</tr>
 							</tbody>
 						</table>
@@ -254,6 +254,18 @@ nav-menu: true
 						</tr>
 						<tr>
 							<td>{{ site.translations[site.lang].fan_creations.languages.english }}</td>
+							<td><a href="https://x.com/faymayIFS">FAYMAY Interfan Squad</a></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>{{ site.translations[site.lang].fan_creations.languages.english }}</td>
+							<td><a href="https://x.com/trendf_FM">Trend For FAYMAY</a></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>{{ site.translations[site.lang].fan_creations.languages.english }}</td>
 							<td>&nbsp;</td>
 							<td><a href="https://www.youtube.com/@GLTHSUB-xd9zq/videos">GLTH SUB</a></td>
 							<td>&nbsp;</td>
@@ -281,6 +293,12 @@ nav-menu: true
 							<td><a href="https://x.com/princenicolax">𝙽𝙸𝙲𝙾𝙻𝙰𝚂 | 𝙵𝙰𝚈𝙼𝙰𝚈'𝚜 𝚂𝙾𝙽 🐱</a></td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>{{ site.translations[site.lang].fan_creations.languages.vietnamese }}</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td><a href="https://www.tiktok.com/@faymay_pl914?_t=8pdNJFyjOfC&_r=1">FayMay's Universe</a></td>
 						</tr>
 					</tbody>
 				</table>

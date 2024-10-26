@@ -2,7 +2,7 @@
 title: Somewhere Somehow รักปากแข็ง
 layout: landing
 description: ""
-image: assets/images/smsh0.jpeg
+image: assets/images/swsh0.jpeg
 nav-menu: true
 ---
 
@@ -89,6 +89,11 @@ nav-menu: true
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>TBA</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <!-- <tr>
                                     <td><a href="#">EP.1</a></td>
                                     <td><span class="spoiler">{{ site.translations[site.lang].swsh_series.episodes.spoilers.ep1 }}</span></td>
                                     <td></td>
@@ -147,7 +152,7 @@ nav-menu: true
                                     <td><a href="">EP.12</a></td>
                                     <td><span class="spoiler">{{ site.translations[site.lang].swsh_series.episodes.spoilers.ep12 }}</span></td>
                                     <td></td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                     </div>
@@ -175,12 +180,13 @@ nav-menu: true
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr></tr>
+                                <!-- <tr>
                                     <td>{{ site.translations[site.lang].common.thai }}</td>
                                     <td><a href="#">TBA</a></td>
                                     <td></td>
                                     <td></td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                     </div>
@@ -188,37 +194,13 @@ nav-menu: true
             </div>
         </section>
     </section>
-    <section id="three">
-        <div class="inner">
-            <header class="major">
-                <h2>{{ site.translations[site.lang].swsh_series.fun_facts.title }}</h2>
-            </header>
-            <ol>
-                {% for fact in site.translations[site.lang].swsh_series.fun_facts.facts %}
-                    <li>
-                        {% if forloop.first %}
-                            <a href="https://x.com/4ever_Marvelous/status/1823929864354980029">
-                                {{ fact }}
-                            </a>
-                        {% elsif forloop.last %}
-                            <a href="https://youtube.com/playlist?list=PLq_CJ-WP1k0fcFN3McQiWfVfFGjs79Umn&si=YJPOgl2yF4xYU1Od">
-                                {{ fact }}
-                            </a>
-                        {% else %}
-                            {{ fact }}
-                        {% endif %}
-                    </li>
-                {% endfor %}
-            </ol>
-        </div>
-    </section> 
     <div class="carousel-container">
         <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
         <div class="carousel">
-            {% for i in (1..17) %}
+            {% for i in (1..10) %}
                 <div>
                     <a href="{{ 'assets/images/swsh' | append: i | append: '.jpeg' | relative_url }}" data-lightbox="image-carousel">
-                        <img src="{{ 'assets/images/dts' | append: i | append: '.jpeg' | relative_url }}" alt="Portrait {{ i }}">
+                        <img src="{{ 'assets/images/swsh' | append: i | append: '.jpeg' | relative_url }}" alt="Portrait {{ i }}">
                     </a>
                 </div>
             {% endfor %}

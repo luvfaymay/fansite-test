@@ -47,7 +47,7 @@ nav-menu: true
                     </header>
                     <p>{% t voting.kazz_awards.description %}</p>
                     <ol>
-                        {% for voting_rule in site.translations[site.lang].kazz_awards.voting_rules %}
+                        {% for voting_rule in site.translations[site.lang].voting.kazz_awards.voting_rules %}
                             <li>{{ voting_rule }}</li>
                         {% endfor %}
                     </ol>

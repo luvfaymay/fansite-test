@@ -211,6 +211,7 @@ fan_creations:
     english: "English"
     thai_english: "Thai/English"
     portuguese: "Portuguese"
+    vietnamese: "Vietnamese"
 
 # Dream Series content
 dream_series:
@@ -348,8 +349,8 @@ swsh_series:
   title: "Somewhere Somehow รักปากแข็ง"
   translation_status: ""
   description: "One person is stubborn in speech, while the other is stubborn at heart. A slow-burning, dazed love story - will this romance between a talented female engineer and the beautiful but strict, fierce vice president work out? Let's find out."
-  genres: "Genres: Romantic Comedy"
-  other_names: "Other Names: SWSH"
+  genres: "Genre: Romantic Comedy"
+  other_names: "Other Names: รักปากแข็ง, SWSHGL"
   main_roles:
     title: "Main roles:"
     description: "Only the leading roles are announced as of now."
