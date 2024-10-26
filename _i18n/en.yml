@@ -323,23 +323,12 @@ fan_projects:
     donation_period: "on 10 November 2024, at 23:59"
     check_post: "Please"
     full_post: "check the full post here."
-  may_birthday:
-    title: "May's B Day Project"
-    description: "This is the official fan support project organized by May Official. The donation period is"
-    donation_period: "from 10 September to 10 October 2024"
-    activities: "The activities include:"
-    activities_list:
-      project_cafe: "Fan’s Project Café: 20,000 THB"
-      tuk_tuk_ads: "Tuk Tuk ADS: 10,000 THB"
-      special_gift: "Special Birthday Gift: 20,000 THB"
-    check_post: "Please"
-    full_post: "check the full post here."
   past:
     title: "Past Fan Projects"
     description: "These are some of the past fan projects. Kudos to all the organizers and donors for the successful execution of these projects. We will try to keep this list updated."
   may_birthday:
-    title: "May's B-Day fans project cafe"
-    description: "This fan support project was organized by FayMay Taiwan."
+    title: "May's B Day Project"
+    description: "This is the official fan support project organized by May Official"
     part1: "Part1: Fans Project Cafe ☕️"
     part1_desc: "Location: G U Cafe. Date: 31 Oct to 2 Nov 2024 from 10 AM to 6 PM."
     part2: "Part2: Tuk Tuk ADS"
@@ -350,7 +339,7 @@ fan_projects:
     full_post: "check the full post here."
   may_birthday_tw:
     title: "May's B-Day fans project cafe"
-    description: "This fan support project was organized by FayMay Taiwan."
+    description: "This fan support project was organized by FayMay Taiwan"
     check_post: "Please"
     full_post: "check the full post here."
   faymay_times_square:
