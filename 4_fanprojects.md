@@ -67,7 +67,7 @@ nav-menu: true
             <p>{{ site.translations[site.lang].fan_projects.past.description }}</p>
         </div>
     </section>
-    <section id="five" class="spotlights">
+    <section id="five">
         <section>
             <!-- <div class="image"> -->
                 <div class="tweet-carousel">
