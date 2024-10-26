@@ -164,6 +164,12 @@ nav-menu: true
 									<td><a href="https://www.youtube.com/playlist?list=PLEjb0lkNnMIGksyEaISEaQ02bizNvmUB9">J FreenBecky and FayMay always and forever</a></td>
 									<td>&nbsp;</td>
 								</tr>
+								<tr>
+									<td>{{ site.translations[site.lang].fan_creations.languages.english }}</td>
+									<td><a href="https://x.com/bsj1994">Jill</a></td>
+									<td><a href="https://www.youtube.com/playlist?list=PLEjb0lkNnMIGksyEaISEaQ02bizNvmUB9">J FreenBecky and FayMay always and forever</a></td>
+									<td>&nbsp;</td>
+								</tr>
 							</tbody>
 						</table>
 					</div>
