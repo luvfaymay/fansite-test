@@ -90,6 +90,8 @@ carousel_images:
     alt: Banner 17
   - url: assets/images/banner18.jpeg
     alt: Banner 18
+  - url: assets/images/banner18.jpeg
+    alt: Banner 19
   - url: assets/images/square1.jpeg
     alt: Square Image 1
   - url: assets/images/square2.jpeg

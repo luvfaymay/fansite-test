@@ -1,5 +1,5 @@
 ---
-title: Fan Projects
+title: Fan Support Projects
 layout: landing
 description: ""
 image: assets/images/banner16.jpeg
@@ -25,6 +25,39 @@ nav-menu: true
         </div>
     </section>
     <section id="three" class="spotlights">
+        <section>
+            <div class="image">
+                <img src="{{ 'assets/images/faybday.jpeg' | relative_url }}" alt="faybday" data-position="center center">
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>{{ site.translations[site.lang].fan_projects.fay_birthday.title }}</h3>
+                    </header>
+                    <p>{{ site.translations[site.lang].fan_projects.fay_birthday.description }} <strong>{{ site.translations[site.lang].fan_projects.fay_birthday.donation_period }}</strong>. {{ site.translations[site.lang].fan_projects.fay_birthday.activities }}</p>
+                    <ol>
+                        <li>{{ site.translations[site.lang].fan_projects.fay_birthday.activities_list.special_gift }}</li>
+                        <li>{{ site.translations[site.lang].fan_projects.fay_birthday.activities_list.tuk_tuk_ads }}</li>
+                        <li>{{ site.translations[site.lang].fan_projects.fay_birthday.activities_list.gallery }}</li>
+                    </ol>
+                    <p>{{ site.translations[site.lang].fan_projects.fay_birthday.check_post }} <span class="vote-link"><a href="https://x.com/FayOfficial_TH/status/1849678842564313215">{{ site.translations[site.lang].fan_projects.fay_birthday.full_post }}</a></span></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="image">
+                <img src="{{ 'assets/images/faybdaytw.jpeg' | relative_url }}" alt="maybday" data-position="center center">
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>{{ site.translations[site.lang].fan_projects.fay_birthday_tw.title }}</h3>
+                    </header>
+                    <p>{{ site.translations[site.lang].fan_projects.fay_birthday_tw.description }} <strong>{{ site.translations[site.lang].fan_projects.fay_birthday_tw.end_date }}</strong>.</p>
+                    <p>{{ site.translations[site.lang].fan_projects.fay_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1850032669024833719">{{ site.translations[site.lang].fan_projects.fay_birthday_tw.full_post }}</a></span></p>
+                </div>
+            </div>
+        </section>
         <section>
             <div class="image">
                 <img src="{{ 'assets/images/maybday.jpeg' | relative_url }}" alt="maybday" data-position="center center">
@@ -68,6 +101,58 @@ nav-menu: true
         </div>
     </section>
     <section id="five" class="spotlights">
+        <section>
+            <div class="twitter-embed">
+                <blockquote class="twitter-tweet"><p lang="und" dir="ltr">📣 มาแล้วจ้าๆๆๆ <a href="https://twitter.com/hashtag/MaysBdayProject2024?src=hash&amp;ref_src=twsrc%5Etfw">#MaysBdayProject2024</a><a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <br><br>Part1: Fans Project Cafe ☕️<br>Gallery Theme: Happily Ever Laughter 😆<br>Location: G U Cafe<br>Date: 31 Oct - 2 Nov 2024<br>Time: 10 AM - 6 PM<br><br>✨นอกจากแกลเลอรี่ที่รวบรวมรอยยิ้ม และเสียงหัวเราะของเมษ์ ญดาแล้ว ทางทีมงานมีจัดทำ Giveaway… <a href="https://t.co/1MB6MOkWS4">pic.twitter.com/1MB6MOkWS4</a></p>&mdash; MAY OFFICIAL (@MayOfficial_TH) <a href="https://twitter.com/MayOfficial_TH/status/1842123662562103331?ref_src=twsrc%5Etfw">October 4, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>{{ site.translations[site.lang].fan_projects.may_birthday_tw.title }}</h3>
+                    </header>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.description }} <strong>{{ site.translations[site.lang].fan_projects.may_birthday_tw.date }}</strong>.</p>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1845788587910210029">{{ site.translations[site.lang].fan_projects.may_birthday_tw.full_post }}</a></span></p>
+                </div>
+            </div>
+            <div class="twitter-embed">
+                <blockquote class="twitter-tweet"><p lang="in" dir="ltr">🛺💨💨💨<br>Part2: Tuk Tuk ADS<br>Location: MBK,SIAM,CHULA<br>Period: 15 Oct - 15 Nov 2024<a href="https://twitter.com/hashtag/MaysBdayProject2024?src=hash&amp;ref_src=twsrc%5Etfw">#MaysBdayProject2024</a><a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/pewM3uxxKY">https://t.co/pewM3uxxKY</a> <a href="https://t.co/yBskytqiAU">pic.twitter.com/yBskytqiAU</a></p>&mdash; MAY OFFICIAL (@MayOfficial_TH) <a href="https://twitter.com/MayOfficial_TH/status/1846083006647411022?ref_src=twsrc%5Etfw">October 15, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>{{ site.translations[site.lang].fan_projects.may_birthday_tw.title }}</h3>
+                    </header>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.description }} <strong>{{ site.translations[site.lang].fan_projects.may_birthday_tw.date }}</strong>.</p>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1845788587910210029">{{ site.translations[site.lang].fan_projects.may_birthday_tw.full_post }}</a></span></p>
+                </div>
+            </div>
+            <div class="twitter-embed">
+                <blockquote class="twitter-tweet"><p lang="th" dir="ltr">MAY BDAY FANSIGN<a href="https://twitter.com/hashtag/YADA27thBirthday?src=hash&amp;ref_src=twsrc%5Etfw">#YADA27thBirthday</a> <a href="https://twitter.com/hashtag/MaysBdayProject2024?src=hash&amp;ref_src=twsrc%5Etfw">#MaysBdayProject2024</a><a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <br><br>Part3: Special Birthday Gift <br>🎁 1st : MEGA CRYBABY 400%<br>THE MISSING TAIL<br>CRYBABY เป็นคาแรคเตอร์อุาร์ตทอยที่มีความคล้ายเมษ์มาก (ตามรูปที่แนบมา) ซึ่งเมษ์ก็ชื่นชอบ และสะสมอยู่ คอลเลคชั่นนี้ทำให้นึกถึงเมษ์… <a href="https://t.co/gTvW34zcbg">https://t.co/gTvW34zcbg</a> <a href="https://t.co/RKXzvVgCZo">pic.twitter.com/RKXzvVgCZo</a></p>&mdash; MAY OFFICIAL (@MayOfficial_TH) <a href="https://twitter.com/MayOfficial_TH/status/1847677352865870165?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>{{ site.translations[site.lang].fan_projects.may_birthday_tw.title }}</h3>
+                    </header>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.description }} <strong>{{ site.translations[site.lang].fan_projects.may_birthday_tw.date }}</strong>.</p>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1845788587910210029">{{ site.translations[site.lang].fan_projects.may_birthday_tw.full_post }}</a></span></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="twitter-embed">
+                <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Play the video at cafe 😆 <br>Thank you fan take the video 🫶<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/kE2NZj30uv">pic.twitter.com/kE2NZj30uv</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1845816333457576046?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>{{ site.translations[site.lang].fan_projects.may_birthday_tw.title }}</h3>
+                    </header>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.description }} <strong>{{ site.translations[site.lang].fan_projects.may_birthday_tw.date }}</strong>.</p>
+                    <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1845788587910210029">{{ site.translations[site.lang].fan_projects.may_birthday_tw.full_post }}</a></span></p>
+                </div>
+            </div>
+        </section>
         <section>
             <div class="twitter-embed">
                 <blockquote class="twitter-tweet" data-media-max-width="560">

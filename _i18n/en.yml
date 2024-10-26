@@ -298,14 +298,31 @@ official_events:
     purchase_ticket: "Please"
     purchase_link: "purchase the ticket from official sponsor here."
 
-# Fan Projects content
+# Fan Support Projects content
 fan_projects:
-  title: "Fan Projects"
+  title: "Fan Support Projects"
   translation_status: ""
   description: "All the ongoing and the past fan projects will be shared on this page."
   ongoing:
     title: "Ongoing Fan Projects"
     description: "These are the ongoing fan projects. If you can, please donate to them. Any amount of donation helps."
+  fay_birthday:
+    title: "Fay's 23rd BirthDay Project"
+    description: "This is the official fan support project organized by Fay Official. The donation period is"
+    donation_period: "from 25 October to 25 November 2024"
+    activities: "The activities include:"
+    activities_list:
+      special_gift: "Special Birthday Gifts: 30,000 THB"
+      tuk_tuk_ads: "Tuk Tuk ADS: 15,000 THB"
+      gallery: "Fay's Gallery: 20,000 THB"
+    check_post: "Please check the full post here."
+    full_post: "check the full post here."
+  fay_birthday_tw:
+    title: "Fay B-Day Support Project"
+    description: "This is the fan support project organized by FayMay Taiwan. The donation period ends"
+    donation_period: "on 10 November 2024, at 23:59"
+    check_post: "Please check the full post here."
+    full_post: "check the full post here."
   may_birthday:
     title: "May's B Day Project"
     description: "This is the official fan support project organized by May Official. The donation period is"
@@ -317,14 +334,25 @@ fan_projects:
       special_gift: "Special Birthday Gift: 20,000 THB"
     check_post: "Please check the full post here."
     full_post: "check the full post here."
-  faymay_birthday:
-    title: "FayMay B-Day support project"
-    description: "This is the fan support project organized by FayMay Taiwan. The donation period ends"
-    end_date: "on Nov 24, 2024, at 23:59"
-    check_post: "Please check the full post here."
   past:
     title: "Past Fan Projects"
     description: "These are some of the past fan projects. Kudos to all the organizers and donors for the successful execution of these projects. We will try to keep this list updated."
+  may_birthday:
+    title: "May's B-Day fans project cafe"
+    description: "This fan support project was organized by FayMay Taiwan."
+    part1: "Part1: Fans Project Cafe ☕️"
+    part1_desc: "Location: G U Cafe. Date: 31 Oct to 2 Nov 2024 from 10 AM to 6 PM."
+    part2: "Part2: Tuk Tuk ADS"
+    part2_desc: "Location: MBK, SIAM, CHULA. Date: 15 Oct to 15 Nov 2024."
+    part3: "Part3: Special Birthday Gift"
+    part3_desc: "1st : MEGA CRYBABY 400%, 2nd : Moskaic Maker, 3rd : LIFELONG BOW BRACELET."
+    check_post: "Please check the full post here."
+    full_post: "check the full post here."
+  may_birthday_tw:
+    title: "May's B-Day fans project cafe"
+    description: "This fan support project was organized by FayMay Taiwan."
+    check_post: "Please check the full post here."
+    full_post: "check the full post here."
   faymay_times_square:
     title: "FayMay in New York Time Square"
     description: "This fan support project was organized by Latin America/Interfans. The fan support video promoting FayMay was displayed"
