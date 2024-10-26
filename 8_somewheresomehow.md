@@ -2,7 +2,7 @@
 title: Somewhere Somehow รักปากแข็ง
 layout: landing
 description: ""
-image: assets/images/swsh0.jpeg
+image: assets/images/swsh0.png
 nav-menu: true
 ---
 

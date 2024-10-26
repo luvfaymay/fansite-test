@@ -40,6 +40,20 @@ carousel_images:
     alt: Portrait 17
   - url: assets/images/portrait18.jpeg
     alt: Portrait 18
+  - url: assets/images/portrait19.jpeg
+    alt: Portrait 19
+  - url: assets/images/portrait20.jpeg
+    alt: Portrait 20
+  - url: assets/images/portrait21.jpeg
+    alt: Portrait 21
+  - url: assets/images/portrait22.jpeg
+    alt: Portrait 22
+  - url: assets/images/portrait23.jpeg
+    alt: Portrait 23
+  - url: assets/images/portrait24.jpeg
+    alt: Portrait 24
+  - url: assets/images/portrait25.jpeg
+    alt: Portrait 25
   - url: assets/images/banner1.jpeg
     alt: Banner 1
   - url: assets/images/banner2.jpeg
