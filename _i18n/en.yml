@@ -173,10 +173,14 @@ fan_pages:
     tiktok: "TikTok"
     official: "Official"
   countries:
-    thailand: "Thailand"
     brazil: "Brazil"
-    vietnam: "Vietnam"
+    international: "International"
+    italia: "Italy"
     myanmar: "Myanmar"
+    singapore: "Singapore"
+    taiwan: "Taiwan"
+    thailand: "Thailand"
+    vietnam: "Vietnam"
 
 # Fan Creations content
 fan_creations:

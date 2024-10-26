@@ -58,8 +58,50 @@ nav-menu: true
 							<td>{{ site.data[site.lang].common.common_yes }}</td>
 						</tr>
 						<tr>
+							<td>{{ site.data[site.lang].fan_pages.countries.international }}</td>
+							<td><a href="https://x.com/faymayIFS">FAYMAY Interfan Squad</a></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>{{ site.data[site.lang].common.common_no }}</td>
+						</tr>
+						<tr>
+							<td>{{ site.data[site.lang].fan_pages.countries.international }}</td>
+							<td><a href="https://x.com/trendf_FM">Trend For FAYMAY</a></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>{{ site.data[site.lang].common.common_no }}</td>
+						</tr>
+						<tr>
 							<td>{{ site.data[site.lang].fan_pages.countries.brazil }}</td>
 							<td><a href="https://x.com/FayMayBr">FayMay Brasil</a></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>{{ site.data[site.lang].common.common_no }}</td>
+						</tr>
+						<tr>
+							<td>{{ site.data[site.lang].fan_pages.countries.italia }}</td>
+							<td><a href="https://x.com/FayRiezzItaOFB">Fay Italian Official Fanbase</a></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>{{ site.data[site.lang].common.common_no }}</td>
+						</tr>
+						<tr>
+							<td>{{ site.data[site.lang].fan_pages.countries.myanmar }}</td>
+							<td>&nbsp;</td>
+							<td><a href="https://web.facebook.com/profile.php?id=61559683192636">FayMay 1st Myanmar FC</a></td>
+							<td>&nbsp;</td>
+							<td>{{ site.data[site.lang].common.common_no }}</td>
+						</tr>
+						<tr>
+							<td>{{ site.data[site.lang].fan_pages.countries.singapore }}</td>
+							<td><a href="https://x.com/faymaysg">FAYMAY SINGAPORE OFFICIAL 🇸🇬</a></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>{{ site.data[site.lang].common.common_no }}</td>
+						</tr>
+						<tr>
+							<td>{{ site.data[site.lang].fan_pages.countries.taiwan }}</td>
+							<td><a href="https://x.com/FayMay_TW_">FayMay_Taiwan_official</a></td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
 							<td>{{ site.data[site.lang].common.common_no }}</td>
@@ -72,9 +114,9 @@ nav-menu: true
 							<td>{{ site.data[site.lang].common.common_no }}</td>
 						</tr>
 						<tr>
-							<td>{{ site.data[site.lang].fan_pages.countries.myanmar }}</td>
+							<td>{{ site.data[site.lang].fan_pages.countries.vietnam }}</td>
+							<td><a href="https://x.com/faymayvietnam">FayMay Vietnam</a></td>
 							<td>&nbsp;</td>
-							<td><a href="https://web.facebook.com/profile.php?id=61559683192636">FayMay 1st Myanmar FC</a></td>
 							<td>&nbsp;</td>
 							<td>{{ site.data[site.lang].common.common_no }}</td>
 						</tr>
