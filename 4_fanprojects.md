@@ -116,8 +116,25 @@ nav-menu: true
             </div>
         </section>
         <section>
-            <div class="twitter-embed">
-                <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Play the video at cafe 😆 <br>Thank you fan take the video 🫶<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/kE2NZj30uv">pic.twitter.com/kE2NZj30uv</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1845816333457576046?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="image">
+                <div class="carousel-container">
+                    <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
+                    <div class="carousel">
+                        <div>
+                            <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Play the video at cafe 😆 <br>Thank you fan take the video 🫶<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/kE2NZj30uv">pic.twitter.com/kE2NZj30uv</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1845816333457576046?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div>
+                            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hello everyone💖<br>This is FayMay Taiwan official☺️<br>We are prepare May&#39;s B-Day fans project cafe😆<br><br>🗓️Date:14-18 Oct. 2024<br>🕚Time:11:00-21:00<br>🚩Place: cafe koreatime<br><br>Hope everyone can come to Taiwan~<br>And go to the cafe~<br>Can take give away na🥰<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/N2FPIlk2fW">pic.twitter.com/N2FPIlk2fW</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1845357866057859229?ref_src=twsrc%5Etfw">October 13, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div>
+                            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">May&#39;s B-Day fans project cafe💖<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/BmvquAddn5">pic.twitter.com/BmvquAddn5</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1845788587910210029?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div>
+                            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fans cafe project ~<br>There is a message on the banner💖<br>Thanks everyone 🥰<br>It will take this to Thailand as a gift to May🫶<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/L1Pu4ofUIg">pic.twitter.com/L1Pu4ofUIg</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1846543968395460749?ref_src=twsrc%5Etfw">October 16, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <button type="button" class="carousel-arrow carousel-next">&gt;</button>
+                    </div>
+                </div>
             </div>
             <div class="content">
                 <div class="inner">
