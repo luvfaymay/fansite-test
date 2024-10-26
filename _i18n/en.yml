@@ -289,14 +289,9 @@ official_events:
   title: "Official Events"
   translation_status: ""
   description: "Check out these upcoming official events, and please support FayMay."
-  fanmeeting:
-    title: "Fay & May 1st Fanmeeting in China"
-    description: "FayMay's 1st fanmeeting is on"
-    date: "Sept 21, 2024 at 14:30 CST"
-    details: "in Hangzhou City, Zhejiang Province. Public sales of the tickets start on Sept 10, 2024 at 17:20 CST. Please"
-    check_post: "check the full translated post and group buy option here."
-    purchase_ticket: "Please"
-    purchase_link: "purchase the ticket from official sponsor here."
+  event1:
+    title: "TIFFCOM Event in Japan"
+    description: "FayMay will attend the TIFFCOM Event in Japan from 28 to 31 October 2024."
 
 # Fan Support Projects content
 fan_projects:
