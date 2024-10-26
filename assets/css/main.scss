@@ -352,27 +352,25 @@
     }
 }
 
-/* Center the Swiper container and set a maximum width */
+/* Adjust the Swiper slide size */
 .swiper-container {
-    max-width: 300px; /* Adjust the width as desired */
-    height: 200px;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    margin: 0 auto; /* Center the slider */
+    max-width: 100px; /* Adjust width if needed */
+    height: 200px; /* Fixed height to keep it from expanding too much */
+    margin: 0 auto;
     position: relative;
 }
 
-/* Set the swiper-wrapper and swiper-slide to fill the container */
 .swiper-wrapper, .swiper-slide {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-}
-
-/* Style for the Twitter embeds to fit in the slide */
-.twitter-tweet {
-    width: 100% !important;
-    height: 100% !important;
     overflow: hidden;
 }
+
+/* Limit the height of Twitter embeds and enable scrolling */
+.twitter-tweet {
+    max-height: 100%;
+    overflow-y: auto; /* Add a scrollbar if content overflows */
+    display: block;
+    width: 100% !important;
+}
+
