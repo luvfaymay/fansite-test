@@ -69,7 +69,7 @@ nav-menu: true
     </section>
     <section id="five" class="spotlights">
         <section>
-            <div class="image">
+            <!-- <div class="image"> -->
                 <div class="tweet-carousel">
                     <div class="tweet-container">
                         <div class="tweet-slides" id="tweetSlides">
@@ -107,7 +107,7 @@ nav-menu: true
                     <p>{{ site.translations[site.lang].fan_projects.may_birthday.description }} <strong>{{ site.translations[site.lang].fan_projects.may_birthday.date }}</strong>.</p>
                     <p>{{ site.translations[site.lang].fan_projects.may_birthday_tw.check_post }} <span class="vote-link"><a href="https://x.com/FayMay_TW_/status/1845788587910210029">{{ site.translations[site.lang].fan_projects.may_birthday.full_post }}</a></span></p>
                 </div>
-            </div>
+            <!-- </div> -->
         </section>
         <section>
             <div class="twitter-embed">
