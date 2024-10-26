@@ -78,6 +78,7 @@ home:
 profile:
   title: "FayMay Profiles"
   header: "FayMay Profiles"
+  translation_status: ""
   welcome_message: "Welcome to FayMay Fansite. This page is maintained by international fans. We are glad that you are curious about FayMay and want to know more about them. We would like to request just five things from you."
 
   fan_requests:
@@ -126,24 +127,42 @@ profile:
 # Voting page content
 voting:
   title: "Ongoing Votings"
+  translation_status: ""
   description: "All the ongoing voting activities will be shared on this page. If you have time, please help with the voting as much as you can. It's a good way to show our love for FayMay."
   instructions:
     - "Please try to keep both of them to have the same vote counts."
     - "Please don't use automated tools. We wouldn't want them to get disqualified."
-  
-  starlight_award:
-    title: "2024 The Most Shining Star in Thailand"
-    description: "The voting period is from Aug 23 to Sep 11 20:00 BKK Time. You can get up to 7 free votes, 4 daily free votes and 3 daily free votes for first social share. Please"
+
+  starfocus:
+    title: "Star Focus - 2024 THE MOST BEAUTIFUL FACE IN ASIA PACIFIC"
+    description: "The voting period is from Oct 30 2024 24:00 BKK Time. For each email, at the first login, you can get 300 free tickets by joining Fay&May artist house. For daily, one email can get 6 free tickets: 3 free tickets from the daily login and 3 free tickets from sharing on Twitter. Free tickets will be cleared every Thursday at 00:00 BKK. Please "
     vote_link: "vote for them."
   
-  thai_update_award:
-    title: "The Most Favorite On-Screen Couple of 2024"
-    description: "The voting period is from Aug 24 to Sep 04 15:00 BKK Time. You can vote unlimitedly. Please"
+  yent_award:
+    title: "Y Entertain Awards 2024 - Rising Star Couple of the Year"
+    description: "The voting period is from Oct 24 to Nov 30 2024 24:00 BKK Time. You can get 2 free silver coins from the daily login. 1 vote requires 10 silver or gold coins. You can purchase gold coins from the official website. Please "
     vote_link: "vote for them."
+  
+  kazz_awards:
+    title: "KAZZ AWARDS - Youth Idol of the Year 2024"
+    description: "The voting period is from <strong>Sept 23 to Nov 03 2024 24:00 BKK Time</strong>. This award is important for FayMay. The top 5 artists with the highest votes will receive the Young Sweetheart of the Year award at the KAZZ AWARDS 2025 and will also appear solo on the cover of KAZZ MAGAZINE. We need both of them to be in top 5. This will be difficult for us, but I believe we can do it. We have to try. Voting Rules: "
+    voting_rules: 
+      - "Voting through the website cost 5 baht per vote, but you can vote unlimitedly."
+      - "Voting with Line account is free, but you can only vote once per day. You can use Line account from all regions."
+      - "The cumulative total is 50% from website vote and 50% from Line vote."
+      - "Weekly results will reflect the cumulative total of all votes."
+      - "The website link is different for locals and for foreigners. The link below is for foreigners."
+    vote_link_desc1: "This will cost 5 baht per vote but you can vote unlimitedly. Please "
+    vote_link1: "vote for them through the website for foreigners."
+    vote_link_desc2: "This is free vote, but only one vote per day, per Line account. Please "
+    vote_link2: "vote for them using Line account."
+    notes: "Please "
+    notes_link: "check the full post here."
 
 # Fan Pages content
 fan_pages:
   title: "Active Fan Pages"
+  translation_status: ""
   description: "Here are the active fan pages, both official and unofficial, to keep you connected with the community!"
   by_country: "Fan Pages by Country"
   country_description: "These fan pages are organized by country for easy browsing."
@@ -162,6 +181,7 @@ fan_pages:
 # Fan Creations content
 fan_creations:
   title: "Fan Creations"
+  translation_status: ""
   description: "This page intends to highlight the profiles of fans who are fansites or fans who create fan arts, fan edits, fan covers, and fan translations."
   fan_sites:
     title: "Fan Sites"
@@ -191,6 +211,7 @@ fan_creations:
 # Dream Series content
 dream_series:
   title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  translation_status: ""
   description: "I'm 'Dawhan'. Since I can remember, I have always had strange dreams about a young girl who was quiet but often played with me in my dreams. One day, a new neighbor moved in, and that led to my family falling apart. My father ran away with the man next door, who turned out to be the father of 'Kimhan' the quiet & small girl from next door. Initially, we were not close at all, but various circumstances brought us closer and made us understand each other. However, Kimhan was unaware that while in the real world we were just friends, in my dreams, the small girl and I did things that went far beyond that. So, I kept my feelings concealed because I couldn't let her know. I never realized that in those dreams, I was not the only one dreaming."
   genres: "Genres: Romance, Fantasy"
   other_names: "Other Names: DreamGL, Dream The Series"
@@ -253,6 +274,7 @@ dream_series:
 # Translation credit content
 translationcredit:
   title: "Translation Credits"
+  translation_status: ""
   intro: "Hey there! We wanted to give a big shout-out to the incredible folks who've helped make our fansite truly global. These wonderful people have put in their time and effort to bring our love for FayMay to fans around the world."
   team: "Our awesome translation/proofreading team:"
   thank_you: "You guys rock! Thank you for helping us spread the love for FayMay 🫶"
@@ -260,6 +282,7 @@ translationcredit:
 # Official Events content
 official_events:
   title: "Official Events"
+  translation_status: ""
   description: "Check out these upcoming official events, and please support FayMay."
   fanmeeting:
     title: "Fay & May 1st Fanmeeting in China"
@@ -273,6 +296,7 @@ official_events:
 # Fan Projects content
 fan_projects:
   title: "Fan Projects"
+  translation_status: ""
   description: "All the ongoing and the past fan projects will be shared on this page."
   ongoing:
     title: "Ongoing Fan Projects"
@@ -314,3 +338,59 @@ fan_projects:
     date: "from 25 Jul to 31 Jul 2024"
     check_post: "Please check the full post here."
     full_post: "check the full post here."
+
+# Somewhere Somehow Series content
+swsh_series:
+  title: "Somewhere Somehow รักปากแข็ง"
+  translation_status: ""
+  description: "One person is stubborn in speech, while the other is stubborn at heart. A slow-burning, dazed love story - will this romance between a talented female engineer and the beautiful but strict, fierce vice president work out? Let's find out."
+  genres: "Genres: Romantic Comedy"
+  other_names: "Other Names: SWSH"
+  main_roles:
+    title: "Main roles:"
+    description: "Only the leading roles are announced as of now."
+  table:
+    name: "Name"
+    full_name: "Full Name"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "Hashtag"
+  teasers:
+    title: "Teasers"
+    description: "TBA."
+  episodes:
+    title: "UNCUT Episodes"
+    description: "TBA."
+    table:
+      episode: "Episode"
+      teaser: "Teaser [Spoiler]"
+      premiered: "Premiered"
+    spoilers:
+      ep1: ""
+      ep2: ""
+      ep3: ""
+      ep4: ""
+      ep5: ""
+      ep6: ""
+      ep7: ""
+      ep8: ""
+      ep9: ""
+      ep10: ""
+      ep11: ""
+      ep12: ""
+  osts:
+    title: "OSTs"
+    description: "TBA."
+    table:
+      language: "Language"
+      title: "Title"
+      vocal: "Vocal"
+      producer: "Producer"
+  fun_facts:
+    title: "Fun Facts:"
+    facts:
+      - "TBA."
+  spoiler:
+    reveal: "Click to reveal spoiler"
+    hide: "Click to hide spoiler"

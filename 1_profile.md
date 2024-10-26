@@ -12,6 +12,7 @@ nav-menu: true
             <header class="major">
                 <h2>{% t profile.header %}</h2>
             </header>
+            <p>{% t profile.translation_status %}</p>
             <p>{% t profile.welcome_message %}</p>
             <ol>
                 {% for request in site.translations[site.lang].profile.fan_requests %}
