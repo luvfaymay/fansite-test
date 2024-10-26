@@ -70,55 +70,34 @@ nav-menu: true
     <section id="five" class="spotlights">
         <section>
             <div class="image">
-                <div class="twitter-embed">
-                    <!-- Swiper Container -->
-                    <div class="swiper-container">
-                        <!-- Wrapper for slides -->
-                        <div class="swiper-wrapper">
-                            <!-- Slide 1 -->
-                            <div class="swiper-slide">
-                                <div class="embed-wrapper">
-                                    <blockquote class="twitter-tweet">
-                                        <p lang="und" dir="ltr">📣 มาแล้วจ้าๆๆๆ 
-                                            <a href="https://twitter.com/hashtag/MaysBdayProject2024?src=hash&amp;ref_src=twsrc%5Etfw">#MaysBdayProject2024</a>
-                                            <a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a><br><br>Part1: Fans Project Cafe ☕️<br>Gallery Theme: Happily Ever Laughter 😆<br>Location: G U Cafe<br>Date: 31 Oct - 2 Nov 2024<br>Time: 10 AM - 6 PM<br><br>✨นอกจากแกลเลอรี่ที่รวบรวมรอยยิ้ม และเสียงหัวเราะของเมษ์ ญดาแล้ว ทางทีมงานมีจัดทำ Giveaway… 
-                                            <a href="https://t.co/1MB6MOkWS4">pic.twitter.com/1MB6MOkWS4</a>
-                                        </p>&mdash; MAY OFFICIAL (@MayOfficial_TH)
-                                        <a href="https://twitter.com/MayOfficial_TH/status/1842123662562103331?ref_src=twsrc%5Etfw">October 4, 2024</a>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <!-- Slide 2 -->
-                            <div class="swiper-slide">
-                                <div class="embed-wrapper">
-                                    <blockquote class="twitter-tweet">
-                                        <p lang="in" dir="ltr">🛺💨💨💨<br>Part2: Tuk Tuk ADS<br>Location: MBK, SIAM, CHULA<br>Period: 15 Oct - 15 Nov 2024<a href="https://twitter.com/hashtag/MaysBdayProject2024?src=hash&amp;ref_src=twsrc%5Etfw">#MaysBdayProject2024</a>
-                                            <a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/pewM3uxxKY">https://t.co/pewM3uxxKY</a> 
-                                            <a href="https://t.co/yBskytqiAU">pic.twitter.com/yBskytqiAU</a>
-                                        </p>&mdash; MAY OFFICIAL (@MayOfficial_TH)
-                                        <a href="https://twitter.com/MayOfficial_TH/status/1846083006647411022?ref_src=twsrc%5Etfw">October 15, 2024</a>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <!-- Slide 3 -->
-                            <div class="swiper-slide">
-                                <div class="embed-wrapper">
-                                    <blockquote class="twitter-tweet">
-                                        <p lang="th" dir="ltr">MAY BDAY FANSIGN<a href="https://twitter.com/hashtag/YADA27thBirthday?src=hash&amp;ref_src=twsrc%5Etfw">#YADA27thBirthday</a>
-                                            <a href="https://twitter.com/hashtag/MaysBdayProject2024?src=hash&amp;ref_src=twsrc%5Etfw">#MaysBdayProject2024</a>
-                                            <a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a><br><br>Part3: Special Birthday Gift <br>🎁 1st : MEGA CRYBABY 400%<br>THE MISSING TAIL<br>CRYBABY เป็นคาแรคเตอร์อุาร์ตทอยที่มีความคล้ายเมษ์มาก (ตามรูปที่แนบมา) ซึ่งเมษ์ก็ชื่นชอบ และสะสมอยู่ คอลเลคชั่นนี้ทำให้นึกถึงเมษ์…
-                                            <a href="https://t.co/gTvW34zcbg">https://t.co/gTvW34zcbg</a> <a href="https://t.co/RKXzvVgCZo">pic.twitter.com/RKXzvVgCZo</a>
-                                        </p>&mdash; MAY OFFICIAL (@MayOfficial_TH)
-                                        <a href="https://twitter.com/MayOfficial_TH/status/1847677352865870165?ref_src=twsrc%5Etfw">October 19, 2024</a>
-                                    </blockquote>
-                                </div>
-                            </div>
+                <div class="tweet-carousel">
+                    <div class="tweet-container">
+                        <div class="tweet-slides" id="tweetSlides">
+                        <div class="tweet-slide">
+                            <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-theme="light">
+                            <a href="https://twitter.com/MayOfficial_TH/status/1842123662562103331"></a>
+                            </blockquote>
                         </div>
-                        <!-- Swiper Navigation Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class="tweet-slide">
+                            <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-theme="light">
+                            <a href="https://twitter.com/MayOfficial_TH/status/1846083006647411022"></a>
+                            </blockquote>
+                        </div>
+                        <div class="tweet-slide">
+                            <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-theme="light">
+                            <a href="https://twitter.com/MayOfficial_TH/status/1847677352865870165"></a>
+                            </blockquote>
+                        </div>
+                        </div>
                     </div>
-                </div>
+                    <button class="carousel-btn prev-btn" onclick="moveSlide(-1)">←</button>
+                    <button class="carousel-btn next-btn" onclick="moveSlide(1)">→</button>
+                    <div class="carousel-dots" id="dots">
+                        <span class="dot active" onclick="goToSlide(0)"></span>
+                        <span class="dot" onclick="goToSlide(1)"></span>
+                        <span class="dot" onclick="goToSlide(2)"></span>
+                    </div>
+                    </div>
             </div>
             <div class="content">
                 <div class="inner">
@@ -202,17 +181,34 @@ nav-menu: true
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    var swiper = new Swiper('.swiper-container', {
-        loop: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
+(function() {
+  var currentSlide = 0;
+  var slides = document.getElementById('tweetSlides');
+  var dots = document.querySelectorAll('.dot');
+  var totalSlides = dots.length;
+
+  window.moveSlide = function(direction) {
+    currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+    updateCarousel();
+  };
+
+  window.goToSlide = function(n) {
+    currentSlide = n;
+    updateCarousel();
+  };
+
+  function updateCarousel() {
+    slides.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+    dots.forEach(function(dot, index) {
+      dot.classList.toggle('active', index === currentSlide);
     });
-});
+  }
+
+  // Make sure Twitter widgets are loaded
+  window.addEventListener('load', function() {
+    if (window.twttr) {
+      twttr.widgets.load();
+    }
+  });
+})();
 </script>
