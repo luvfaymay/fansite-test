@@ -46,7 +46,11 @@ nav-menu: true
                         <h3>{% t voting.kazz_awards.title %}</h3>
                     </header>
                     <p>{% t voting.kazz_awards.description %}</p>
-                    <p>{% t voting.kazz_awards.voting_rules %}</p>
+                    <ol>
+                        {% for voting_rule in site.translations[site.lang].kazz_awards.voting_rules %}
+                            <li>{{ voting_rule }}</li>
+                        {% endfor %}
+                    </ol>
                     <p>{% t voting.kazz_awards.vote_link_desc1 %} <a class="vote-link" href="https://worldwide.kazzmarket.com/product/vote-saowaisai-2024/">{% t kazz_awards.vote_link1 %}</a></p>
                     <p>{% t voting.kazz_awards.vote_link_desc2 %} <a class="vote-link" href="https://today.line.me/th/v2/poll/JPmrlmM">{% t kazz_awards.vote_link2 %}</a></p>
                     <p>{% t voting.kazz_awards.notes %} <a class="vote-link" href="https://x.com/4ever_Marvelous/status/1838082471415755176">{% t kazz_awards.notes_link %}</a></p>
