@@ -67,7 +67,7 @@ nav-menu: true
             <p>{{ site.translations[site.lang].fan_projects.past.description }}</p>
         </div>
     </section>
-    <section id="five" class="spotlights">
+    <!-- <section id="five" class="spotlights"> -->
         <section>
             <div class="twitter-embed">
                 <!-- Swiper Container -->
@@ -122,7 +122,7 @@ nav-menu: true
                 </div>
             </div>
         </section>
-    </section>
+    <!-- </section> -->
     <!-- <section id="five" class="spotlights">
         <section>
             <div class="twitter-embed">
