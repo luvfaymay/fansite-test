@@ -69,6 +69,7 @@ nav-menu: true
     </section>
     <section id="five" class="spotlights">
         <section>
+            <div class="image">
             <div class="twitter-embed">
                 <!-- Swiper Container -->
                 <div class="swiper-container">
@@ -111,6 +112,7 @@ nav-menu: true
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                 </div>
+            </div>
             </div>
             <div class="content">
                 <div class="inner">
