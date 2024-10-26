@@ -59,7 +59,7 @@ nav-menu: true
             </div>
         </section>
     </section>
-    <section id="four">
+    <section id="four"  class="spotlights">
         <div class="inner">
             <header class="major">
                 <h2>{{ site.translations[site.lang].fan_projects.past.title }}</h2>
@@ -67,7 +67,7 @@ nav-menu: true
             <p>{{ site.translations[site.lang].fan_projects.past.description }}</p>
         </div>
     </section>
-    <section id="two" class="spotlights">
+    <section id="five" class="spotlights">
         <section>
             <div class="image">
                 <div class="carousel-container">
@@ -115,8 +115,6 @@ nav-menu: true
                 </div>
             </div>
         </section>
-    </section>
-    <section id="five" class="spotlights">
         <section>
             <div class="twitter-embed">
                 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Play the video at cafe 😆 <br>Thank you fan take the video 🫶<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/kE2NZj30uv">pic.twitter.com/kE2NZj30uv</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1845816333457576046?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
