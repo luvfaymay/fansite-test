@@ -110,7 +110,7 @@ nav-menu: true
             <div class="image">
             <div class="carousel-container" id="carousel1">
                 <button type="button" class="carousel-arrow carousel-prev" id="carousel1-prev">&lt;</button>
-                <div class="carousel">
+                <div class="carousel carousel-1">
                     <div>
                         <blockquote class="twitter-tweet">
                             <p lang="und" dir="ltr">📣 มาแล้วจ้าๆๆๆ 
@@ -180,7 +180,7 @@ nav-menu: true
             <div class="image">
             <div class="carousel-container" id="carousel2">
                 <button type="button" class="carousel-arrow carousel-prev" id="carousel2-prev">&lt;</button>
-                <div class="carousel">
+                <div class="carousel carousel-2">
                     <div>
                         <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Play the video at cafe 😆 <br>Thank you fan take the video 🫶<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/kE2NZj30uv">pic.twitter.com/kE2NZj30uv</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1845816333457576046?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>

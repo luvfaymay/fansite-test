@@ -349,6 +349,7 @@ swsh_series:
   description: "Một người cứng đầu trong lời nói, trong khi người kia cứng đầu ở trong lòng. Một câu chuyện tình yêu chậm rãi và ngây ngất - liệu mối tình giữa một kỹ sư nữ tài năng và phó tổng giám đốc xinh đẹp nhưng nghiêm khắc, dữ dội này có thành công? Hãy cùng khám phá."
   genres: "Genre: Romantic Comedy"
   other_names: "Các tên khác: รักปากแข็ง, SWSHGL"
+  follow: "Vui lòng theo dõi tài khoản chính thức của series trên các nền tảng mạng xã hội để cập nhật thêm thông tin và tin tức mới nhất: "
   main_roles:
     title: "Các diễn viên:"
     description: "Chỉ có các vai chính được công bố tính đến thời điểm hiện tại."
@@ -359,6 +360,7 @@ swsh_series:
     twitter: "Twitter"
     tiktok: "TikTok"
     hashtag: "Hashtag"
+    facebook: "Facebook"
   teasers:
     title: "Teasers"
     description: "TBA."

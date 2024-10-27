@@ -16,7 +16,7 @@ nav-menu: true
             <p>{{ site.translations[site.lang].swsh_series.description }}</p>
             <p><strong>{{ site.translations[site.lang].swsh_series.genres }}</strong></p>
             <p><strong>{{ site.translations[site.lang].swsh_series.other_names }}</strong></p>
-            <p>{{ site.translations[site.lang].swsh_series.follow }}<span class="vote-link"><a href="https://x.com/SWSHGL2025">{{ site.translations[site.lang].swsh_series.twitter }}</a></span>, <span class="vote-link"><a href="https://www.facebook.com/dreamglidf">{{ site.translations[site.lang].swsh_series.facebook }}</a></span>, <span class="vote-link"><a href="https://www.tiktok.com/@swshgl2025?_t=8qtHN2SkNYV&_r=1">{{ site.translations[site.lang].swsh_series.tiktok }}</a></span>.</p>
+            <p>{{ site.translations[site.lang].swsh_series.follow }}<span class="vote-link"><a href="https://x.com/SWSHGL2025">{{ site.translations[site.lang].swsh_series.table.twitter }}</a></span>, <span class="vote-link"><a href="https://www.facebook.com/dreamglidf">{{ site.translations[site.lang].swsh_series.table.facebook }}</a></span>, <span class="vote-link"><a href="https://www.tiktok.com/@swshgl2025?_t=8qtHN2SkNYV&_r=1">{{ site.translations[site.lang].swsh_series.table.tiktok }}</a></span>.</p>
             <h3>{{ site.translations[site.lang].swsh_series.main_roles.title }}</h3>
             <p>{{ site.translations[site.lang].swsh_series.main_roles.description }}</p>
             <div class="table-wrapper">

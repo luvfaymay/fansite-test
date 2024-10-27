@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     if (typeof jQuery !== 'undefined' && typeof jQuery.fn.slick !== 'undefined') {
         
-        // General initialization for all carousels except specific ones
+        // General initialization for all carousels except carousel-1 and carousel-2
         $('.carousel').not('.carousel-1, .carousel-2').slick({
             dots: false,
             infinite: true,
@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 slidesToScroll: 1,
                 adaptiveHeight: true,
                 arrows: true,
-                prevArrow: $('#carousel-1-prev'),
-                nextArrow: $('#carousel-1-next'),
+                prevArrow: $('#carousel1-prev'),
+                nextArrow: $('#carousel1-next'),
                 fade: true,
                 cssEase: 'linear',
                 responsive: [
@@ -61,8 +61,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 slidesToScroll: 1,
                 adaptiveHeight: true,
                 arrows: true,
-                prevArrow: $('#carousel-2-prev'),
-                nextArrow: $('#carousel-2-next'),
+                prevArrow: $('#carousel2-prev'),
+                nextArrow: $('#carousel2-next'),
                 fade: true,
                 cssEase: 'linear',
                 responsive: [

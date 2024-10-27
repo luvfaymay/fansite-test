@@ -357,6 +357,7 @@ swsh_series:
   description: "Una persona es obstinada en su forma de hablar, mientras que la otra es obstinada de corazón. Una historia de amor lenta y deslumbrante: ¿funcionará esta relación entre una talentosa ingeniera y la hermosa pero estricta y feroz vicepresidenta? Vamos a descubrirlo."
   genres: "Géneros: Comedia Romántica"
   other_names: "Otros nombres: รักปากแข็ง, SWSHGL"
+  follow: "Por favor, sigue la cuenta oficial de la serie en las redes sociales para más actualizaciones y noticias: "
   main_roles:
     title: "Papeles principales:"
     description: "Solo se han anunciado los papeles principales hasta ahora."
@@ -367,6 +368,7 @@ swsh_series:
     twitter: "Twitter"
     tiktok: "TikTok"
     hashtag: "Hashtag"
+    facebook: "Facebook"
   teasers:
     title: "Teasers"
     description: "TBA."
