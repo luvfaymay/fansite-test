@@ -24,6 +24,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 ]
             });
+            $('.carousel-1').slick({
+                prevArrow: $('#carousel-1-prev'),
+                nextArrow: $('#carousel-1-next')
+            });
+            
+            $('.carousel-2').slick({
+                prevArrow: $('#carousel-2-prev'),
+                nextArrow: $('#carousel-2-next')
+            });
+            
         } else {
             console.error('Carousel element not found.');
         }

@@ -71,8 +71,8 @@ nav-menu: true
     <section id="five" class="spotlights">
         <section>
             <div class="image">
-                <div class="carousel-container carousel-one">
-                    <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
+                <div class="carousel-container carousel-1">
+                    <button type="button" id="carousel-1-prev" class="carousel-arrow carousel-prev">&lt;</button>
                     <div class="carousel">
                         <div>
                             <blockquote class="twitter-tweet">
@@ -104,7 +104,7 @@ nav-menu: true
                             </blockquote>
                         </div>
                     </div>
-                    <button type="button" class="carousel-arrow carousel-next">&gt;</button>
+                    <button type="button" id="carousel-1-next" class="carousel-arrow carousel-next">&gt;</button>
                 </div>
             </div>
             <div class="content">
@@ -118,8 +118,8 @@ nav-menu: true
         </section>
         <section>
             <div class="image">
-                <div class="carousel-container carousel-two">
-                    <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
+                <div class="carousel-container carousel-2">
+                    <button type="button" id="carousel-2-prev" class="carousel-arrow carousel-prev">&lt;</button>
                     <div class="carousel">
                         <div>
                             <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Play the video at cafe 😆 <br>Thank you fan take the video 🫶<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/kE2NZj30uv">pic.twitter.com/kE2NZj30uv</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1845816333457576046?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -134,7 +134,7 @@ nav-menu: true
                             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fans cafe project ~<br>There is a message on the banner💖<br>Thanks everyone 🥰<br>It will take this to Thailand as a gift to May🫶<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/L1Pu4ofUIg">pic.twitter.com/L1Pu4ofUIg</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1846543968395460749?ref_src=twsrc%5Etfw">October 16, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                     </div>
-                    <button type="button" class="carousel-arrow carousel-next">&gt;</button>
+                    <button type="button" id="carousel-2-next" class="carousel-arrow carousel-next">&gt;</button>
                 </div>
             </div>
             <div class="content">
