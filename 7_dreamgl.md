@@ -12,6 +12,7 @@ nav-menu: true
             <header class="major">
                 <h2>{{ site.translations[site.lang].dream_series.title }}</h2>
             </header>
+            <p>{{ site.translations[site.lang].dream_series.translation_status }}</p>
             <p>{{ site.translations[site.lang].dream_series.description }}</p>
             <p><strong>{{ site.translations[site.lang].dream_series.genres }}</strong></p>
             <p><strong>{{ site.translations[site.lang].dream_series.other_names }}</strong></p>

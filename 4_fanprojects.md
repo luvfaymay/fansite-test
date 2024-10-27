@@ -13,6 +13,7 @@ nav-menu: true
             <header class="major">
                 <h2>{{ site.translations[site.lang].fan_projects.title }}</h2>
             </header>
+            <p>{{ site.translations[site.lang].fan_projects.translation_status }}</p>
             <p>{{ site.translations[site.lang].fan_projects.description }}</p>
         </div>
     </section>

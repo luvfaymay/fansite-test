@@ -15,6 +15,9 @@ nav-menu: true
 				<h2>{{ site.data[site.lang].translationcredit.title }}</h2>
 			</header>
 			<p>
+				{{ site.data[site.lang].translationcredit.translation_status }}
+			</p>
+			<p>
 				{{ site.data[site.lang].translationcredit.intro }}
 			</p>
 			<p>

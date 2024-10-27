@@ -14,6 +14,7 @@ nav-menu: true
 			<header class="major">
 				<h2>{{ site.data[site.lang].fan_pages.title }}</h2>
 			</header>
+			<p>{{ site.data[site.lang].fan_pages.translation_status }}</p>
 			<p>{{ site.data[site.lang].fan_pages.description }}</p>
 		</div>
 	</section>

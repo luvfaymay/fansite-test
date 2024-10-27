@@ -31,7 +31,7 @@ nav-menu: true
                 <div class="inner">
                     <header class="major">
                         <h3>{% t voting.yent_award.title %}</h3>
-                    </header>
+                    </header><p>{% t voting.yent_award.translation_status %}</p>
                     <p>{% t voting.yent_award.description %} <a class="vote-link" href="https://yentertainawards.mcot.net/vote/view/Rising">{% t common.vote_for_them %}</a></p>
                 </div>
             </div>

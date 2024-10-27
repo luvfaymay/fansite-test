@@ -21,6 +21,9 @@ nav:
   dream_series: "Serie Dream"
   ongoing_votings: "Votaciones en curso"
   active_fan_pages: "Páginas de fans activas"
+  official_events: "Official Events"
+  fan_support_projects: "Fan Support Projects"
+  translation_credit: "Translation Credits"
 
 # Footer
 footer:
@@ -72,12 +75,12 @@ languages:
 home:
   actress_description: '{fay_name} y {may_name} son actrices tailandesas GL bajo {idol_factory}. Su nombre de pareja en pantalla es {couple_name}.'
   series_description: 'Su primer proyecto de actuación como actrices principales es {series_name}, también conocido como {dreamgl} o {dream_the_series}.'
-  watch_teasers: "Por favor, mira los teasers oficiales y el tráiler {playlist_name} de {idol_factory}."
 
 # Profile page content
 profile:
   title: "Perfiles de FayMay"
   header: "Perfiles de FayMay"
+  translation_status: "Traducido y revisado por nuestros traductores."
   welcome_message: "Bienvenido al sitio de fans de FayMay. Esta página es mantenida por fans internacionales. Nos alegra que tengas curiosidad sobre FayMay y quieras saber más sobre ellas. Nos gustaría pedirte solo cinco cosas."
 
   fan_requests:
@@ -126,24 +129,42 @@ profile:
 # Voting page content
 voting:
   title: "Votaciones en curso"
+  translation_status: "Traducido automáticamente. Pendiente de traducción y revisión por nuestros traductores."
   description: "Todas las actividades de votación en curso se compartirán en esta página. Si tienes tiempo, por favor ayuda con la votación tanto como puedas. Es una buena manera de mostrar nuestro amor por FayMay."
   instructions:
     - "Por favor, intenta mantener el mismo número de votos para ambas."
     - "Por favor, no uses herramientas automatizadas. No querríamos que fueran descalificadas."
   
-  starlight_award:
-    title: "2024 La estrella más brillante en Tailandia"
-    description: "El período de votación es del 23 de agosto al 11 de septiembre a las 20:00 hora de Bangkok. Puedes obtener hasta 7 votos gratuitos, 4 votos gratuitos diarios y 3 votos gratuitos diarios por el primer compartir en redes sociales. Por favor"
-    vote_link: "vota por ellas."
+  starfocus:
+    title: "Star Focus - 2024 THE MOST BEAUTIFUL FACE IN ASIA PACIFIC"
+    description: "El período de votación es desde el 30 de octubre de 2024 a las 24:00 hora de Bangkok. Por cada correo electrónico, en el primer inicio de sesión, puedes obtener 300 boletos gratis al unirte a la casa de artistas Fay&May. Diariamente, un correo electrónico puede obtener 6 boletos gratis: 3 boletos gratis por el inicio de sesión diario y 3 boletos gratis por compartir en Twitter. Los boletos gratis se borrarán todos los jueves a las 00:00 hora de Bangkok. Por favor"
+    vote_link: "vota por ellas"
   
-  thai_update_award:
-    title: "La pareja en pantalla más favorita de 2024"
-    description: "El período de votación es del 24 de agosto al 4 de septiembre a las 15:00 hora de Bangkok. Puedes votar ilimitadamente. Por favor"
-    vote_link: "vota por ellas."
+  yent_award:
+    title: "Y Entertain Awards 2024 - Rising Star Couple of the Year"
+    description: "El período de votación es desde el 24 de octubre hasta el 30 de noviembre de 2024 a las 24:00 hora de Bangkok. Puedes obtener 2 monedas de plata gratis por el inicio de sesión diario. 1 voto requiere 10 monedas de plata u oro. Puedes comprar monedas de oro en el sitio web oficial. Por favor"
+    vote_link: "vota por ellas"
+  
+  kazz_awards:
+    title: "KAZZ AWARDS - Youth Idol of the Year 2024"
+    description: "El período de votación es desde el <strong>23 de septiembre hasta el 03 de noviembre de 2024 a las 24:00 hora de Bangkok</strong>. Este premio es importante para FayMay. Las 5 artistas con más votos recibirán el premio Joven Encanto del Año en los KAZZ AWARDS 2025 y también aparecerán en solitario en la portada de KAZZ MAGAZINE. Necesitamos que ambas estén en el top 5. Esto será difícil para nosotras, pero creo que podemos lograrlo. Tenemos que intentarlo. Reglas de votación:"
+    voting_rules: 
+      - "La votación a través del sitio web cuesta 5 baht por voto, pero puedes votar sin límite."
+      - "La votación con cuenta Line es gratuita, pero solo puedes votar una vez al día. Puedes usar cuenta Line de todas las regiones."
+      - "El total acumulado es 50% de los votos del sitio web y 50% de los votos de Line."
+      - "Los resultados semanales reflejarán el total acumulado de todos los votos."
+      - "El enlace del sitio web es diferente para locales y para extranjeros. El enlace de abajo es para extranjeros."
+    vote_link_desc1: "Esto costará 5 baht por voto pero puedes votar sin límite. Por favor"
+    vote_link1: "vota por ellas a través del sitio web para extranjeras."
+    vote_link_desc2: "Esta es una votación gratuita, pero solo un voto por día, por cuenta Line. Por favor"
+    vote_link2: "Vota por ellas usando la cuenta de Line."
+    notes: "Por favor "
+    notes_link: "Revisa la publicación completa aquí."
 
 # Fan Pages content
 fan_pages:
   title: "Páginas de fans activas"
+  translation_status: "Traducido y revisado por nuestros traductores."
   description: "¡Aquí están las páginas de fans activas, tanto oficiales como no oficiales, para mantenerte conectado con la comunidad!"
   by_country: "Páginas de fans por país"
   country_description: "Estas páginas de fans están organizadas por país para una fácil navegación."
@@ -158,10 +179,15 @@ fan_pages:
     brazil: "Brasil"
     vietnam: "Vietnam"
     myanmar: "Myanmar"
+    international: "International"
+    italia: "Italy"
+    singapore: "Singapore"
+    taiwan: "Taiwan"
 
 # Fan Creations content
 fan_creations:
   title: "Creaciones de fans"
+  translation_status: "Traducido y revisado por nuestros traductores."
   description: "Esta página pretende destacar los perfiles de fans que son fansites o fans que crean fan arts, ediciones de fans, covers de fans y traducciones de fans."
   fan_sites:
     title: "Sitios de fans"
@@ -187,10 +213,12 @@ fan_creations:
     english: "Inglés"
     thai_english: "Tailandés/Inglés"
     portuguese: "Portugués"
+    vietnamese: "Vietnamese"
 
 # Dream Series content
 dream_series:
   title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  translation_status: "Traducido y revisado por nuestros traductores."
   description: "Soy \"Dawhan\". Desde que tengo memoria, siempre he tenido sueños extraños sobre una joven que era callada pero a menudo jugaba conmigo en mis sueños. Un día, una nueva vecina se mudó, y eso llevó a que mi familia se desmoronara. Mi padre huyó con el hombre de al lado, que resultó ser el padre de \"Kimhan\", la chica callada y pequeña de al lado. Inicialmente, no éramos nada cercanas, pero varias circunstancias nos acercaron y nos hicieron entendernos. Sin embargo, Kimhan no sabía que mientras en el mundo real éramos solo amigas, en mis sueños, la pequeña y yo hacíamos cosas que iban mucho más allá de eso. Así que mantuve mis sentimientos ocultos porque no podía dejar que ella lo supiera. Nunca me di cuenta de que en esos sueños, no era la única que soñaba."
   genres: "Géneros: Romance, Fantasía"
   other_names: "Otros nombres: DreamGL, Dream The Series"
@@ -253,6 +281,7 @@ dream_series:
 # Translation credit content
 translationcredit:
   title: "Créditos de Traducción"
+  translation_status: "Traducido y revisado por nuestros traductores."
   intro: "¡Hola! Queríamos dar un gran reconocimiento a las increíbles personas que han ayudado a hacer que nuestro fansite sea verdaderamente global. Estas maravillosas personas han dedicado su tiempo y esfuerzo para llevar nuestro amor por FayMay a fans de todo el mundo."
   team: "Nuestro increíble equipo de traducción/revisión:"
   thank_you: "¡Ustedes son geniales! Gracias por ayudarnos a difundir el amor por FayMay 🫶"
@@ -260,57 +289,119 @@ translationcredit:
 # Official Events content
 official_events:
   title: "Eventos Oficiales"
+  translation_status: "Traducido automáticamente. Pendiente de traducción y revisión por nuestros traductores."
   description: "Consulta estos próximos eventos oficiales y, por favor, apoya a FayMay."
-  fanmeeting:
-    title: "1er Encuentro de Fans de Fay & May en China"
-    description: "El 1er encuentro de fans de FayMay es el"
-    date: "21 de septiembre de 2024 a las 14:30 CST"
-    details: "en la ciudad de Hangzhou, provincia de Zhejiang. La venta pública de entradas comienza el 10 de septiembre de 2024 a las 17:20 CST. Por favor"
-    check_post: "revisa la publicación traducida completa y la opción de compra grupal aquí."
-    purchase_ticket: "Por favor"
-    purchase_link: "compra la entrada del patrocinador oficial aquí."
+  event1:
+    title: "TIFFCOM Event in Japan"
+    description: "FayMay asistirá al evento TIFFCOM en Japón del 28 al 31 de octubre de 2024."
 
-# Fan Projects content
+# Fan Support Projects content
 fan_projects:
-  title: "Proyectos de Fans"
+  title: "Proyectos de Apoyo de Fans"
+  translation_status: "Traducido automáticamente. Pendiente de traducción y revisión por nuestros traductores."
   description: "Todos los proyectos de fans en curso y pasados se compartirán en esta página."
   ongoing:
     title: "Proyectos de Fans en Curso"
     description: "Estos son los proyectos de fans en curso. Si puedes, por favor, dona a ellos. Cualquier cantidad de donación ayuda."
-  may_birthday:
-    title: "Proyecto de Cumpleaños de May"
-    description: "Este es el proyecto de apoyo oficial de fans organizado por May Official. El período de donación es"
-    donation_period: "del 10 de septiembre al 10 de octubre de 2024"
+  fay_birthday:
+    title: "Fay's 23rd BirthDay Project"
+    description: "Este es el proyecto oficial de apoyo de fans organizado por Fay Official. El período de donación es"
+    donation_period: "del 25 de octubre al 25 de noviembre de 2024"
     activities: "Las actividades incluyen:"
     activities_list:
-      project_cafe: "Cafetería del Proyecto de Fans: 20,000 THB"
-      tuk_tuk_ads: "Anuncios en Tuk Tuk: 10,000 THB"
-      special_gift: "Regalo de Cumpleaños Especial: 20,000 THB"
-    check_post: "Por favor, revisa la publicación completa aquí."
+      special_gift: "Special Birthday Gifts: 30,000 THB"
+      tuk_tuk_ads: "Tuk Tuk ADS: 15,000 THB"
+      gallery: "Fay's Gallery: 20,000 THB"
+    check_post: "Por favor"
     full_post: "revisa la publicación completa aquí."
-  faymay_birthday:
-    title: "Proyecto de Apoyo de Cumpleaños de FayMay"
-    description: "Este es el proyecto de apoyo de fans organizado por FayMay Taiwán. El período de donación finaliza"
-    end_date: "el 24 de noviembre de 2024 a las 23:59"
-    check_post: "Por favor, revisa la publicación completa aquí."
+  fay_birthday_tw:
+    title: "Fay B-Day Support Project"
+    description: "Este es el proyecto de apoyo de fans organizado por FayMay Taiwán. El período de donación termina"
+    donation_period: "el 10 de noviembre de 2024, a las 23:59"
+    check_post: "Por favor"
+    full_post: "revisa la publicación completa aquí."
   past:
     title: "Proyectos de Fans Pasados"
     description: "Estos son algunos de los proyectos de fans pasados. Felicitaciones a todos los organizadores y donantes por la exitosa ejecución de estos proyectos. Intentaremos mantener esta lista actualizada."
+  may_birthday:
+    title: "May's B Day Project"
+    description: "Este es el proyecto oficial de apoyo de fans organizado por May Official. Algunas de las actividades aún están en curso. Por favor, consulta la publicación completa para más detalles"
+  may_birthday_tw:
+    title: "May's B-Day fans project cafe"
+    description: "Este proyecto de apoyo de fans fue organizado por FayMay Taiwán"
+    check_post: "Please"
+    full_post: "check the full post here."
   faymay_times_square:
     title: "FayMay en Times Square de Nueva York"
     description: "Este proyecto de apoyo de fans fue organizado por Latin America/Interfans. El video de apoyo de fans promoviendo a FayMay se mostró"
     date: "en agosto de 2024"
-    check_post: "Por favor, revisa la publicación completa aquí."
+    check_post: "Por favor"
     full_post: "revisa la publicación completa aquí."
   faymay_times_square_chinese:
     title: "FayMay en Times Square de Nueva York"
     description: "Este proyecto de apoyo fue organizado por fans chinos. El video de apoyo de fans promoviendo a FayMay se mostró"
     date: "en julio de 2024"
-    check_post: "Por favor, revisa la publicación completa aquí."
+    check_post: "Por favor"
     full_post: "revisa la publicación completa aquí."
   faymay_mbk_screen:
     title: "FayMay en la Pantalla MBK de Bangkok"
     description: "Este proyecto de apoyo fue organizado por fans chinos. El video de 15 segundos promoviendo a FayMay se mostró"
     date: "del 25 al 31 de julio de 2024"
-    check_post: "Por favor, revisa la publicación completa aquí."
+    check_post: "Por favor"
     full_post: "revisa la publicación completa aquí."
+
+# Somewhere Somehow Series content
+swsh_series:
+  title: "Somewhere Somehow รักปากแข็ง"
+  translation_status: "Traducido automáticamente. Pendiente de traducción y revisión por nuestros traductores."
+  description: "Una persona es obstinada en su forma de hablar, mientras que la otra es obstinada de corazón. Una historia de amor lenta y deslumbrante: ¿funcionará esta relación entre una talentosa ingeniera y la hermosa pero estricta y feroz vicepresidenta? Vamos a descubrirlo."
+  genres: "Géneros: Comedia Romántica"
+  other_names: "Otros nombres: รักปากแข็ง, SWSHGL"
+  main_roles:
+    title: "Papeles principales:"
+    description: "Solo se han anunciado los papeles principales hasta ahora."
+  table:
+    name: "Nombre"
+    full_name: "Nombre completo"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "Hashtag"
+  teasers:
+    title: "Teasers"
+    description: "TBA."
+  episodes:
+    title: "Episodios SIN CORTES"
+    description: "TBA."
+    table:
+      episode: "Episodio"
+      teaser: "Teaser [Spoiler]"
+      premiered: "Estrenado"
+    spoilers:
+      ep1: ""
+      ep2: ""
+      ep3: ""
+      ep4: ""
+      ep5: ""
+      ep6: ""
+      ep7: ""
+      ep8: ""
+      ep9: ""
+      ep10: ""
+      ep11: ""
+      ep12: ""
+  osts:
+    title: "OSTs"
+    description: "TBA."
+    table:
+      language: "Idioma"
+      title: "Título"
+      vocal: "Vocalista"
+      producer: "Productor"
+  fun_facts:
+    title: "Datos curiosos:"
+    facts:
+      - "TBA."
+  spoiler:
+    reveal: "Haz clic para revelar el spoiler"
+    hide: "Haz clic para ocultar el spoiler"

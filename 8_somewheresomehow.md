@@ -12,7 +12,7 @@ nav-menu: true
             <header class="major">
                 <h2>{{ site.translations[site.lang].swsh_series.title }}</h2>
             </header>
-            <p>{% t swsh_series.translation_status %}</p>
+            <p>{{ site.translations[site.lang].swsh_series.translation_status }}</p>
             <p>{{ site.translations[site.lang].swsh_series.description }}</p>
             <p><strong>{{ site.translations[site.lang].swsh_series.genres }}</strong></p>
             <p><strong>{{ site.translations[site.lang].swsh_series.other_names }}</strong></p>

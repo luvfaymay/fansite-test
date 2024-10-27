@@ -21,6 +21,9 @@ nav:
   dream_series: "Dream Series"
   ongoing_votings: "Ongoing Votings"
   active_fan_pages: "Active Fan Pages"
+  official_events: "Official Events"
+  fan_support_projects: "Fan Support Projects"
+  translation_credit: "Translation Credits"
 
 # Footer
 footer:
@@ -72,7 +75,6 @@ languages:
 home:
   actress_description: '{fay_name} and {may_name} are Thai GL actresses under {idol_factory}. Their on-screen couple name is {couple_name}.'
   series_description: 'Their first acting project as lead actresses is {series_name}, also known as {dreamgl} or {dream_the_series}.'
-  watch_teasers: "Please watch the official teasers and trailer {playlist_name} by {idol_factory}."
 
 # Profile page content
 profile:
@@ -132,17 +134,14 @@ voting:
   instructions:
     - "Please try to keep both of them to have the same vote counts."
     - "Please don't use automated tools. We wouldn't want them to get disqualified."
-
   starfocus:
     title: "Star Focus - 2024 THE MOST BEAUTIFUL FACE IN ASIA PACIFIC"
     description: "The voting period is from Oct 30 2024 24:00 BKK Time. For each email, at the first login, you can get 300 free tickets by joining Fay&May artist house. For daily, one email can get 6 free tickets: 3 free tickets from the daily login and 3 free tickets from sharing on Twitter. Free tickets will be cleared every Thursday at 00:00 BKK. Please "
     vote_link: "vote for them."
-  
   yent_award:
     title: "Y Entertain Awards 2024 - Rising Star Couple of the Year"
     description: "The voting period is from Oct 24 to Nov 30 2024 24:00 BKK Time. You can get 2 free silver coins from the daily login. 1 vote requires 10 silver or gold coins. You can purchase gold coins from the official website. Please "
     vote_link: "vote for them."
-  
   kazz_awards:
     title: "KAZZ AWARDS - Youth Idol of the Year 2024"
     description: "The voting period is from <strong>Sept 23 to Nov 03 2024 24:00 BKK Time</strong>. This award is important for FayMay. The top 5 artists with the highest votes will receive the Young Sweetheart of the Year award at the KAZZ AWARDS 2025 and will also appear solo on the cover of KAZZ MAGAZINE. We need both of them to be in top 5. This will be difficult for us, but I believe we can do it. We have to try. Voting Rules: "
