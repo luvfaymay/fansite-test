@@ -70,7 +70,8 @@ nav-menu: true
     </section>
     <section id="five" class="spotlights">
         <section>
-            <div class="carousel-container">
+        <div class="image">
+            <div class="carousel-container carousel-one">
                 <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
                 <div class="carousel">
                     <div>
@@ -113,10 +114,11 @@ nav-menu: true
                     <p>{{ site.translations[site.lang].fan_projects.may_birthday.description }}.</p>
                 </div>
             </div>
+             </div>
         </section>
         <section>
             <div class="image">
-                <div class="carousel-container">
+                <div class="carousel-container carousel-two">
                     <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
                     <div class="carousel">
                         <div>
@@ -201,12 +203,3 @@ nav-menu: true
         </section>
     </section>
 </div>
-
-<script>
-    const swiper = new Swiper('.swiper-container', {
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-</script>
