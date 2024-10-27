@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     if (typeof jQuery !== 'undefined' && typeof jQuery.fn.slick !== 'undefined') {
-        // General initialization for all carousels
-        $('.carousel').slick({
+        // General initialization for all carousels without specific navigation buttons
+        $('.carousel').not('.carousel-1, .carousel-2').slick({
             dots: false,
             infinite: true,
             speed: 500,
