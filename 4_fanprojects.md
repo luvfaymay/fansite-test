@@ -118,7 +118,10 @@ nav-menu: true
         </section>
         <section>
             <div class="image">
-                <div class="carousel-container">
+                <div class="twitter-embed">
+                    <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Play the video at cafe 😆 <br>Thank you fan take the video 🫶<a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/kE2NZj30uv">pic.twitter.com/kE2NZj30uv</a></p>&mdash; FayMay_Taiwan_official (@FayMay_TW_) <a href="https://twitter.com/FayMay_TW_/status/1845816333457576046?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <!-- <div class="carousel-container">
                     <button type="button" id="carousel-2-prev" class="carousel-arrow carousel-prev">&lt;</button>
                     <div class="carousel carousel-2">
                         <div>
@@ -135,7 +138,7 @@ nav-menu: true
                         </div>
                     </div>
                     <button type="button" id="carousel-2-next" class="carousel-arrow carousel-next">&gt;</button>
-                </div>
+                </div> -->
             </div>
             <div class="content">
                 <div class="inner">
