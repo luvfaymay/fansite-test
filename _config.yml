@@ -10,7 +10,7 @@ sass:
   style: compressed
 
 # Multi-language settings
-languages: ["en", "th", "zh-Hans", "fil", "id", "it", "ja", "ko", "my", "pt", "es", "vi"]
+languages: ["en", "th", "zh-Hans", "fil", "id", "my", "pt", "es", "vi"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images"]
 parallel_localization: true
@@ -18,7 +18,7 @@ data_dir: "_i18n"
 
 # jekyll-multiple-languages-plugin settings
 jekyll-multiple-languages-plugin:
-  languages: ["en", "th", "zh-Hans", "fil", "id", "it", "ja", "ko", "my", "pt", "es", "vi"]
+  languages: ["en", "th", "zh-Hans", "fil", "id", "my", "pt", "es", "vi"]
   default_language: "en"
   languages_name:
     en: English
@@ -26,9 +26,6 @@ jekyll-multiple-languages-plugin:
     zh-Hans: 简体中文
     fil: Filipino
     id: Bahasa Indonesia
-    it: Italiano
-    ja: 日本語
-    ko: 한국어
     my: မြန်မာဘာသာ
     pt: Português
     es: Español

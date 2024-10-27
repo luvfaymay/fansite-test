@@ -1,4 +1,4 @@
-lang: es  # Gret DONE
+lang: es  # Gret DONE D
 
 # Global section
 global:
@@ -63,9 +63,6 @@ languages:
   zh-Hans: "简体中文"
   fil: "Filipino"
   id: "Bahasa Indonesia"
-  it: "Italiano"
-  ja: "日本語"
-  ko: "한국어"
   my: "မြန်မာဘာသာ"
   pt: "Português"
   es: "Español"
@@ -329,8 +326,13 @@ fan_projects:
   may_birthday_tw:
     title: "May's B-Day fans project cafe"
     description: "Este proyecto de apoyo de fans fue organizado por FayMay Taiwán"
-    check_post: "Please"
-    full_post: "check the full post here."
+    check_post: "Por favor"
+    full_post: "revisa la publicación completa aquí."
+  faymay_ch_fm:
+    title: "Screen support for FayMay🩷"
+    description: "Este proyecto de apoyo a los fanáticos fue organizado por fanáticos chinos para la primera reunión de fans de FayMay en Hangzhou, China. La ubicación de la pantalla estaba en Hangzhou Lakeside Yintai en la Zona C77. Había dos pantallas mostrando el video de apoyo a los fanáticos en la planta baja y en el segundo piso. El video de apoyo a los fanáticos se mostró entre las 10 a.m. y las 10 p.m. del 20 al 22 de septiembre de 2024. La frecuencia de reproducción del video era de 15 segundos por vez, aproximadamente 100 veces al día."
+    check_post: "Por favor"
+    full_post: "revisa la publicación completa aquí."
   faymay_times_square:
     title: "FayMay en Times Square de Nueva York"
     description: "Este proyecto de apoyo de fans fue organizado por Latin America/Interfans. El video de apoyo de fans promoviendo a FayMay se mostró"
@@ -358,6 +360,7 @@ swsh_series:
   genres: "Géneros: Comedia Romántica"
   other_names: "Otros nombres: รักปากแข็ง, SWSHGL"
   follow: "Por favor, sigue la cuenta oficial de la serie en las redes sociales para más actualizaciones y noticias: "
+  suport: "Esta serie adapta la novela 'Somewhere Somehow รักปากแข็ง' de Monmaw. La traducción al inglés actualmente lanza un episodio diario, con los capítulos 1-10 disponibles de forma gratuita en ReadAwrite a partir del 27 de octubre. Para apoyar al autor, por favor compra capítulos adicionales en ReadAwrite o considera comprar la versión en inglés cuando se publique. Puedes encontrar la novela original aquí: "
   main_roles:
     title: "Papeles principales:"
     description: "Solo se han anunciado los papeles principales hasta ahora."

@@ -63,9 +63,6 @@ languages:
   zh-Hans: "简体中文"
   fil: "Filipino"
   id: "Bahasa Indonesia"
-  it: "Italiano"
-  ja: "日本語"
-  ko: "한국어"
   my: "မြန်မာဘာသာ"
   pt: "Português"
   es: "Español"
@@ -302,7 +299,7 @@ fan_projects:
     description: "These are the ongoing fan projects. If you can, please donate to them. Any amount of donation helps."
   fay_birthday:
     title: "Fay's 23rd BirthDay Project"
-    description: "This is the official fan support project organized by Fay Official. The donation period is"
+    description: "This is the official fan support project organized by Fay Official. The donation period is "
     donation_period: "from 25 October to 25 November 2024"
     activities: "The activities include:"
     activities_list:
@@ -313,7 +310,7 @@ fan_projects:
     full_post: "check the full post here."
   fay_birthday_tw:
     title: "Fay B-Day Support Project"
-    description: "This is the fan support project organized by FayMay Taiwan. The donation period ends"
+    description: "This is the fan support project organized by FayMay Taiwan. The donation period ends "
     donation_period: "on 10 November 2024, at 23:59"
     check_post: "Please"
     full_post: "check the full post here."
@@ -326,6 +323,11 @@ fan_projects:
   may_birthday_tw:
     title: "May's B-Day fans project cafe"
     description: "This fan support project was organized by FayMay Taiwan"
+    check_post: "Please"
+    full_post: "check the full post here."
+  faymay_ch_fm:
+    title: "Screen support for FayMay🩷"
+    description: "This fan support project was organized by Chinese fans for FayMay's very first fan-meeting in Hangzhou, China. The screen location was at Hangzhou Lakeside Yintai in77 Zone C. There were two screens showing the fan support video at the ground floor and the second floor. The fan support video was displayed between 10am to 10pm from 20 Sept to 22 Sept 2024. The video running frequency was 15 seconds/time, about 100 times/day."
     check_post: "Please"
     full_post: "check the full post here."
   faymay_times_square:
@@ -355,6 +357,7 @@ swsh_series:
   genres: "Genre: Romantic Comedy"
   other_names: "Other Names: รักปากแข็ง, SWSHGL"
   follow: "Please follow the official series account on social media platforms for more updates and news: "
+  suport: "This series adapts the novel 'Somewhere Somehow รักปากแข็ง' by Monmaw. The English translation is currently releasing one episode daily, with chapters 1-10 available for free on ReadAwrite starting October 27. To support the author, please purchase additional chapters on ReadAwrite or consider buying the English version upon release. You can find the original novel here: "
   main_roles:
     title: "Main roles:"
     description: "Only the leading roles are announced as of now."

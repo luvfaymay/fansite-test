@@ -2,7 +2,7 @@
 title: Somewhere Somehow รักปากแข็ง
 layout: landing
 description: ""
-image: assets/images/swsh0.png
+image: assets/images/swsh0.jpeg
 nav-menu: true
 ---
 
@@ -17,6 +17,7 @@ nav-menu: true
             <p><strong>{{ site.translations[site.lang].swsh_series.genres }}</strong></p>
             <p><strong>{{ site.translations[site.lang].swsh_series.other_names }}</strong></p>
             <p>{{ site.translations[site.lang].swsh_series.follow }}<span class="vote-link"><a href="https://x.com/SWSHGL2025">{{ site.translations[site.lang].swsh_series.table.twitter }}</a></span>, <span class="vote-link"><a href="https://www.facebook.com/dreamglidf">{{ site.translations[site.lang].swsh_series.table.facebook }}</a></span>, <span class="vote-link"><a href="https://www.tiktok.com/@swshgl2025?_t=8qtHN2SkNYV&_r=1">{{ site.translations[site.lang].swsh_series.table.tiktok }}</a></span>.</p>
+            <p>{{ site.translations[site.lang].swsh_series.suport }}<span class="vote-link"><a href="https://www.readawrite.com/a/be08c42f43afd0a9e1e766c5c80a4b9f">ReadAwrite Thai version </a></span>, <span class="vote-link"><a href="https://www.readawrite.com/a/27a58c436e99f48f12f18f26a865463a">ReadAwrite English version </a></span>, <span class="vote-link"><a href="https://www.mebmarket.com/index.php?action=BookDetails&book_id=71560&page_no=1">Meb Thai version Vol.1 </a></span>, <span class="vote-link"><a href="https://www.mebmarket.com/?action=book_details&book_id=71561">Meb Thai version Vol.2 </a></span></p>
             <h3>{{ site.translations[site.lang].swsh_series.main_roles.title }}</h3>
             <p>{{ site.translations[site.lang].swsh_series.main_roles.description }}</p>
             <div class="table-wrapper">
@@ -162,7 +163,7 @@ nav-menu: true
         </section>
         <section>
             <div class="image">
-                <img src="{{ 'assets/images/swsh8.jpeg' | relative_url }}" alt="OSTs" data-position="25% 25%">
+                <img src="{{ 'assets/images/swsh17.jpeg' | relative_url }}" alt="OSTs" data-position="25% 25%">
             </div>
             <div class="content">
                 <div class="inner">
@@ -198,7 +199,7 @@ nav-menu: true
     <div class="carousel-container">
         <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
         <div class="carousel">
-            {% for i in (1..16) %}
+            {% for i in (1..17) %}
                 <div>
                     <a href="{{ 'assets/images/swsh' | append: i | append: '.jpeg' | relative_url }}" data-lightbox="image-carousel">
                         <img src="{{ 'assets/images/swsh' | append: i | append: '.jpeg' | relative_url }}" alt="Portrait {{ i }}">

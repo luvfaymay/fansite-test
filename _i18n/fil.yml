@@ -1,4 +1,4 @@
-lang: fil # DAM DONE
+lang: fil # DAM DONE D
 
 # Global section
 global:
@@ -21,6 +21,9 @@ nav:
   dream_series: "Dream Series"
   ongoing_votings: "Kasalukuyang Mga Botohan"
   active_fan_pages: "Mga Aktibong Fan Page"
+  official_events: "Official Events"
+  fan_support_projects: "Fan Support Projects"
+  translation_credit: "Translation Credits"
 
 # Footer
 footer:
@@ -60,9 +63,6 @@ languages:
   zh-Hans: "简体中文"
   fil: "Filipino"
   id: "Bahasa Indonesia"
-  it: "Italiano"
-  ja: "日本語"
-  ko: "한국어"
   my: "မြန်မာဘာသာ"
   pt: "Português"
   es: "Español"
@@ -72,12 +72,12 @@ languages:
 home:
   actress_description: 'Sina {fay_name} at {may_name} ay mga Thai GL actress sa ilalim ng {idol_factory}. Ang kanilang on-screen couple name ay {couple_name}.'
   series_description: 'Ang kanilang unang acting project bilang mga pangunahing aktres ay ang {series_name}, na kilala rin bilang {dreamgl} o {dream_the_series}.'
-  watch_teasers: "Maaaring panoorin ang mga opisyal na pasilip na {playlist_name} ng {idol_factory}."
 
 # Profile page content
 profile:
   title: "Mga Talambuhay ng FayMay"
   header: "Mga Talambuhay ng FayMay"
+  translation_status: "Isinalin at sinuri ng aming mga tagapagsalin."
   welcome_message: "Maligayang pagdating sa FayMay Fansite. Ang pahinang ito ay pinamamahalaan ng mga internasyonal na tagahanga. Kami ay natutuwa na ikaw ay nag-uusisa tungkol sa FayMay at nais na malaman pa ang tungkol sa kanila. Nais naming humiling ng limang bagay lamang mula sa iyo."
 
   fan_requests:
@@ -126,24 +126,39 @@ profile:
 # Voting page content
 voting:
   title: "Kasalukuyang Mga Botohan"
+  translation_status: "Makinaryang pagsasalin. Naghihintay ng pagsasalin at pagsusuri ng aming mga tagapagsalin."
   description: "Lahat ng kasalukuyang aktibidad sa pagboto ay ibabahagi sa pahinang ito. Kung mayroon kang oras, maaari kang tumulong sa abot ng iyong makakaya. Ito ay isang magandang paraan upang ipakita ang ating pagmamahal para sa FayMay."
   instructions:
     - "Maaaring subukang panatilihin na pareho ang bilang ng boto para sa kanilang dalawa."
     - "Maaaring huwag gumamit ng mga automated na tool. Ayaw nating sila ay ma-disqualify."
-  
-  starlight_award:
-    title: "2024 Ang Pinakamatingkad na Bituin sa Thailand"
-    description: "Ang panahon ng pagboto ay mula Agosto 23 hanggang Setyembre 11 20:00 Oras ng BKK. Maaari kang makakuha ng hanggang 7 libreng boto, 4 na libreng boto araw-araw at 3 libreng boto araw-araw para sa unang social share."
+  starfocus:
+    title: "Star Focus - 2024 THE MOST BEAUTIFUL FACE IN ASIA PACIFIC"
+    description: "Ang panahon ng pagboto ay magsisimula sa Oktubre 30, 2024 24:00 oras ng Bangkok. Para sa bawat email, sa unang pag-login, makakakuha ka ng 300 libreng ticket sa pamamagitan ng pagsali sa artist house nina Fay at May. Sa pang-araw-araw, ang bawat email ay makakakuha ng 6 na libreng ticket: 3 libreng ticket mula sa pang-araw-araw na pag-login at 3 libreng ticket mula sa pagbabahagi sa Twitter. Ang mga libreng ticket ay mabubura tuwing Huwebes ng 00:00 oras ng Bangkok. Mangyaring "
     vote_link: "bumoto para sa kanila."
-  
-  thai_update_award:
-    title: "Ang Pinakamagusto na On-Screen Couple ng 2024"
-    description: "Ang panahon ng pagboto ay mula Agosto 24 hanggang Setyembre 04 15:00 Oras ng BKK. Maaari kang bumoto ng walang limitasyon."
+  yent_award:
+    title: "Y Entertain Awards 2024 - Rising Star Couple of the Year"
+    description: "Ang panahon ng pagboto ay mula Oktubre 24 hanggang Nobyembre 30, 2024 24:00 oras ng Bangkok. Makakakuha ka ng 2 libreng pilak na barya mula sa pang-araw-araw na pag-login. Ang 1 boto ay nangangailangan ng 10 pilak o gintong barya. Maaari kang bumili ng mga gintong barya mula sa opisyal na website. Mangyaring "
     vote_link: "bumoto para sa kanila."
+  kazz_awards:
+    title: "KAZZ AWARDS - Youth Idol of the Year 2024"
+    description: "Ang panahon ng pagboto ay mula <strong>Setyembre 23 hanggang Nobyembre 03, 2024 24:00 oras ng Bangkok</strong>. Ang parangal na ito ay mahalaga para kina Fay at May. Ang 5 mga artista na may pinakamataas na boto ay tatanggap ng parangal na Young Sweetheart of the Year sa KAZZ AWARDS 2025 at magkakaroon din ng solo sa pabalat ng KAZZ MAGAZINE. Kailangan nating mapasama silang dalawa sa top 5. Mahirap ito para sa atin, ngunit naniniwala ako na kaya natin ito. Dapat nating subukin. Mga Patakaran sa Pagboto: "
+    voting_rules: 
+      - "Ang pagboto sa pamamagitan ng website ay nagkakahalaga ng 5 baht bawat boto, ngunit walang limitasyon sa pagboto."
+      - "Ang pagboto gamit ang Line account ay libre, ngunit maaari ka lamang bumoto ng isang beses sa isang araw. Maaari kang gumamit ng Line account mula sa lahat ng rehiyon."
+      - "Ang kabuuang pagbilang ay 50% mula sa boto sa website at 50% mula sa boto sa Line."
+      - "Ang lingguhang resulta ay magpapakita ng kabuuang bilang ng lahat ng boto."
+      - "Ang link ng website ay magkaiba para sa mga lokal at para sa mga dayuhan. Ang link sa ibaba ay para sa mga dayuhan."
+    vote_link_desc1: "Ito ay magkakahalaga ng 5 baht bawat boto ngunit maaari kang bumoto nang walang limitasyon. Mangyaring"
+    vote_link1: "bumoto para sa kanila sa pamamagitan ng website para sa mga dayuhan."
+    vote_link_desc2: "Ito ay libreng boto, ngunit isang boto lamang bawat araw, bawat Line account. Pakiusap "
+    vote_link2: "iboto sila gamit ang Line account."
+    notes: "Pakisuyo "
+    notes_link: "suriin ang buong post dito."
 
 # Fan Pages content
 fan_pages:
   title: "Mga Aktibong Fan Page"
+  translation_status: "Isinalin at sinuri ng aming mga tagapagsalin."
   description: "Narito ang mga aktibong fan page, pareho ang opisyal at hindi opisyal, upang panatilihin kang konektado sa komunidad!"
   by_country: "Mga Fan Page ayon sa Bansa"
   country_description: "Ang mga fan page na ito ay inayos ayon sa bansa para sa madaling pag-browse."
@@ -154,14 +169,19 @@ fan_pages:
     tiktok: "TikTok"
     official: "Opisyal"
   countries:
-    thailand: "Thailand"
     brazil: "Brazil"
-    vietnam: "Vietnam"
+    international: "International"
+    italia: "Italy"
     myanmar: "Myanmar"
+    singapore: "Singapore"
+    taiwan: "Taiwan"
+    thailand: "Thailand"
+    vietnam: "Vietnam"
 
 # Fan Creations content
 fan_creations:
   title: "Mga Likha ng Fans"
+  translation_status: "Isinalin at sinuri ng aming mga tagapagsalin."
   description: "Ang pahinang ito ay naglalayong i-highlight ang mga profile ng mga tagahanga na mga fansite o mga tagahanga na lumilikha ng fan arts, fan edits, fan covers, at fan translations."
   fan_sites:
     title: "Mga Fan Site"
@@ -187,10 +207,12 @@ fan_creations:
     english: "Ingles"
     thai_english: "Thai/Ingles"
     portuguese: "Portuges"
+    vietnamese: "Vietnamese"
 
 # Dream Series content
 dream_series:
   title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  translation_status: "Isinalin at sinuri ng aming mga tagapagsalin."
   description: "Ako si \"Dawhan\". Mula nang maaalala ko, palagi akong may kakaibang mga panaginip tungkol sa isang batang babae na tahimik ngunit madalas na nakikipaglaro sa aking mga panaginip. Isang araw, may bagong kapitbahay na lumipat, at iyon ang naging dahilan ng pagkasira ng aking pamilya. Tumakas ang aking ama kasama ang lalaking kapitbahay, na lumabas na ama pala ni \"Kimhan\" ang tahimik at maliit na babae mula sa katabing bahay. Sa simula, hindi kami malapit sa isa't isa, ngunit dahil sa iba't ibang pangyayari, kami ay naging mas malapit at naunawaan ang isa't isa. Gayunpaman, hindi alam ni Kimhan na habang sa tunay na mundo ay magkaibigan lang kami, sa aking mga panaginip, ang maliit na babae at ako ay gumagawa ng mga bagay na higit pa doon. Kaya, itinago ko ang aking mga damdamin dahil hindi ko maaaring ipaalam sa kanya. Hindi ko kailanman naunawaan na sa mga panaginip na iyon, hindi lang ako ang nananaginip."
   genres: "Mga Genre: Romansa, Pantasya"
   other_names: "Iba pang Pangalan: DreamGL, Dream The Series"
@@ -253,6 +275,7 @@ dream_series:
 # Translation credit content
 translationcredit:
   title: "Mga Kredito sa Pagsasalin"
+  translation_status: "Isinalin at sinuri ng aming mga tagapagsalin."
   intro: "Kumusta! Gusto naming bigyan ng malaking pagkilala ang mga kahanga-hangang tao na tumulong para gawing tunay na global ang aming fansite. Ang mga kamangha-manghang taong ito ay nagbigay ng kanilang oras at pagsisikap para ihatid ang aming pagmamahal para sa FayMay sa mga tagahanga sa buong mundo."
   team: "Ang aming mahusay na team sa pagsasalin/pagwawasto:"
   thank_you: "Ang galing ninyo! Salamat sa pagtulong sa amin na ipakalat ang pagmamahal para sa FayMay 🫶"
@@ -260,57 +283,127 @@ translationcredit:
 # Official Events content
 official_events:
   title: "Opisyal na Kaganapan"
+  translation_status: "Makinaryang pagsasalin. Naghihintay ng pagsasalin at pagsusuri ng aming mga tagapagsalin."
   description: "Suriin ang mga paparating na opisyal na kaganapan na ito, at mangyaring suportahan ang FayMay."
-  fanmeeting:
-    title: "Fay & May 1st Fanmeeting sa Tsina"
-    description: "Ang 1st fanmeeting ng FayMay ay sa"
-    date: "Setyembre 21, 2024 sa 14:30 CST"
-    details: "sa Lungsod ng Hangzhou, Lalawigan ng Zhejiang. Ang pampublikong benta ng mga tiket ay magsisimula sa Setyembre 10, 2024 sa 17:20 CST. Mangyaring"
-    check_post: "suriin ang buong isinalin na post at ang opsyon para sa grupong pagbili dito."
-    purchase_ticket: "Mangyaring"
-    purchase_link: "bilhin ang tiket mula sa opisyal na sponsor dito."
+  event1:
+    title: "TIFFCOM Event in Japan"
+    description: "Mag-aattend si FayMay sa TIFFCOM Event sa Japan mula 28 hanggang 31 Oktubre 2024."
 
-# Fan Projects content
+# Fan Support Projects content
 fan_projects:
-  title: "Mga Proyekto ng Fan"
+  title: "Mga Proyekto ng Suporta ng Tagahanga"
+  translation_status: "Makinaryang pagsasalin. Naghihintay ng pagsasalin at pagsusuri ng aming mga tagapagsalin."
   description: "Lahat ng kasalukuyang proyekto ng fan at mga nakaraang proyekto ay ibabahagi sa pahinang ito."
   ongoing:
     title: "Mga Proyekto ng Fan na Kasalukuyang Isinasagawa"
     description: "Ito ang mga kasalukuyang proyekto ng fan. Kung maaari, mangyaring magdonate sa kanila. Anumang halaga ng donasyon ay nakakatulong."
-  may_birthday:
-    title: "Proyekto ng Kaarawan ni May"
-    description: "Ito ang opisyal na proyekto ng suporta sa fan na inayos ng May Official. Ang panahon ng donasyon ay"
-    donation_period: "mula Setyembre 10 hanggang Oktubre 10, 2024"
-    activities: "Kabilang sa mga aktibidad ay:"
+  fay_birthday:
+    title: "Fay's 23rd BirthDay Project"
+    description: "Ito ang opisyal na proyekto ng suporta ng tagahanga na inayos ng Fay Official. Ang panahon ng donasyon ay "
+    donation_period: "mula 25 Oktubre hanggang 25 Nobyembre 2024"
+    activities: "Kasama sa mga aktibidad ang: "
     activities_list:
-      project_cafe: "Café ng Proyekto ng Fan: 20,000 THB"
-      tuk_tuk_ads: "Tuk Tuk ADS: 10,000 THB"
-      special_gift: "Espesyal na Regalo sa Kaarawan: 20,000 THB"
-    check_post: "Mangyaring suriin ang buong post dito."
+      special_gift: "Special Birthday Gifts: 30,000 THB"
+      tuk_tuk_ads: "Tuk Tuk ADS: 15,000 THB"
+      gallery: "Fay's Gallery: 20,000 THB"
+    check_post: "Pakisuyo "
     full_post: "suriin ang buong post dito."
-  faymay_birthday:
-    title: "Proyekto ng Suporta sa Kaarawan ng FayMay"
-    description: "Ito ang proyekto ng suporta sa fan na inayos ng FayMay Taiwan. Ang panahon ng donasyon ay magtatapos"
-    end_date: "noong Nobyembre 24, 2024, sa 23:59"
-    check_post: "Mangyaring suriin ang buong post dito."
+  fay_birthday_tw:
+    title: "Fay B-Day Support Project"
+    description: "Ito ang proyekto ng suporta ng tagahanga na inayos ng FayMay Taiwan. Nagwawakas ang panahon ng donasyon "
+    donation_period: "sa 10 Nobyembre 2024, sa 23:59"
+    check_post: "Pakisuyo "
+    full_post: "suriin ang buong post dito."
   past:
     title: "Mga Nakaraang Proyekto ng Fan"
     description: "Ito ang ilan sa mga nakaraang proyekto ng fan. Salamat sa lahat ng mga organizer at donor para sa matagumpay na pagsasakatuparan ng mga proyektong ito. Susubukan naming panatilihing na-update ang listahang ito."
+  may_birthday:
+    title: "May's B Day Project"
+    description: "Ito ang opisyal na proyekto ng suporta ng tagahanga na inayos ng May Official. Ang ilan sa mga aktibidad ay patuloy pa rin. Pakisuri ang buong post para sa karagdagang detalye"
+  may_birthday_tw:
+    title: "May's B-Day fans project cafe"
+    description: "Ang proyektong ito ng suporta ng tagahanga ay inayos ng FayMay Taiwan."
+    check_post: "Pakisuyo "
+    full_post: "suriin ang buong post dito."
+  faymay_ch_fm:
+    title: "Screen support for FayMay🩷"
+    description: "Ang proyektong ito ng suporta mula sa mga tagahanga ay inorganisa ng mga tagahanga mula sa Tsina para sa kauna-unahang fan-meeting ni FayMay sa Hangzhou, Tsina. Ang lokasyon ng screen ay nasa Hangzhou Lakeside Yintai sa Zone C77. Mayroong dalawang screen na nagpapakita ng video ng suporta ng mga tagahanga sa unang palapag at sa ikalawang palapag. Ang video ng suporta ng mga tagahanga ay ipinalabas mula 10 ng umaga hanggang 10 ng gabi mula Setyembre 20 hanggang Setyembre 22, 2024. Ang dalas ng pagtakbo ng video ay 15 segundo bawat oras, mga 100 beses sa isang araw."
+    check_post: "Pakisuyo "
+    full_post: "suriin ang buong post dito."
   faymay_times_square:
     title: "FayMay sa New York Times Square"
     description: "Ang proyektong ito ng suporta sa fan ay inayos ng Latin America/Interfans. Ang video ng suporta sa fan na nagpo-promote sa FayMay ay naipakita"
     date: "noong Agosto 2024"
-    check_post: "Mangyaring suriin ang buong post dito."
+    check_post: "Pakisuyo "
     full_post: "suriin ang buong post dito."
   faymay_times_square_chinese:
     title: "FayMay sa New York Times Square"
     description: "Ang proyektong ito ng suporta ay inayos ng mga Chinese fan. Ang video ng suporta sa fan na nagpo-promote sa FayMay ay naipakita"
     date: "noong Hulyo 2024"
-    check_post: "Mangyaring suriin ang buong post dito."
+    check_post: "Pakisuyo "
     full_post: "suriin ang buong post dito."
   faymay_mbk_screen:
     title: "FayMay sa MBK Screen ng Bangkok"
     description: "Ang proyektong ito ng suporta ay inayos ng mga Chinese fan. Ang 15 segundong video na nagpo-promote sa FayMay ay naipakita"
     date: "mula Hulyo 25 hanggang Hulyo 31, 2024"
-    check_post: "Mangyaring suriin ang buong post dito."
+    check_post: "Pakisuyo "
     full_post: "suriin ang buong post dito."
+
+# Somewhere Somehow Series content
+swsh_series:
+  title: "Somewhere Somehow รักปากแข็ง"
+  translation_status: "Makinaryang pagsasalin. Naghihintay ng pagsasalin at pagsusuri ng aming mga tagapagsalin."
+  description: "Isang tao ang matigas ang dila, habang ang isa ay matigas ang puso. Isang mabagal na naglalagablab, nalilitong kwento ng pag-ibig - magtatagumpay ba ang romansa sa pagitan ng isang talentadong babaeng inhinyero at ng maganda ngunit mahigpit, mabangis na bise presidente? Alamin natin."
+  genres: "Genre: Romantikong Komedya"
+  other_names: "Mga Ibang Pangalan: รักปากแข็ง, SWSHGL"
+  follow: "Pakisundan ang opisyal na account ng serye sa mga platform ng social media para sa higit pang mga update at balita: "
+  suport: "Ang seryeng ito ay nag-aangkop ng nobelang 'Somewhere Somehow รักปากแข็ง' ni Monmaw. Ang pagsasalin sa Ingles ay kasalukuyang naglalabas ng isang episode araw-araw, na may mga kabanata 1-10 na magagamit nang libre sa ReadAwrite simula Oktubre 27. Upang suportahan ang may-akda, mangyaring bumili ng karagdagang mga kabanata sa ReadAwrite o isaalang-alang ang pagbili ng bersyon sa Ingles sa oras ng paglabas. Maaari mong makita ang orihinal na nobela dito: "
+  main_roles:
+    title: "Mga pangunahing papel:"
+    description: "Ngayon, tanging ang mga pangunahing papel lamang ang naipahayag."
+  table:
+    name: "Pangalan"
+    full_name: "Buong Pangalan"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "Hashtag"
+    facebook: "Facebook"
+  teasers:
+    title: "Mga Pasilip"
+    description: "TBA."
+  episodes:
+    title: "Mga UNCUT na episode"
+    description: "TBA."
+    table:
+      episode: "Episode"
+      teaser: "Teaser [Spoiler]"
+      premiered: "Ipinalabas"
+    spoilers:
+      ep1: ""
+      ep2: ""
+      ep3: ""
+      ep4: ""
+      ep5: ""
+      ep6: ""
+      ep7: ""
+      ep8: ""
+      ep9: ""
+      ep10: ""
+      ep11: ""
+      ep12: ""
+  osts:
+    title: "Mga OST"
+    description: "TBA."
+    table:
+      language: "Wika"
+      title: "Pamagat"
+      vocal: "Boses"
+      producer: "Prodyuser"
+  fun_facts:
+    title: "Mga Kawili-wiling Katotohanan:"
+    facts:
+      - "TBA."
+  spoiler:
+    reveal: "I-click upang ipakita ang spoiler"
+    hide: "I-click upang itago ang spoiler"

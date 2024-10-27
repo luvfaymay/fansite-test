@@ -1,4 +1,4 @@
-lang: id  # juragans DONE
+lang: id  # juragans DONE D
 
 # Global section
 global:
@@ -21,6 +21,9 @@ nav:
   dream_series: "Serial Dream"
   ongoing_votings: "Pemungutan Suara Berlangsung"
   active_fan_pages: "Halaman Penggemar Aktif"
+  official_events: "Official Events"
+  fan_support_projects: "Fan Support Projects"
+  translation_credit: "Translation Credits"
 
 # Footer
 footer:
@@ -60,9 +63,6 @@ languages:
   zh-Hans: "简体中文"
   fil: "Filipino"
   id: "Bahasa Indonesia"
-  it: "Italiano"
-  ja: "日本語"
-  ko: "한국어"
   my: "မြန်မာဘာသာ"
   pt: "Português"
   es: "Español"
@@ -72,12 +72,12 @@ languages:
 home:
   actress_description: '{fay_name} dan {may_name} adalah aktris GL Thailand di bawah naungan {idol_factory}. Nama panggung mereka saat berpasangan adalah {couple_name}.'
   series_description: 'Proyek akting pertama mereka sebagai pemeran utama adalah {series_name}, juga dikenal sebagai {dreamgl} atau {dream_the_series}.'
-  watch_teasers: "Silakan tonton teaser dan trailer resmi {playlist_name} oleh {idol_factory}."
 
 # Profile page content
 profile:
   title: "Profil FayMay"
   header: "Profil FayMay"
+  translation_status: "Diterjemahkan dan diedit oleh penerjemah kami."
   welcome_message: "Selamat datang di Fansite FayMay. Halaman ini dikelola oleh penggemar internasional. Kami senang bahwa Anda penasaran tentang FayMay dan ingin mengenal mereka lebih jauh. Namun sebelumnya, kami ingin meminta lima hal dari Anda."
 
   fan_requests:
@@ -85,8 +85,7 @@ profile:
     - "Mohon cintai dan terima Fay dan May apa adanya, bukan berdasarkan pada apa yang Anda pikirkan tentang bagaimana mereka seharusnya."
     - "Mohon hormati dan dukung keputusan mereka, baik untuk pekerjaan maupun kehidupan pribadi."
     - "Mohon hormati privasi mereka dan ketahui batasan kita sebagai penggemar dan artis. Mereka senang berbagi kehidupan mereka dengan kita, tapi itu tidak berarti kita bisa melampaui batas. Termasuk hubungan mereka dengan orang lain, baik tokoh publik atau warga biasa. Hormati hubungan mereka dengan orang lain dan berikan mereka privasi."
-    - "Jangan menanggapi haters agar opini negatif yang disebarkan tidak meluas. Tenggelamkan dengan mengunggah hal positif penuh pesan cinta untuk FayMay. Fandom kita dibangun atas dasar cinta, tapi jika ada yang berniat menyakiti, kita akan melindungi FayMay."
-
+    - “Jangan menanggapi haters agar opini negatif yang disebarkan tidak meluas. Tenggelamkan dengan mengunggah hal positif penuh pesan cinta untuk FayMay. Fandom kita dibangun atas dasar cinta, tapi jika ada yang berniat menyakiti, kita akan melindungi FayMay.”
 
   fay:
     first_name: "Kunyaphat"
@@ -127,24 +126,38 @@ profile:
 # Voting page content
 voting:
   title: "Pemungutan Suara Berlangsung"
+  translation_status: "Diterjemahkan oleh mesin. Menunggu penerjemahan dan penyuntingan oleh penerjemah kami."
   description: "Semua kegiatan pemungutan suara yang sedang berlangsung akan dibagikan di halaman ini. Jika Anda punya waktu, mohon bantu memberikan suara sebanyak mungkin. Ini adalah cara yang baik untuk menunjukkan cinta kita pada FayMay."
   instructions:
     - "Mohon usahakan agar keduanya memiliki jumlah suara yang sama."
     - "Mohon jangan menggunakan alat bantu otomatis untuk menaikkan jumlah suara. Kita tidak ingin mereka didiskualifikasi."
-  
-  starlight_award:
-    title: "2024 Bintang Paling Bersinar di Thailand"
-    description: "Periode pemungutan suara adalah dari 23 Agustus hingga 11 September 20:00 Waktu BKK. Anda bisa mendapatkan hingga 7 suara gratis, 4 suara gratis harian dan 3 suara gratis harian untuk berbagi sosial pertama. Mohon"
+  starfocus:
+    title: "Star Focus - 2024 THE MOST BEAUTIFUL FACE IN ASIA PACIFIC"
+    description: "Periode pemungutan suara adalah dari 30 Oktober 2024 pukul 24:00 Waktu BKK. Untuk setiap email, pada login pertama, Anda dapat mendapatkan 300 tiket gratis dengan bergabung di rumah seniman Fay&May. Setiap hari, satu email dapat mendapatkan 6 tiket gratis: 3 tiket gratis dari login harian dan 3 tiket gratis dari berbagi di Twitter. Tiket gratis akan dihapus setiap Kamis pukul 00:00 Waktu BKK. Silakan "
     vote_link: "berikan suara untuk mereka."
-  
-  thai_update_award:
-    title: "Pasangan Layar Favorit 2024"
-    description: "Periode pemungutan suara adalah dari 24 Agustus hingga 04 September 15:00 Waktu BKK. Anda bisa memberikan suara tanpa batas. Mohon"
+  yent_award:
+    title: "Periode pemungutan suara adalah dari 24 Oktober hingga 30 November 2024 pukul 24:00 Waktu BKK. Anda dapat mendapatkan 2 koin perak gratis dari login harian. 1 suara membutuhkan 10 koin perak atau emas. Anda dapat membeli koin emas dari situs resmi. Silakan "
     vote_link: "berikan suara untuk mereka."
+  kazz_awards:
+    title: "KAZZ AWARDS - Youth Idol of the Year 2024"
+    description: "Periode pemungutan suara adalah dari <strong>23 September hingga 3 November 2024 pukul 24:00 Waktu BKK</strong>. Penghargaan ini penting bagi FayMay. 5 artis dengan suara tertinggi akan menerima penghargaan Young Sweetheart of the Year di KAZZ AWARDS 2025 dan juga akan tampil solo di sampul KAZZ MAGAZINE. Kita perlu keduanya berada di 5 besar. Ini akan sulit bagi kita, tetapi saya percaya kita bisa melakukannya. Kita harus mencoba. Aturan Pemungutan Suara: "
+    voting_rules: 
+      - "Pemungutan suara melalui situs web biaya 5 baht per suara, tetapi Anda dapat memberikan suara tanpa batas."
+      - "Pemungutan suara dengan akun Line gratis, tetapi Anda hanya dapat memberikan suara sekali per hari. Anda dapat menggunakan akun Line dari semua wilayah."
+      - "Total kumulatif adalah 50% dari suara situs web dan 50% dari suara Line."
+      - "Hasil mingguan akan mencerminkan total kumulatif dari semua suara."
+      - "Tautan situs web berbeda untuk penduduk lokal dan untuk orang asing. Tautan di bawah ini adalah untuk orang asing."
+    vote_link_desc1: "Ini akan dikenakan biaya 5 baht per suara tetapi Anda dapat memberikan suara tanpa batas. Silakan "
+    vote_link1: "berikan suara untuk mereka melalui situs web untuk orang asing."
+    vote_link_desc2: "Ini adalah pemungutan suara gratis, tetapi hanya satu suara per hari, per akun Line. Silakan "
+    vote_link2: "berikan suara untuk mereka menggunakan akun Line."
+    notes: "Silakan "
+    notes_link: "periksa pos lengkap di sini."
 
 # Fan Pages content
 fan_pages:
   title: "Halaman Penggemar Aktif"
+  translation_status: "Diterjemahkan dan diedit oleh penerjemah kami."
   description: "Berikut adalah halaman penggemar aktif, baik resmi maupun tidak resmi, untuk tetap terhubung dengan komunitas!"
   by_country: "Halaman Penggemar berdasarkan Negara"
   country_description: "Halaman penggemar ini diorganisir berdasarkan negara untuk memudahkan penelusuran."
@@ -155,14 +168,19 @@ fan_pages:
     tiktok: "TikTok"
     official: "Resmi"
   countries:
-    thailand: "Thailand"
-    brazil: "Brasil"
-    vietnam: "Vietnam"
+    brazil: "Brazil"
+    international: "International"
+    italia: "Italy"
     myanmar: "Myanmar"
+    singapore: "Singapore"
+    taiwan: "Taiwan"
+    thailand: "Thailand"
+    vietnam: "Vietnam"
 
 # Fan Creations content
 fan_creations:
   title: "Kreasi Penggemar"
+  translation_status: "Diterjemahkan dan diedit oleh penerjemah kami."
   description: "Halaman ini bertujuan untuk menampilkan profil penggemar yang merupakan fansite atau penggemar yang membuat karya seni penggemar, edit penggemar, cover penggemar, dan terjemahan penggemar."
   fan_sites:
     title: "Situs Penggemar"
@@ -188,10 +206,12 @@ fan_creations:
     english: "Inggris"
     thai_english: "Thailand/Inggris"
     portuguese: "Portugis"
+    vietnamese: "Vietnamese"
 
 # Dream Series content
 dream_series:
   title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  translation_status: "Diterjemahkan dan diedit oleh penerjemah kami."
   description: "Aku \"Dahwan\". Sejak yang bisa kuingat, aku selalu memiliki mimpi aneh tentang seorang gadis kecil yang pendiam tapi sering bermain denganku dalam mimpiku. Suatu hari, tetangga baru pindah, dan itu menyebabkan keluargaku berantakan. Ayahku kabur dengan pria sebelah, yang ternyata adalah ayah dari \"Kimhan\" gadis pendiam & kecil dari sebelah. Awalnya, kami tidak dekat sama sekali, tapi berbagai keadaan membawa kami lebih dekat dan membuat kami saling memahami. Namun, Kimhan tidak menyadari bahwa sementara di dunia nyata kami hanya teman, dalam mimpiku, gadis kecil itu dan aku melakukan hal-hal yang jauh melampaui itu. Jadi, aku menyembunyikan perasaanku karena aku tidak bisa membiarkan dia tahu. Aku tidak pernah menyadari bahwa dalam mimpi-mimpi itu, aku bukan satu-satunya yang bermimpi."
   genres: "Genre: Romansa, Fantasi"
   other_names: "Nama Lain: DreamGL, Dream The Series"
@@ -254,6 +274,7 @@ dream_series:
 # Translation credit content
 translationcredit:
   title: "Kredit Penerjemahan"
+  translation_status: "Diterjemahkan dan diedit oleh penerjemah kami."
   intro: "Hai semuanya! Kami ingin memberikan penghargaan besar kepada orang-orang luar biasa yang telah membantu membuat fansite kami benar-benar mendunia. Orang-orang hebat ini telah mencurahkan waktu dan usaha mereka untuk menyebarkan cinta kami terhadap FayMay kepada penggemar di seluruh dunia."
   team: "Tim penerjemahan/proofreading kami yang luar biasa:"
   thank_you: "Kalian semua keren! Terima kasih telah membantu kami menyebarkan cinta untuk FayMay 🫶"
@@ -261,57 +282,127 @@ translationcredit:
 # Official Events content
 official_events:
   title: "Acara Resmi"
+  translation_status: "Diterjemahkan oleh mesin. Menunggu penerjemahan dan penyuntingan oleh penerjemah kami."
   description: "Lihat acara resmi yang akan datang ini, dan mohon dukung FayMay."
-  fanmeeting:
-    title: "Pertemuan Penggemar Pertama Fay & May di China"
-    description: "Pertemuan penggemar pertama FayMay akan diadakan pada"
-    date: "21 September 2024 pukul 14:30 CST"
-    details: "di Kota Hangzhou, Provinsi Zhejiang. Penjualan tiket publik akan dimulai pada 10 September 2024 pukul 17:20 CST. Silakan"
-    check_post: "periksa pos terjemahan lengkap dan opsi pembelian grup di sini."
-    purchase_ticket: "Silakan"
-    purchase_link: "beli tiket dari sponsor resmi di sini."
+  event1:
+    title: "TIFFCOM Event in Japan"
+    description: "FayMay akan menghadiri acara TIFFCOM di Jepang dari 28 hingga 31 Oktober 2024."
 
-# Fan Projects content
+# Fan Support Projects content
 fan_projects:
-  title: "Proyek Penggemar"
+  title: "Proyek Dukungan Penggemar"
+  translation_status: "Diterjemahkan oleh mesin. Menunggu penerjemahan dan penyuntingan oleh penerjemah kami."
   description: "Semua proyek penggemar yang sedang berlangsung dan yang lalu akan dibagikan di halaman ini."
   ongoing:
     title: "Proyek Penggemar yang Sedang Berlangsung"
     description: "Ini adalah proyek penggemar yang sedang berlangsung. Jika Anda bisa, mohon untuk mendonasikannya. Setiap jumlah donasi akan membantu."
-  may_birthday:
-    title: "Proyek Ulang Tahun May"
-    description: "Ini adalah proyek dukungan penggemar resmi yang diselenggarakan oleh May Official. Periode donasi adalah"
-    donation_period: "dari 10 September hingga 10 Oktober 2024"
-    activities: "Kegiatan yang termasuk:"
+  fay_birthday:
+    title: "Fay's 23rd BirthDay Project"
+    description: "Ini adalah proyek dukungan penggemar resmi yang diselenggarakan oleh Fay Official. Periode donasi adalah"
+    donation_period: "dari 25 Oktober hingga 25 November 2024"
+    activities: "Kegiatan termasuk:"
     activities_list:
-      project_cafe: "Kafe Proyek Penggemar: 20.000 THB"
-      tuk_tuk_ads: "Iklan Tuk Tuk: 10.000 THB"
-      special_gift: "Hadiah Ulang Tahun Spesial: 20.000 THB"
-    check_post: "Silakan periksa pos lengkap di sini."
+      special_gift: "Special Birthday Gifts: 30,000 THB"
+      tuk_tuk_ads: "Tuk Tuk ADS: 15,000 THB"
+      gallery: "Fay's Gallery: 20,000 THB"
+    check_post: "Silakan "
     full_post: "periksa pos lengkap di sini."
-  faymay_birthday:
-    title: "Proyek Dukungan Ulang Tahun FayMay"
-    description: "Ini adalah proyek dukungan penggemar yang diselenggarakan oleh FayMay Taiwan. Periode donasi berakhir"
-    end_date: "pada 24 November 2024, pukul 23:59"
-    check_post: "Silakan periksa pos lengkap di sini."
+  fay_birthday_tw:
+    title: "Fay B-Day Support Project"
+    description: "Ini adalah proyek dukungan penggemar yang diselenggarakan oleh FayMay Taiwan. Periode donasi berakhir "
+    donation_period: "pada 10 November 2024, pukul 23:59"
+    check_post: "Silakan "
+    full_post: "periksa pos lengkap di sini."
   past:
-    title: "Proyek Penggemar yang Telah Berlalu"
-    description: "Ini adalah beberapa proyek penggemar yang telah berlalu. Terima kasih kepada semua penyelenggara dan donor atas pelaksanaan proyek ini yang sukses. Kami akan berusaha untuk memperbarui daftar ini."
+    title: "Proyek Penggemar Sebelumnya"
+    description: "Ini adalah beberapa proyek penggemar sebelumnya. Terima kasih kepada semua penyelenggara dan donor atas suksesnya pelaksanaan proyek ini. Kami akan berusaha untuk memperbarui daftar ini."
+  may_birthday:
+    title: "May's B Day Project"
+    description: "Ini adalah proyek dukungan penggemar resmi yang diselenggarakan oleh May Official. Beberapa kegiatan masih berlangsung. Silakan periksa pos lengkap untuk informasi lebih lanjut."
+  may_birthday_tw:
+    title: "May's B-Day fans project cafe"
+    description: "Proyek dukungan penggemar ini diselenggarakan oleh FayMay Taiwan."
+    check_post: "Silakan "
+    full_post: "periksa pos lengkap di sini."
+  faymay_ch_fm:
+    title: "Screen support for FayMay🩷"
+    description: "Proyek dukungan penggemar ini diselenggarakan oleh penggemar Cina untuk pertemuan penggemar pertama FayMay di Hangzhou, Cina. Lokasi layar berada di Hangzhou Lakeside Yintai di Zona C77. Terdapat dua layar yang menampilkan video dukungan penggemar di lantai dasar dan lantai dua. Video dukungan penggemar ditampilkan antara pukul 10 pagi hingga 10 malam dari 20 September hingga 22 September 2024. Frekuensi pemutaran video adalah 15 detik per kali, sekitar 100 kali sehari."
+    check_post: "Silakan "
+    full_post: "periksa pos lengkap di sini."
   faymay_times_square:
     title: "FayMay di New York Times Square"
-    description: "Proyek dukungan penggemar ini diselenggarakan oleh Latin America/Interfans. Video dukungan penggemar yang mempromosikan FayMay telah ditampilkan"
+    description: "Proyek penggemar ini diselenggarakan oleh penggemar dari Latin America/Interfans. Video penggemar yang mempromosikan FayMay telah ditampilkan"
     date: "pada Agustus 2024"
-    check_post: "Silakan periksa pos lengkap di sini."
-    full_post: "periksa pos lengkap di sini."
+    check_post: "Silakan "
+    full_post: "periksa unggahan lengkap di sini."
   faymay_times_square_chinese:
     title: "FayMay di New York Times Square"
-    description: "Proyek dukungan ini diselenggarakan oleh penggemar China. Video dukungan penggemar yang mempromosikan FayMay telah ditampilkan"
+    description: "Proyek penggemar ini diselenggarakan oleh penggemar dari China. Video penggemar yang mempromosikan FayMay telah ditampilkan"
     date: "pada Juli 2024"
-    check_post: "Silakan periksa pos lengkap di sini."
-    full_post: "periksa pos lengkap di sini."
+    check_post: "Silakan "
+    full_post: "periksa unggahan lengkap di sini."
   faymay_mbk_screen:
     title: "FayMay di Layar MBK Bangkok"
-    description: "Proyek dukungan ini diselenggarakan oleh penggemar China. Video 15 detik yang mempromosikan FayMay telah ditampilkan"
+    description: "Proyek penggemar ini diselenggarakan oleh penggemar dari China. Video 15 detik yang mempromosikan FayMay telah ditampilkan"
     date: "dari 25 Juli hingga 31 Juli 2024"
-    check_post: "Silakan periksa pos lengkap di sini."
-    full_post: "periksa pos lengkap di sini."
+    check_post: "Silakan "
+    full_post: "periksa unggahan lengkap di sini."
+
+# Somewhere Somehow Series content
+swsh_series:
+  title: "Somewhere Somehow รักปากแข็ง"
+  translation_status: "Diterjemahkan oleh mesin. Menunggu penerjemahan dan penyuntingan oleh penerjemah kami."
+  description: "Satu orang keras kepala dalam ucapan, sementara yang lain keras kepala dalam hati. Sebuah kisah cinta yang membara perlahan - akankah romansa antara seorang insinyur wanita berbakat dan wakil presiden yang cantik namun tegas ini berhasil? Mari kita cari tahu."
+  genres: "Genre: Komedi Romantis"
+  other_names: "Nama Lain: รักปากแข็ง, SWSHGL"
+  follow: "Silakan ikuti akun resmi seri di platform media sosial untuk lebih banyak pembaruan dan berita: "
+  suport: "Serial ini mengadaptasi novel 'Somewhere Somehow รักปากแข็ง' karya Monmaw. Terjemahan bahasa Inggris saat ini merilis satu episode setiap hari, dengan bab 1-10 tersedia gratis di ReadAwrite mulai 27 Oktober. Untuk mendukung penulis, silakan beli bab tambahan di ReadAwrite atau pertimbangkan untuk membeli versi bahasa Inggris setelah dirilis. Anda dapat menemukan novel asli di sini: "
+  main_roles:
+    title: "Peran utama:"
+    description: "Hanya peran utama yang diumumkan hingga saat ini."
+  table:
+    name: "Nama"
+    full_name: "Nama Lengkap"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "Hashtag"
+    facebook: "Facebook"
+  teasers:
+    title: "Teasers"
+    description: "TBA."
+  episodes:
+    title: "UNCUT Episodes"
+    description: "TBA."
+    table:
+      episode: "Episode"
+      teaser: "Teaser [Spoiler]"
+      premiered: "Tayang Perdana"
+    spoilers:
+      ep1: ""
+      ep2: ""
+      ep3: ""
+      ep4: ""
+      ep5: ""
+      ep6: ""
+      ep7: ""
+      ep8: ""
+      ep9: ""
+      ep10: ""
+      ep11: ""
+      ep12: ""
+  osts:
+    title: "OSTs"
+    description: "TBA."
+    table:
+      language: "Bahasa"
+      title: "Judul"
+      vocal: "Vokal"
+      producer: "Produser"
+  fun_facts:
+    title: "Fakta Menarik:"
+    facts:
+      - "TBA."
+  spoiler:
+    reveal: "Klik untuk membuka spoiler"
+    hide: "Klik untuk menyembunyikan spoiler"
