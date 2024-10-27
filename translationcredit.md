@@ -57,28 +57,13 @@ nav-menu: true
 							<td><a href="https://x.com/juragans">juragans ∞</a></td>
 						</tr>
 						<tr>
-							<td>Italiano (Italian)</td>
-							<td>
-								<a href="https://x.com/chi_for_FB">P’Chi :🤍) 🇮🇹🇪🇺🇯🇵 IS SICK</a>, <a href="https://x.com/Diziholic">Diziholic ⛓️🏳️‍🌈</a>
-							</td>
-						</tr>
-						<tr>
-							<td>日本語 (Japanese)</td>
-							<td><a href="https://x.com/chi_for_FB">P’Chi :🤍) 🇮🇹🇪🇺🇯🇵 IS SICK</a></td>
-						</tr>
-						<tr>
-							<td>한국어 (Korean)</td>
-							<td>&nbsp;</td>
-						</tr>
-						<tr>
 							<td>မြန်မာဘာသာ (Burmese)</td>
-							<td><a href="https://x.com/chika_faymay">Chika</a></td>
+							<td><a href="https://x.com/chika_faymay">Chika</a>, <a href="https://x.com/Fay_Bo101">Fay Bo</a></td>
 						</tr>
 						<tr>
 							<td>Português (Portuguese)</td>
 							<td>
-								<a href="https://x.com/taengeyez">han in dreamland</a>, 
-								<a href="https://x.com/princenicolax">𝙽𝙸𝙲𝙾𝙻𝙰𝚂 | 𝙵𝙰𝚈𝙼𝙰𝚈'𝚜 𝚂𝙾𝙽 🐱</a>
+								<a href="https://x.com/taengeyez">han in dreamland</a>
 							</td>
 						</tr>
 						<tr>

@@ -2,7 +2,7 @@
 title: Somewhere Somehow รักปากแข็ง
 layout: landing
 description: ""
-image: assets/images/swsh0.jpeg
+image: assets/images/swsh17.jpeg
 nav-menu: true
 ---
 
@@ -163,7 +163,7 @@ nav-menu: true
         </section>
         <section>
             <div class="image">
-                <img src="{{ 'assets/images/swsh17.jpeg' | relative_url }}" alt="OSTs" data-position="25% 25%">
+                <img src="{{ 'assets/images/swsh16.jpeg' | relative_url }}" alt="OSTs" data-position="25% 25%">
             </div>
             <div class="content">
                 <div class="inner">
