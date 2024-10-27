@@ -72,8 +72,8 @@ nav-menu: true
         <section>
             <div class="image">
                 <div class="carousel-container">
-                    <div class="carousel carousel-1">
-                    <button type="button" id="carousel-1-prev" class="carousel-arrow carousel-prev">&lt;</button>
+                    <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
+                    <div class="carousel">
                         <div>
                             <blockquote class="twitter-tweet">
                                 <p lang="und" dir="ltr">📣 มาแล้วจ้าๆๆๆ 
@@ -103,8 +103,8 @@ nav-menu: true
                                 <a href="https://twitter.com/MayOfficial_TH/status/1847677352865870165?ref_src=twsrc%5Etfw">October 19, 2024</a>
                             </blockquote>
                         </div>
-                        <button type="button" id="carousel-1-next" class="carousel-arrow carousel-next">&gt;</button>
                     </div>
+                    <button type="button" class="carousel-arrow carousel-next">&gt;</button>
                 </div>
             </div>
             <div class="content">
