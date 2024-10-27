@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     if (typeof jQuery !== 'undefined' && typeof jQuery.fn.slick !== 'undefined') {
-        // General initialization for all carousels without specific navigation buttons
+        
+        // General initialization for all carousels except specific ones
         $('.carousel').not('.carousel-1, .carousel-2').slick({
             dots: false,
             infinite: true,
@@ -24,9 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         });
 
-        // Specific initialization for carousel-1 if it exists
+        // Specific initialization for carousel-1 with unique navigation buttons
         if ($('.carousel-1').length) {
-            $('.carousel-1').slick('unslick'); // Remove previous initialization if any
             $('.carousel-1').slick({
                 dots: false,
                 infinite: true,
@@ -51,9 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
 
-        // Specific initialization for carousel-2 if it exists
+        // Specific initialization for carousel-2 with unique navigation buttons
         if ($('.carousel-2').length) {
-            $('.carousel-2').slick('unslick'); // Remove previous initialization if any
             $('.carousel-2').slick({
                 dots: false,
                 infinite: true,

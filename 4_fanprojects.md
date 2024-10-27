@@ -107,6 +107,7 @@ nav-menu: true
                     <button type="button" class="carousel-arrow carousel-next">&gt;</button>
                 </div>
             </div> -->
+            <div class="image">
             <div class="carousel-container" id="carousel1">
                 <button type="button" class="carousel-arrow carousel-prev" id="carousel1-prev">&lt;</button>
                 <div class="carousel">
@@ -142,6 +143,7 @@ nav-menu: true
                 </div>
                 <button type="button" class="carousel-arrow carousel-next" id="carousel1-next">&gt;</button>
             </div>
+            </div>
             <div class="content">
                 <div class="inner">
                     <header class="major">
@@ -175,6 +177,7 @@ nav-menu: true
                     <button type="button" id="carousel-2-next" class="carousel-arrow carousel-next">&gt;</button>
                 </div>
             </div> -->
+            <div class="image">
             <div class="carousel-container" id="carousel2">
                 <button type="button" class="carousel-arrow carousel-prev" id="carousel2-prev">&lt;</button>
                 <div class="carousel">
@@ -192,6 +195,7 @@ nav-menu: true
                     </div>
                 </div>
                 <button type="button" class="carousel-arrow carousel-next" id="carousel2-next">&gt;</button>
+            </div>
             </div>
             <div class="content">
                 <div class="inner">
