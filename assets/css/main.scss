@@ -13,158 +13,155 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
-	));
+@include skel-breakpoints((
+	xlarge: '(max-width: 1680px)',
+	large: '(max-width: 1280px)',
+	medium: '(max-width: 980px)',
+	small: '(max-width: 736px)',
+	xsmall: '(max-width: 480px)',
+	xxsmall: '(max-width: 360px)'
+));
 
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: ( gutters: 2em ),
-		breakpoints: (
-			large: (
-				grid: ( gutters: 1.5em )
-			),
-			small: (
-				grid: ( gutters: 1.25em )
-			)
+@include skel-layout((
+	reset: 'full',
+	boxModel: 'border',
+	grid: (gutters: 2em),
+	breakpoints: (
+		large: (
+			grid: (gutters: 1.5em)
+		),
+		small: (
+			grid: (gutters: 1.25em)
 		)
-	));
+	)
+));
 
-	@mixin inner {
-		> .inner {
-			@include padding(4em, 0);
-			margin: 0 auto;
-			max-width: _size(inner);
-			width: calc(100% - 6em);
+@mixin inner {
+	> .inner {
+		@include padding(4em, 0);
+		margin: 0 auto;
+		max-width: _size(inner);
+		width: calc(100% - 6em);
 
-			@include breakpoint(small) {
-				@include padding(3em, 0);
-				width: calc(100% - 3em);
-			}
+		@include breakpoint(small) {
+			@include padding(3em, 0);
+			width: calc(100% - 3em);
 		}
 	}
+}
 
-// Base.
+/* Base */
+@import 'base/page';
+@import 'base/typography';
 
-	@import 'base/page';
-	@import 'base/typography';
+/* Component */
+@import 'components/section';
+@import 'components/form';
+@import 'components/box';
+@import 'components/icon';
+@import 'components/image';
+@import 'components/list';
+@import 'components/table';
+@import 'components/button';
+@import 'components/tiles';
+@import 'components/contact-method';
+@import 'components/spotlights';
 
-// Component.
+/* Layout */
+@import 'layout/header';
+@import 'layout/banner';
+@import 'layout/main';
+@import 'layout/contact';
+@import 'layout/footer';
+@import 'layout/wrapper';
+@import 'layout/menu';
 
-	@import 'components/section';
-	@import 'components/form';
-	@import 'components/box';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/table';
-	@import 'components/button';
-	@import 'components/tiles';
-	@import 'components/contact-method';
-	@import 'components/spotlights';
+/* Banner */
+#banner {
+	@include vendor('align-items', 'center');
+	@include vendor('display', 'flex');
+	position: relative;
+	overflow: hidden;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 0 !important;
+	cursor: default;
+	height: 40vh;
+	min-height: 30em;
+	max-height: 45em;
+	margin-top: 0;
 
-// Layout.
-
-	@import 'layout/header';
-	@import 'layout/banner';
-	@import 'layout/main';
-	@import 'layout/contact';
-	@import 'layout/footer';
-	@import 'layout/wrapper';
-	@import 'layout/menu';
-
-	// Banner
-	#banner {
-		@include vendor('align-items', 'center');
-		@include vendor('display', 'flex');
+	> .inner {
+		@include vendor('transition', (
+			'opacity 1.5s ease',
+			'transform 0.5s ease-out',
+			'filter 0.5s ease',
+			'-webkit-filter 0.5s ease'
+		));
 		position: relative;
-		overflow: hidden;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 0 !important;
-		cursor: default;
-		height: 40vh; /* Reduced height */
-		min-height: 30em; /* Adjusted min-height */
-		max-height: 45em; /* Adjusted max-height */
-		margin-top: 0;
-	
-		> .inner {
-			@include vendor('transition', (
-				'opacity 1.5s ease',
-				'transform 0.5s ease-out',
-				'filter 0.5s ease',
-				'-webkit-filter 0.5s ease'
-			));
-			position: relative;
-			z-index: 2;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			height: 100%;
-			width: 100%;
-			padding: 0 !important;
-		}
-	
-		.content {
-			position: relative;
-			z-index: 3;
-			text-align: center;
-			padding: 2em;
-			background-color: rgba(0, 0, 0, 0.5);
-			border-radius: 10px;
-			max-width: 80%;
-		}
-
-		&.image-banner {
-			@include vendor('background-image', 'url("../images/banner12.jpeg")');
-		}
-
-		@include breakpoint(medium) {
-			background-attachment: scroll;
-		}
-
-		@include breakpoint(small) {
-			height: 30vh; /* Reduced height for mobile */
-			min-height: 20em;
-			padding-top: 2.75em;
-
-			.content {
-				padding: 1.5em;
-			}
-		}
-	}
-
-	#header {
-		position: fixed;
-		top: 0;
-		left: 0;
+		z-index: 2;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
 		width: 100%;
-		z-index: 10000;
-		background-color: rgba(46, 49, 65, 0.8);
+		padding: 0 !important;
 	}
 
-	body {
-		padding-top: 3.25em;
+	.content {
+		position: relative;
+		z-index: 3;
+		text-align: center;
+		padding: 2em;
+		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		max-width: 80%;
+	}
 
-		@include breakpoint(small) {
-			padding-top: 2.75em;
+	&.image-banner {
+		@include vendor('background-image', 'url("../images/banner12.jpeg")');
+	}
+
+	@include breakpoint(medium) {
+		background-attachment: scroll;
+	}
+
+	@include breakpoint(small) {
+		height: 30vh;
+		min-height: 20em;
+		padding-top: 2.75em;
+
+		.content {
+			padding: 1.5em;
 		}
 	}
+}
 
-	/* Ensure the overlay is removed for this specific banner */
-	section#banner::after {
-		display: none !important;
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	background-color: rgba(46, 49, 65, 0.8);
+}
+
+body {
+	padding-top: 3.25em;
+
+	@include breakpoint(small) {
+		padding-top: 2.75em;
 	}
+}
 
-/* General carousel styles */
+/* Overlay removal for banner */
+section#banner::after {
+	display: none !important;
+}
+
+/* Carousel styles */
 .carousel-container {
 	position: relative;
 	width: 100%;
@@ -190,7 +187,7 @@
 	object-position: center;
 }
 
-/* Updated arrows for desktop */
+/* Carousel arrows */
 .carousel-arrow {
 	position: absolute;
 	top: 0;
@@ -210,7 +207,7 @@
 	box-shadow: none;
 }
 
-.carousel-arrow:hover, 
+.carousel-arrow:hover,
 .carousel-arrow:focus {
 	background: rgba(0, 0, 0, 0.7);
 	outline: none !important;
@@ -228,7 +225,7 @@
 	width: 15px;
 }
 
-/* Specific styles for mobile devices */
+/* Mobile styles */
 @media screen and (max-width: 768px) {
 	#banner {
 		height: 30vh;
@@ -273,7 +270,7 @@
 
 .vote-link a:hover {
 	text-decoration: underline;
-}  
+}
 
 /* Spoiler styles */
 .spoiler {
@@ -286,70 +283,68 @@
 	color: white;
 }
 
-/* YouTube Video Banner */
+/* Video Banner */
 .video-banner {
-    position: relative;
-    overflow: hidden;
-    height: 70vh; /* Adjust this value to control the banner height */
-    min-height: 30em;
-    max-height: 45em;
+	position: relative;
+	overflow: hidden;
+	height: 70vh;
+	min-height: 30em;
+	max-height: 45em;
 }
 
 .video-banner .video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
 }
 
 .video-banner .video-container iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 102%; /* Slightly increased from 100% */
-    height: 102vh; /* Slightly increased from 100vh */
-    transform: translate(-50%, -50%) scale(1.02); /* Increased scale factor */
-    border: 0;
-    object-fit: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 102%;
+	height: 102vh;
+	transform: translate(-50%, -50%) scale(1.02);
+	border: 0;
+	object-fit: cover;
 }
 
 .video-banner .inner {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
+	position: relative;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
 }
 
 .video-banner .content {
-    text-align: center;
-    padding: 2em;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    max-width: 80%;
+	text-align: center;
+	padding: 2em;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	max-width: 80%;
 }
 
-/* Hide controls initially */
 .video-banner .video-container iframe {
-    opacity: 0.99;
+	opacity: 0.99;
 }
 
-/* Show controls on hover */
 .video-banner .video-container:hover iframe {
-    opacity: 1;
+	opacity: 1;
 }
 
 @media screen and (max-width: 736px) {
-    .video-banner {
-        height: 50vh;
-        min-height: 20em;
-    }
+	.video-banner {
+		height: 50vh;
+		min-height: 20em;
+	}
 
-    .video-banner .content {
-        padding: 1.5em;
-    }
+	.video-banner .content {
+		padding: 1.5em;
+	}
 }
